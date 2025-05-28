@@ -1,6 +1,7 @@
 # Math Question Answering - Multi-Agent System
 
 ## 1. Purpose
+This project aims to build a Multi-Agent System for Math Question Answering that uses math reasoning to understand and solve problems accurately. The system focuses on improving problem-solving speed and answer accuracy through agent collaboration.
 
 ## 2. Datasets
 The following datasets are used in this project:
