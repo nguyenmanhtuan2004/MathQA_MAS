@@ -16,3 +16,4 @@ The following libraries need to be installed:
 ```
 pip install pandas
 pip install matplotlib seaborn
+pip install wordcloud
