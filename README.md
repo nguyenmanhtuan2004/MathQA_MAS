@@ -21,14 +21,11 @@ The project utilizes the following Vietnamese pre-trained language models:
 ## 6. Install dependencies
 The following libraries need to be installed:
 * [Jupyter Notebook](https://jupyter.org/install)
-Python version:3.12.7
+- Python version:3.12.7
 
 ```
 pip install pandas
 pip install datasets
-pip install transformers datasets adapters peft bitsandbytes
-pip install lightning torchmetrics
-pip install underthesea
 pip install matplotlib seaborn
 ```
 ## 7. Experiment
