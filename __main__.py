@@ -1,13 +1,97 @@
 import argparse
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def load_data(file_path):
-    df = pd.read_csv(file_path)
-    return df
+def load_data(method, dataset, folder="result"):
+    file_path = os.path.join(folder, f"{method}_{dataset}.csv")
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"Không tìm thấy file: {file_path}")
+    return pd.read_csv(file_path)
 
-def plot_bar(df_zero, df_cot):
+def plot_bar_subplots(data_dict, metrics, methods, datasets):
+    for metric_col, display_name in metrics.items():
+        fig, axs = plt.subplots(nrows=1, ncols=len(datasets), figsize=(6 * len(datasets), 5))
+        if len(datasets) == 1:
+            axs = [axs]
+
+        for i, dataset in enumerate(datasets):
+            df_plot = []
+            for method in methods:
+                key = (method, dataset)
+                if key in data_dict:
+                    df = data_dict[key]
+                    if metric_col in df.columns:
+                        mean_val = df[metric_col].mean()
+                        df_plot.append({"method": method, "value": mean_val})
+
+            df_plot = pd.DataFrame(df_plot)
+            ax = axs[i]
+            if df_plot.empty:
+                ax.set_title(f"{dataset} - Không có dữ liệu")
+                continue
+
+            sns.barplot(data=df_plot, x="method", y="value", ax=ax,
+                        palette="pastel", edgecolor='black')
+
+            for p in ax.patches:
+                height = p.get_height()
+                label = f"{height:.7f}" if metric_col == "total_cost" else f"{height:.2f}"
+                ax.text(p.get_x() + p.get_width() / 2., height + 0.01 * height, label, ha="center", va="bottom")
+
+            ax.set_title(f"{dataset} - {display_name}", fontweight="bold")
+            ax.set_ylabel(display_name)
+            ax.grid(axis='y', linestyle='--', alpha=0.6)
+
+        plt.tight_layout()
+        plt.show()
+
+def plot_token_line_subplots(data_dict, methods, datasets, max_points=100):
+    token_metrics = ["input_tokens", "output_tokens"]
+
+    for metric in token_metrics:
+        fig, axs = plt.subplots(nrows=len(datasets), figsize=(10, 5 * len(datasets)))
+        if len(datasets) == 1:
+            axs = [axs]
+
+        for i, dataset in enumerate(datasets):
+            combined_df = []
+            for method in methods:
+                key = (method, dataset)
+                if key in data_dict and metric in data_dict[key].columns:
+                    df = data_dict[key].copy()
+                    df["method"] = method
+                    df = df.head(max_points).reset_index().rename(columns={"index": "sample_id"})
+                    combined_df.append(df)
+
+            df_combined = pd.concat(combined_df, ignore_index=True) if combined_df else pd.DataFrame()
+
+            ax = axs[i]
+            if df_combined.empty:
+                ax.set_title(f"{dataset} - Không có dữ liệu")
+                continue
+
+            sns.lineplot(data=df_combined, x="sample_id", y=metric, hue="method",
+                         style="method", markers=False, linewidth=2, ax=ax)
+
+            ax.set_title(f"{dataset} - {metric} theo từng run", fontweight="bold")
+            ax.set_xlabel("Sample")
+            ax.set_ylabel(metric)
+            ax.grid(True, linestyle="--", alpha=0.6)
+
+        plt.tight_layout()
+        plt.show()
+
+def main():
+    parser = argparse.ArgumentParser(description="So sánh nhiều kỹ thuật và dataset")
+    parser.add_argument("--methods", nargs="+", required=True, help="Danh sách kỹ thuật (vd: Zero-shot CoT PoT)")
+    parser.add_argument("--datasets", nargs="+", required=True, help="Danh sách dataset (vd: GSM8K TATQA TABMWP)")
+    args = parser.parse_args()
+
+    methods = args.methods
+    datasets = args.datasets
+
     metrics = {
         "is_correct": "Accuracy",
         "total_cost": "Total Cost",
@@ -15,72 +99,28 @@ def plot_bar(df_zero, df_cot):
         "latency_sec": "Latency (sec)"
     }
 
-    for metric_col, display_name in metrics.items():
-        if metric_col not in df_zero.columns or metric_col not in df_cot.columns:
-            continue
+    data_dict = {}
+    missing = []
 
-        mean_zero = df_zero[metric_col].mean()
-        mean_cot = df_cot[metric_col].mean()
+    for method in methods:
+        for dataset in datasets:
+            try:
+                df = load_data(method, dataset)
+                data_dict[(method, dataset)] = df
+            except FileNotFoundError:
+                missing.append(f"{method}_{dataset}.csv")
 
-        df_plot = pd.DataFrame({
-            "method": ["Zero-shot", "CoT"],
-            "value": [mean_zero, mean_cot]
-        })
+    if not data_dict:
+        print("❌ Không có file hợp lệ nào được load. Kiểm tra lại tên file và thư mục `result/`.")
+        return
 
-        plt.figure(figsize=(6, 4))
-        ax = sns.barplot(data=df_plot, x="method", y="value", palette=["skyblue", "lightgreen"], edgecolor='black')
+    if missing:
+        print("⚠️ Một số file bị thiếu:")
+        for file in missing:
+            print(f" - {file}")
 
-        for p in ax.patches:
-            height = p.get_height()
-            if metric_col == "total_cost":
-                label = f"{height:.7f}"
-            else:
-                label = f"{height:.2f}"
-            ax.text(p.get_x() + p.get_width() / 2., height + 0.01 * height, label, ha="center", va="bottom")
-
-        plt.title(f"So sánh {display_name}", fontweight="bold")
-        plt.ylabel(display_name)
-        plt.ylim(0, max(mean_zero, mean_cot) * 1.2)
-        plt.grid(axis='y', linestyle='--', alpha=0.6)
-        plt.tight_layout()
-        plt.show()
-
-def plot_token_lines(df_zero, df_cot, max_points=100):
-    metrics = ["input_tokens", "output_tokens"]
-
-    df_zero = df_zero.copy()
-    df_cot = df_cot.copy()
-    df_zero["method"] = "Zero-shot"
-    df_cot["method"] = "CoT"
-
-    df_zero = df_zero.head(max_points).reset_index().rename(columns={"index": "sample_id"})
-    df_cot = df_cot.head(max_points).reset_index().rename(columns={"index": "sample_id"})
-    combined_df = pd.concat([df_zero, df_cot], ignore_index=True)
-
-    # Vẽ từng metric
-    for metric in metrics:
-        plt.figure(figsize=(10, 5))
-        sns.lineplot(data=combined_df, x="sample_id", y=metric, hue="method", style="method", markers=False,linewidth=2)
-        plt.title(f"{metric} theo từng run", fontweight="bold")
-        plt.xlabel("Giá trị")
-        plt.ylabel(metric)
-        plt.grid(True, linestyle="--", alpha=0.6)
-        plt.tight_layout()
-        plt.show()
-
-
-
-
-def main():
-    parser = argparse.ArgumentParser(description="So sánh kết quả Zero-shot và CoT")
-    parser.add_argument("--zeroshot", required=True, help="File CSV kết quả Zero-shot")
-    parser.add_argument("--cot", required=True, help="File CSV kết quả CoT")
-    args = parser.parse_args()
-
-    df_zero = load_data(args.zeroshot)
-    df_cot = load_data(args.cot)
-    plot_bar(df_zero, df_cot)
-    plot_token_lines(df_zero, df_cot)
+    plot_bar_subplots(data_dict, metrics, methods, datasets)
+    plot_token_line_subplots(data_dict, methods, datasets)
 
 if __name__ == "__main__":
     main()
