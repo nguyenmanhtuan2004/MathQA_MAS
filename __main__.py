@@ -24,9 +24,7 @@ def plot_bar_subplots(data_dict, metrics, methods, datasets, aspt):
 
     titles = {
         "latency_sec": "Latency",      
-        "total_cost": "Total Cost",      
-        "input_tokens": "Input Tokens", 
-        "output_tokens": "Output Tokens"       
+        "total_cost": "Total Cost",                    
     }
     title_name = titles.get(aspt, '')
 
@@ -72,7 +70,32 @@ def plot_bar_subplots(data_dict, metrics, methods, datasets, aspt):
                 ax.text(p.get_x() + p.get_width() / 2., height + 0.001 * height, label, ha="center", va="bottom")
 
             # Thêm line chart cho input tokens
-            if aspt in data_dict[(methods[0], dataset)].columns:
+            if aspt == 'tokens' and 'input_tokens' in data_dict[(methods[0], dataset)].columns and 'output_tokens' in data_dict[(methods[0], dataset)].columns:
+                input_data = []
+                output_data = []
+                for method in methods:
+                    key = (method, dataset)
+                    if key in data_dict:
+                        input_data.append(data_dict[key]['input_tokens'].mean())
+                        output_data.append(data_dict[key]['output_tokens'].mean())
+                    else:
+                        input_data.append(0)
+                        output_data.append(0)
+                
+                # Tạo secondary y-axis cho tokens
+                ax2 = ax.twinx()
+                # Vẽ 2 line charts
+                ax2.plot(range(len(methods)), input_data, 'o-', color='red', linewidth=2, markersize=6, label='Input Tokens')
+                ax2.plot(range(len(methods)), output_data, 's-', color='blue', linewidth=2, markersize=6, label='Output Tokens')
+                ax2.legend(loc='upper right', fontsize=10, frameon=True)
+                if i == 0:  # Chỉ hiển thị ylabel cho subplot đầu tiên
+                    ax2.set_ylabel('Tokens', color='black')
+                    ax2.tick_params(axis='y', labelcolor='black')
+                else:
+                    ax2.set_ylabel("")
+                    ax2.tick_params(axis='y', labelright=False)
+                axs2.append(ax2)
+            elif aspt in data_dict[(methods[0], dataset)].columns:
                 data = []
                 for method in methods:
                     key = (method, dataset)
@@ -85,10 +108,9 @@ def plot_bar_subplots(data_dict, metrics, methods, datasets, aspt):
                 # Tạo secondary y-axis cho cost
                 ax2 = ax.twinx()
                 ax2.plot(range(len(methods)), data, 'o-', color='red', linewidth=2, markersize=6, label=title_name)
-                
+                ax2.legend(loc='upper right', fontsize=10, frameon=True)
                 if i == 0:  # Chỉ hiển thị ylabel cho subplot đầu tiên
-                    # Thêm legend cho line chart
-                    ax2.legend(loc='upper right', fontsize=10, frameon=True)
+                    ax2.set_ylabel(title_name, color='black')
                     ax2.tick_params(axis='y', labelcolor='black')
                 else:
                     ax2.set_ylabel("")
@@ -137,7 +159,7 @@ def main():
     parser = argparse.ArgumentParser(description="So sánh nhiều kỹ thuật và dataset")
     parser.add_argument("--methods", nargs="+", required=True, help="Zero-shot CoT PoT")
     parser.add_argument("--datasets", nargs="+", required=True, help="GSM8K TATQA TABMWP")
-    parser.add_argument("--metric",  required=True,help="input_tokens output_tokens latency_sec total_cost")
+    parser.add_argument("--metric",  required=True,help="tokens latency_sec total_cost")
     args = parser.parse_args()
 
     methods = args.methods
