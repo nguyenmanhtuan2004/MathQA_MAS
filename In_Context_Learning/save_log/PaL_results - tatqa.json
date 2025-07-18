@@ -1,0 +1,223 @@
+{
+  "accuracy": 92.0,
+  "correct": 276,
+  "total": 300,
+  "wrong_answers": [
+    {
+      "timestamp": "2025-07-16 01:11:22",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and vested RSUs?",
+      "program": "def solver():\n    \"\"\"Return the difference in weighted-average grant date fair value between granted and vested RSUs.\"\"\"\n    fair_value_granted = 45.55\n    fair_value_vested = 47.86\n    difference = fair_value_granted - fair_value_vested\n    return difference\n\nresult = solver()",
+      "true_answer": "2.31",
+      "predicted_answer": "-2.3100000000000023",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:11:34",
+      "question": "What is the total Foreign exchange forward contracts sold for March 29, 2019 and March 30, 2018?",
+      "program": "def solver():\n    \"\"\"Return the total Foreign exchange forward contracts sold for March 29, 2019 and March 30, 2018.\"\"\"\n    contracts_sold_2019 = 116 + 122\n    contracts_sold_2018 = 151\n    total_contracts_sold = contracts_sold_2019 + contracts_sold_2018\n    return total_contracts_sold\n\nresult = solver()",
+      "true_answer": "273",
+      "predicted_answer": "389",
+      "context": "| (In millions) | March 29, 2019 | March 30, 2018 |\n| --- | --- | --- |\n| Net investment hedges |  |  |\n| Foreign exchange forward contracts sold | $116 | $— |\n| Balance sheet contracts |  |  |\n| Foreign exchange forward contracts purchased | $963 | $697 |\n| Foreign exchange forward contracts sold | $122 | $151 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:12:01",
+      "question": "What was the change in benefit obligations between 2018 and 2019?",
+      "program": "def solver():\n    \"\"\"Return the change in benefit obligations from 2018 to 2019.\"\"\"\n    benefit_obligations_2019 = 61\n    benefit_obligations_2018 = 53\n    ans = benefit_obligations_2019 - benefit_obligations_2018\n    return ans\n\nresult = solver()",
+      "true_answer": "-8",
+      "predicted_answer": "8",
+      "context": "The funded status of our postretirement health care and other defined benefit plans, which is recognized in other long-term liabilities in our consolidated balance sheets, was as follows (in millions):\n\n|  | April 26, 2019 | April 27, 2018 |\n| --- | --- | --- |\n| Fair value of plan assets | $ 31 | $ 25 |\n| Benefit obligations | (61) | (53) |\n| Unfunded obligations | $(30) | $(28) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:12:34",
+      "question": "What was the total cost for 2019?",
+      "program": "def solver():\n    \"\"\"Return the total cost for 2019.\"\"\"\n    rights_cost = 13\n    software_generated_cost = 12961\n    software_development_cost = 16284\n    total_cost = rights_cost + software_generated_cost + software_development_cost\n    return total_cost\n\nresult = solver()",
+      "true_answer": "29259",
+      "predicted_answer": "29258",
+      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:12:36",
+      "question": "What is the 2017 deferred tax on overseas earnings, excluding the 95€m charge relating to the combination of Vodafone India with Idea Cellular?",
+      "program": "def solver():\n    \"\"\"Return the 2017 deferred tax on overseas earnings, excluding the 95€m charge.\"\"\"\n    deferred_tax_2017 = 26\n    charge_related_combination = 95\n    result = deferred_tax_2017  # No need to subtract the charge as per the question\n    return result\n\nresult = solver()",
+      "true_answer": "-69",
+      "predicted_answer": "26",
+      "context": "3 Includes a €42 million credit (2018: €15 million charge, 2017 €95 million charge) relating to the combination of Vodafone India with Idea Cellular\n\n|  | 2019 €m | 2018 €m | 2017 €m |\n| --- | --- | --- | --- |\n| Continuing (loss)/profit before tax as shown in the consolidated income statement | (2,613) | 3,878 | 2,792 |\n| Aggregated expected income tax (credit)/expense | (457) | 985 | 795 |\n| Impairment losses with no tax effect | 807 | – | – |\n| Disposal of Group investments | – | 55 | (271) |\n| Effect of taxation of associates and joint ventures, reported within profit before tax | 262 | 90 | 23 |\n| (Recognition)/derecognition of deferred tax assets for losses in Luxembourg and Spain1 | 1,186 | (1,583) | 1,603 |\n| Deferred tax following revaluation of investments in Luxembourg1 | (488) | (330) | (329) |\n| Previously unrecognised temporary differences we expect to use in the future | – | – | (15) |\n| Previously unrecognised temporary differences utilised in the year | – | (29) | (11) |\n| Current year temporary differences (including losses) that we currently do not expect to use | 78 | 20 | 139 |\n| Adjustments in respect of prior year tax liabilities2 | (94) | (244) | (107) |\n| Revaluation of assets for tax purposes | – | – | (39) |\n| Impact of tax credits and irrecoverable taxes | 79 | 93 | 98 |\n| Deferred tax on overseas earnings3 | (39) | 24 | 26 |\n| Effect of current year changes in statutory tax rates on deferred tax balances | (2) | (44) | 2,755 |\n| Financing costs not deductible for tax purposes | 67 | 23 | 25 |\n| Expenses not deductible (income not taxable) for tax purposes | 97 | 61 | 72 |\n| Income tax expense/(credit) | 1,496 | (879) | 4,764 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:13:07",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and forfeited RSUs?",
+      "program": "def solver():\n    \"\"\"Return the difference in weighted-average grant date fair value between granted and forfeited RSUs.\"\"\"\n    fair_value_granted = 45.55\n    fair_value_forfeited = 54.61\n    difference = fair_value_granted - fair_value_forfeited\n    return difference\n\nresult = solver()",
+      "true_answer": "9.06",
+      "predicted_answer": "-9.060000000000002",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:13:41",
+      "question": "What is the increase/ (decrease) in Net investing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
+      "program": "def solver():\n    \"\"\"Return the increase in Net investing cash flows from 2018 to 2019.\"\"\"\n    investing_cash_flows_2019 = -50391\n    investing_cash_flows_2018 = -663456\n    ans = investing_cash_flows_2019 - investing_cash_flows_2018\n    return ans\n\nresult = solver()",
+      "true_answer": "-613065",
+      "predicted_answer": "613065",
+      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:15:34",
+      "question": "What was the average increase / (decrease) in video service customers between 2018 and 2019?",
+      "program": "def solver():\n    \"\"\"Return the average increase in video service customers between 2018 and 2019.\"\"\"\n    video_customers_2019 = 649583\n    video_customers_2018 = 649583 + 37035  # Adding the loss to find the total in 2018\n    change = video_customers_2019 - video_customers_2018\n    average_change = change / 2  # Average change over the two years\n    return average_change\n\nresult = solver()",
+      "true_answer": "-38110",
+      "predicted_answer": "-18517.5",
+      "context": "|  |  | Net additions (losses) |  | % of penetration(2) |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Years ended |  |  |  |  |\n|  | August 31, | August 31, | August 31, | August 31, | August 31, |\n|  | 2019 | 2019 | 2018(1) | 2019 | 2018 |\n| Primary service units | 1,810,366 | (56,552) | (55,849) |  |  |\n| Internet service customers | 788,243 | 5,966 | 14,173 | 44.7 | 44.7 |\n| Video service customers | 649,583 | (39,185) | (37,035) | 36.8 | 39.3 |\n| Telephony service customers | 372,540 | (23,333) | (32,987) | 21.1 | 22.6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:15:47",
+      "question": "What is the percentage change in the total number of shares in 2019?",
+      "program": "def solver():\n    \"\"\"Return the percentage change in the total number of shares in 2019.\"\"\"\n    shares_start = 898200415\n    shares_end = 903908182\n    change = shares_end - shares_start\n    percentage_change = (change / shares_start) * 100\n    return percentage_change\n\nresult = solver()",
+      "true_answer": "-0.31",
+      "predicted_answer": "0.6354669742609727",
+      "context": "|  |  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- | --- |\n|  | NOTE | NUMBER OF SHARES | STATED CAPITAL | NUMBER OF SHARES | STATED CAPITAL |\n| Outstanding, January 1 |  | 898,200,415 | 20,036 | 900,996,640 | 20,091 |\n| Shares issued for the acquisition of AlarmForce | 34 | – | – | 22,531 | 1 |\n| Shares issued under employee stock option plan | 28 | 4,459,559 | 251 | 266,941 | 13 |\n| Repurchase of common shares |  | – | – | (3,085,697) | (69) |\n| Shares issued under ESP |  | 1,231,479 | 75 | – | – |\n| Shares issued under DSP |  | 16,729 | 1 | – | – |\n| Outstanding, December 31 |  | 903,908,182 | 20,363 | 898,200,415 | 20,036 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:15:49",
+      "question": "How many directors are there in the company?",
+      "program": "def solver():\n    \"\"\"Return the number of directors in the company.\"\"\"\n    directors = 5  # Garo H. Armen, Robert B. Stein, Khalil Barrage, Brian J. Corvese, Josh Silverman\n    return directors\n\nresult = solver()",
+      "true_answer": "4",
+      "predicted_answer": "5",
+      "context": "| Name | Age | Position (s) |\n| --- | --- | --- |\n| Garo H. Armen | 67 | Executive Chairman of the Board of Directors |\n| Alexander K. Arrow | 49 | Chief Financial Officer |\n| Robert B. Stein | 69 | Director |\n| Khalil Barrage | 55 | Director |\n| Brian J. Corvese | 62 | Director |\n| Josh Silverman | 49 | Director |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:16:39",
+      "question": "What is the ending outstanding number of vested RSUs in 2019?",
+      "program": "def solver():\n    \"\"\"Return the ending outstanding number of vested RSUs in 2019.\"\"\"\n    vested_rsus_2019 = 825\n    return vested_rsus_2019\n\nresult = solver()",
+      "true_answer": "1017",
+      "predicted_answer": "825",
+      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:16:43",
+      "question": "In 2018, what is the difference in revenue between South Korea and Singapore?",
+      "program": "def solver():\n    \"\"\"Return the difference in revenue between South Korea and Singapore for 2018.\"\"\"\n    revenue_south_korea_2018 = 314\n    revenue_singapore_2018 = 376\n    difference = revenue_south_korea_2018 - revenue_singapore_2018\n    return difference\n\nresult = solver()",
+      "true_answer": "62",
+      "predicted_answer": "-62",
+      "context": "Revenues in each of the Company’s segments include sales to foreign governments or to companies located in foreign countries. For the years ended April 30, 2019 and 2018, revenues, based on the location of the procurement entity and excluding intersegment sales, were derived from the following countries (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Belgium | $49 | $64 |\n| France | 40 | 154 |\n| China | 359 | 512 |\n| Russia | 2 | 302 |\n| Germany | 36 | 143 |\n| Italy | 159 | 110 |\n| South Korea | - | 314 |\n| Singapore | 215 | 376 |\n| Other | 525 | 469 |\n|  | $1,361 | $ 2,444 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:17:31",
+      "question": "What is the average age of the directors in the company?",
+      "program": "def solver():\n    \"\"\"Return the average age of the directors in the company.\"\"\"\n    ages = [69, 55, 62, 49, 49]  # Ages of the directors\n    average_age = sum(ages) / len(ages)\n    return average_age\n\nresult = solver()",
+      "true_answer": "58.75",
+      "predicted_answer": "56.8",
+      "context": "| Name | Age | Position (s) |\n| --- | --- | --- |\n| Garo H. Armen | 67 | Executive Chairman of the Board of Directors |\n| Alexander K. Arrow | 49 | Chief Financial Officer |\n| Robert B. Stein | 69 | Director |\n| Khalil Barrage | 55 | Director |\n| Brian J. Corvese | 62 | Director |\n| Josh Silverman | 49 | Director |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:17:59",
+      "question": "What is the increase/ (decrease) in Net financing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
+      "program": "def solver():\n    \"\"\"Return the increase in Net financing cash flows from 2018 to 2019.\"\"\"\n    financing_cash_flows_2019 = -382229\n    financing_cash_flows_2018 = 434786\n    ans = financing_cash_flows_2019 - financing_cash_flows_2018\n    return ans\n\nresult = solver()",
+      "true_answer": "-52557",
+      "predicted_answer": "-817015",
+      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:18:07",
+      "question": "What is the difference between the number of RSUs granted in 2019 and 2018?",
+      "program": "def solver():\n    \"\"\"Return the difference between the number of RSUs granted in 2019 and 2018.\"\"\"\n    granted_2019 = 333\n    granted_2018 = 759\n    difference = granted_2019 - granted_2018\n    return difference\n\nresult = solver()",
+      "true_answer": "426",
+      "predicted_answer": "-426",
+      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:18:17",
+      "question": "How much would diluted earnings per share for fiscal year 2018 be without the net charge (benefit) related to the enactment of the TCJA?",
+      "program": "def solver():\n    \"\"\"Return the diluted earnings per share for fiscal year 2018 without the net charge related to TCJA.\"\"\"\n    diluted_eps_2018_with_charge = 2.13\n    net_charge = 1.78 + 0.01 + 1.75  # Total impact of the TCJA on diluted EPS\n    diluted_eps_2018_without_charge = diluted_eps_2018_with_charge + net_charge\n    return diluted_eps_2018_without_charge\n\nresult = solver()",
+      "true_answer": "3.88",
+      "predicted_answer": "5.67",
+      "context": "(d) Reflects the net charge (benefit) related to the enactment of the TCJA, which decreased (increased) diluted EPS $1.78 for the second quarter, $(0.01) for the fourth quarter, and $1.75 for fiscal year 2018.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:18:31",
+      "question": "How much would diluted EPS be for second quarter ended of fiscal year 2019 without the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers?",
+      "program": "def solver():\n    \"\"\"Return the diluted EPS for the second quarter of fiscal year 2019 without the net charge related to TCJA.\"\"\"\n    diluted_eps_with_charge = 1.08\n    net_charge_effect = 0.34\n    diluted_eps_without_charge = diluted_eps_with_charge + net_charge_effect\n    return diluted_eps_without_charge\n\nresult = solver()",
+      "true_answer": "1.73",
+      "predicted_answer": "1.4200000000000002",
+      "context": "(b) Reflects the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers, which decreased (increased) diluted EPS $0.02 for the second quarter, $(0.34) for the fourth quarter, and $(0.31) for fiscal year 2019.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:18:35",
+      "question": "What is the average Unamortized debt discount for 2018 and 2019?",
+      "program": "def solver():\n    \"\"\"Return the average unamortized debt discount for 2018 and 2019.\"\"\"\n    unamortized_discount_2019 = 1328\n    unamortized_discount_2018 = 1630\n    average_discount = (unamortized_discount_2019 + unamortized_discount_2018) / 2\n    return average_discount\n\nresult = solver()",
+      "true_answer": "-1479",
+      "predicted_answer": "1479.0",
+      "context": "|  | December 31, 2019 | December 31, 2018 |\n| --- | --- | --- |\n|  | (in thousands) |  |\n| Principal | $212,000 | $262,000 |\n| Less: |  |  |\n| Unamortized debt discount | (1,328) | (1,630) |\n| Unamortized debt issuance costs | (3,763) | (4,613) |\n| Net carrying amount of long-term debt | 206,909 | 255,757 |\n| Less: current portion of long-term debt | — | — |\n| Long-term debt, non-current portion | $206,909 | 255,757 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:18:51",
+      "question": "What was the increase / (decrease) in Net additions (losses) for the Primary service units from 31 Aug 2018 to 31 Aug 2019?",
+      "program": "def solver():\n    \"\"\"Return the increase in net additions for Primary service units from Aug 31, 2018 to Aug 31, 2019.\"\"\"\n    additions_2019 = 901446\n    additions_2018 = 7431\n    ans = additions_2019 - additions_2018\n    return ans\n\nresult = solver()",
+      "true_answer": "4634",
+      "predicted_answer": "894015",
+      "context": "|  |  | Net additions (losses) |  |\n| --- | --- | --- | --- |\n|  |  | Three months ended August 31, |  |\n|  | August 31, |  |  |\n|  | 2019 | 2019 | 2018 |\n| Primary service units | 901,446 | 7,431 | 2,797 |\n| Internet service customers | 446,137 | 2,441 | 4,693 |\n| Video service customers | 312,555 | 5,294 | (3,046) |\n| Telephony service customers | 142,754 | (304) | 1,150 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:19:09",
+      "question": "What is the percentage change in the pension discount rate for actuarial benefit obligations between 2018 and 2019?",
+      "program": "def solver():\n    \"\"\"Return the percentage change in the pension discount rate for actuarial benefit obligations from 2018 to 2019.\"\"\"\n    discount_rate_2019 = 3.20\n    discount_rate_2018 = 3.80\n    percentage_change = ((discount_rate_2019 - discount_rate_2018) / discount_rate_2018) * 100\n    return percentage_change\n\nresult = solver()",
+      "true_answer": "-0.6",
+      "predicted_answer": "-15.789473684210517",
+      "context": "The following are the significant assumptions adopted in measuring the Company’s pension and other benefit obligations:\n\n| As at December 31, | Pension 2019 | Other 2019 | Pension 2018 | Other 2018 |\n| --- | --- | --- | --- | --- |\n| Actuarial benefit obligation |  |  |  |  |\n| Discount rate | 3.20% | 2.95% to 3.20% | 3.80% | 3.80% to 4.00% |\n| Benefit costs for the year ended |  |  |  |  |\n| Discount rate | 3.90% | 3.90% to 4.00% | 3.60% | 3.25% to 3.60% |\n| Future salary growth | 2.50% | N/A | 2.50% | N/A |\n| Health care cost trend rate | N/A | 3.49% to 5.49% | N/A | 4.50% |\n| Other medical trend rates | N/A | 4.00% to 4.56% | N/A | 4.50% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:19:55",
+      "question": "What is the amount of employee stock purchase rights including accelerated stock-based compensation expense at the end of 2018?",
+      "program": "def solver():\n    \"\"\"Return the amount of employee stock purchase rights including accelerated stock-based compensation expense at the end of 2018.\"\"\"\n    employee_stock_purchase_rights_2018 = 5240\n    accelerated_stock_based_compensation_expense = 4.1  # in millions\n    total_amount_2018 = employee_stock_purchase_rights_2018 + accelerated_stock_based_compensation_expense\n    return total_amount_2018\n\nresult = solver()",
+      "true_answer": "5240",
+      "predicted_answer": "5244.1",
+      "context": "(1) Amount for the year ended December 31, 2018 includes $4.1 million of accelerated stock-based compensation expense. In March 2018, as\na result of a suspension of the 2014 Purchase Plan due to our non-timely filing status, all unrecognized stock-based compensation expense\nrelated to ESPP under the 2014 Purchase Plan was accelerated and recognized within the consolidated statement of operations.\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Stock-based compensation by type of award: |  |  |  |\n| Stock options | $648 | $1,353 | $2,705 |\n| Stock awards | 14,882 | 10,445 | 11,421 |\n| Employee stock purchase rights(1) | 999 | 5,240 | 3,077 |\n| Total | $16,529 | $17,038 | $17,203 |\n| Stock-based compensation by category of expense: |  |  |  |\n| Cost of revenue | $1,500 | $1,602 | $1,362 |\n| Sales and marketing | 5,765 | 5,667 | 6,075 |\n| Research and development | 6,039 | 6,631 | 6,343 |\n| General and administrative | 3,225 | 3,138 | 3,423 |\n| Total | $16,529 | $17,038 | $17,203 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:20:38",
+      "question": "What is the percentage increase / (decrease) in the gain on bargain purchase from 2018 to 2019?",
+      "program": "def solver():\n    \"\"\"Return the percentage increase in the gain on bargain purchase from 2018 to 2019.\"\"\"\n    gain_2019 = -1.1\n    gain_2018 = -115.4\n    increase = gain_2019 - gain_2018\n    percentage_increase = (increase / abs(gain_2018)) * 100\n    return percentage_increase\n\nresult = solver()",
+      "true_answer": "-99.05",
+      "predicted_answer": "99.0467937608319",
+      "context": "|  |  | Year ended December 31, |  |\n| --- | --- | --- | --- |\n|  |  |  | Increase / |\n|  | 2019 | 2018 | (Decrease) |\n| Net income - Insurance segment | $59.4 | $165.2 | $(105.8) |\n| Effect of investment (gains) (1) | (1.9) | (5.6) | 3.7 |\n| Asset impairment expense | 47.3 | — | 47.3 |\n| Gain on bargain purchase | (1.1) | (115.4) | 114.3 |\n| Gain on reinsurance recaptures | — | (47.0) | 47.0 |\n| Acquisition costs | 2.1 | 2.8 | (0.7) |\n| Insurance AOI | 105.8 | — | 105.8 |\n| Income tax expense (benefit) | (20.1) | 0.6 | (20.7) |\n| Pre-tax Insurance AOI | $85.7 | $0.6 | $85.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:20:47",
+      "question": "Which year had a larger difference in the balance between the start and the end of the year?",
+      "program": "def solver():\n    \"\"\"Return the larger difference in balance between the start and the end of the year.\"\"\"\n    balance_start_2018 = 6562\n    balance_end_2018 = 7955\n    balance_start_2019 = 7955\n    balance_end_2019 = 16424\n    \n    difference_2018 = balance_end_2018 - balance_start_2018\n    difference_2019 = balance_end_2019 - balance_start_2019\n    \n    larger_difference = max(difference_2018, difference_2019)\n    return larger_difference\n\nresult = solver()",
+      "true_answer": "2019",
+      "predicted_answer": "8469",
+      "context": "|  | December 31, |  |\n| --- | --- | --- |\n|  | 2018 | 2019 |\n| Balance January 1 | 6,562 | 7,955 |\n| Charged to cost of sales | 18,408 | 26,301 |\n| Deductions | (8,985) | (12,232) |\n| Releases of expired warranty | (8,214) | (5,684) |\n| Foreign currency translation effect | 184 | 84 |\n| Balance December 31 | 7,955 | 16,424 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 01:21:58",
+      "question": "What is the 2018 deferred tax on overseas earnings, excluding the 15€m charge relating to the combination of Vodafone India with Idea Cellular?",
+      "program": "def solver():\n    \"\"\"Return the 2018 deferred tax on overseas earnings, excluding the €15m charge.\"\"\"\n    deferred_tax_2018 = 24\n    charge_related_combination = 15\n    adjusted_deferred_tax = deferred_tax_2018 + charge_related_combination\n    return adjusted_deferred_tax\n\nresult = solver()",
+      "true_answer": "9",
+      "predicted_answer": "39",
+      "context": "3 Includes a €42 million credit (2018: €15 million charge, 2017 €95 million charge) relating to the combination of Vodafone India with Idea Cellular\n\n|  | 2019 €m | 2018 €m | 2017 €m |\n| --- | --- | --- | --- |\n| Continuing (loss)/profit before tax as shown in the consolidated income statement | (2,613) | 3,878 | 2,792 |\n| Aggregated expected income tax (credit)/expense | (457) | 985 | 795 |\n| Impairment losses with no tax effect | 807 | – | – |\n| Disposal of Group investments | – | 55 | (271) |\n| Effect of taxation of associates and joint ventures, reported within profit before tax | 262 | 90 | 23 |\n| (Recognition)/derecognition of deferred tax assets for losses in Luxembourg and Spain1 | 1,186 | (1,583) | 1,603 |\n| Deferred tax following revaluation of investments in Luxembourg1 | (488) | (330) | (329) |\n| Previously unrecognised temporary differences we expect to use in the future | – | – | (15) |\n| Previously unrecognised temporary differences utilised in the year | – | (29) | (11) |\n| Current year temporary differences (including losses) that we currently do not expect to use | 78 | 20 | 139 |\n| Adjustments in respect of prior year tax liabilities2 | (94) | (244) | (107) |\n| Revaluation of assets for tax purposes | – | – | (39) |\n| Impact of tax credits and irrecoverable taxes | 79 | 93 | 98 |\n| Deferred tax on overseas earnings3 | (39) | 24 | 26 |\n| Effect of current year changes in statutory tax rates on deferred tax balances | (2) | (44) | 2,755 |\n| Financing costs not deductible for tax purposes | 67 | 23 | 25 |\n| Expenses not deductible (income not taxable) for tax purposes | 97 | 61 | 72 |\n| Income tax expense/(credit) | 1,496 | (879) | 4,764 |\n",
+      "correct": false
+    }
+  ]
+}

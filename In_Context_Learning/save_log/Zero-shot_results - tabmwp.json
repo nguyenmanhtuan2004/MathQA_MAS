@@ -1,0 +1,711 @@
+{
+  "accuracy": 70.66666666666667,
+  "correct": 212,
+  "total": 300,
+  "wrong_answers": [
+    {
+      "timestamp": "2025-07-16 13:26:24",
+      "question": "Molly figured out the scores at the end of a card game. How many people scored less than 9?",
+      "true_answer": "53",
+      "predicted_answer": "36",
+      "context": "Scores in a card game\n\n| Score | Frequency |\n| --- | --- |\n| 4 | 19 |\n| 5 | 2 |\n| 6 | 7 |\n| 7 | 8 |\n| 8 | 17 |\n| 9 | 12 |\n| 10 | 16 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:26",
+      "question": "How much money does Darell need to buy 3 tickets for a Hawaiian cruise and 8 tickets for a South American cruise?",
+      "true_answer": "59843",
+      "predicted_answer": "48663",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| ticket for a South American cruise | $5,581.00 |\n| ticket for a Hawaiian cruise | $5,065.00 |\n| ticket for an Australian cruise | $7,479.00 |\n| ticket for an Alaskan cruise | $6,192.00 |\n| ticket for an Atlantic cruise | $3,290.00 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:27",
+      "question": "An architecture student measured the heights of all the buildings downtown. How many buildings are less than 50 meters tall?",
+      "true_answer": "13",
+      "predicted_answer": "12",
+      "context": "Building heights (meters)\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 1, 4, 5 |\n| 3 | 2, 2, 8 |\n| 4 | 0, 0, 5, 6, 6, 7, 8 |\n| 5 | 4, 5, 7, 8, 9 |\n| 6 | 0, 0, 5, 6, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:29",
+      "question": "Principal Levin reported the state test scores from some students at her school. How many students scored at least 10 points?",
+      "true_answer": "24",
+      "predicted_answer": "15",
+      "context": "Test scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 0, 5, 7, 8, 9 |\n| 2 | 1, 2, 7 |\n| 3 | 1, 4, 5, 8 |\n| 4 | 0, 1, 4, 4, 4, 6, 8 |\n| 5 | 2, 4, 7, 9, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:30",
+      "question": "Look at Carson's pay stub. Carson lives in a state without state income tax. How much did Carson make after taxes?",
+      "true_answer": "2879.77",
+      "predicted_answer": "2880.77",
+      "context": "| Employee | Pay period |  |\n| --- | --- | --- |\n| Carson Michaels | July |  |\n| Total earnings |  | $3,603.00 |\n| Federal income tax | $447.60 |  |\n| Other taxes | $275.63 |  |\n| Total taxes |  | ? |\n| Pay after taxes |  | ? |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:37",
+      "question": "At a swim meet, Ernesto noted the size of various swim teams. How many teams have at least 30 swimmers?",
+      "true_answer": "12",
+      "predicted_answer": "8",
+      "context": "Swimming team sizes (number of swimmers)\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 2, 3, 7, 7 |\n| 3 | 2 |\n| 4 | 0, 3, 4 |\n| 5 | 1, 4, 8 |\n| 6 | 2, 2, 4, 5, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:38",
+      "question": "On a camping trip, Akira kept a log of the types of snakes she saw. She noted their colors and approximate lengths. What is the probability that a randomly selected snake is 2 feet long and red? Simplify any fractions.",
+      "true_answer": "0.23529411764705882",
+      "predicted_answer": "0.2",
+      "context": "|  | Red | Bright orange |\n| --- | --- | --- |\n| 1 foot long | 3 | 4 |\n| 2 feet long | 4 | 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:40",
+      "question": "At a swim meet, Jayden noted the size of various swim teams. How many teams have exactly 64 swimmers?",
+      "true_answer": "1",
+      "predicted_answer": "0",
+      "context": "Swimming team sizes (number of swimmers)\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 1, 2, 7 |\n| 3 | 1, 2, 9 |\n| 4 | 1, 3, 3 |\n| 5 | 4, 8 |\n| 6 | 1, 4, 5, 6, 7 |\n| 7 | 6, 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:41",
+      "question": "Shannon bought 1+2/5 pounds of canola oil. How much did she spend?",
+      "true_answer": "4.2",
+      "predicted_answer": "4",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| sunflower seed oil | $4 per pound |\n| cottonseed oil | $4 per pound |\n| soybean oil | $3 per pound |\n| canola oil | $3 per pound |\n| olive oil | $5 per pound |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:47",
+      "question": "Francesca found a list of the number of roller coasters at each amusement park in the state. How many amusement parks have at least 10 roller coasters but fewer than 40 roller coasters?",
+      "true_answer": "5",
+      "predicted_answer": "0",
+      "context": "Roller coasters per amusement park\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 2, 2, 4, 4 |\n| 2 |  |\n| 3 | 9 |\n| 4 | 8, 8, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:48",
+      "question": "How much money does Dylan need to buy 8 Caribbean vacation packages and 6 European vacation packages?",
+      "true_answer": "8902",
+      "predicted_answer": "10084",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| European vacation package | $593 |\n| Caribbean vacation package | $668 |\n| African safari vacation package | $935 |\n| Hawaiian vacation package | $946 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:52",
+      "question": "Levi measured the length of each scarf in the clothing store where he works. How many scarves are at least 70 centimeters but less than 80 centimeters?",
+      "true_answer": "8",
+      "predicted_answer": "7",
+      "context": "Scarf lengths (centimeters)\n\n| Stem | Leaf  |\n| --- | --- |\n| 6 | 9 |\n| 7 | 3, 4, 4, 5, 6, 7, 7, 8 |\n| 8 | 0, 1, 1, 2, 3, 4, 6, 6, 7, 7, 7, 9, 9 |\n| 9 | 0, 0, 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:53",
+      "question": "Maria counted the pages in each book on her English class's required reading list. How many books had less than 77 pages?",
+      "true_answer": "12",
+      "predicted_answer": "7",
+      "context": "Pages per book\n\n| Stem | Leaf  |\n| --- | --- |\n| 5 | 0, 5, 7, 7 |\n| 6 | 0, 0, 4, 5, 5, 5 |\n| 7 | 2, 2 |\n| 8 | 2, 5, 8 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:54",
+      "question": "A food industry researcher compiled the revenues of several pizzerias. How much did Taste of New York make from pizza sales?",
+      "true_answer": "23",
+      "predicted_answer": "unknown",
+      "context": "Pizza sales\n\n| Restaurant | Vegetarian pizzas | Cheese pizzas |\n| --- | --- | --- |\n| Dan's Deep Dish | $10 | $11 |\n| Taste of New York | $10 | $13 |\n| The Big Cheese | $16 | $8 |\n| Pizzas Only | $17 | $17 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:26:55",
+      "question": "How much money does Philip need to buy 6 teapots and 2 casserole dishes?",
+      "true_answer": "268",
+      "predicted_answer": "232",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| teapot | $38 |\n| cookbook | $19 |\n| apron | $20 |\n| baking dish | $14 |\n| casserole dish | $20 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:02",
+      "question": "Mia found a list of the number of roller coasters at each amusement park in the state. How many amusement parks have at least 13 roller coasters?",
+      "true_answer": "12",
+      "predicted_answer": "0",
+      "context": "Roller coasters per amusement park\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 7, 8, 9 |\n| 2 | 6 |\n| 3 | 1, 6, 7 |\n| 4 | 3, 5, 5, 6, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:05",
+      "question": "How much would it cost to buy 3+2/5 kilograms of marinara sauce?",
+      "true_answer": "6.8",
+      "predicted_answer": "5",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| alfredo sauce | $2/kg |\n| tomato sauce | $2/kg |\n| beef sauce | $3/kg |\n| chicken sauce | $2/kg |\n| marinara sauce | $2/kg |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:06",
+      "question": "A farmer counted the number of apples on each tree in her orchard. How many trees have at least 60 apples but fewer than 88 apples?",
+      "true_answer": "5",
+      "predicted_answer": "7",
+      "context": "Apples per tree\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 0, 1, 2, 6, 6, 7, 7 |\n| 4 | 0, 0, 0, 8 |\n| 5 | 0, 3, 6, 8, 9 |\n| 6 | 1, 3 |\n| 7 |  |\n| 8 | 3, 3, 5, 8, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:09",
+      "question": "If Mia buys 1 pound of metal beads and 2 pounds of crystal beads, how much will she spend?",
+      "true_answer": "21",
+      "predicted_answer": "20",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| crystal beads | $7 per pound |\n| metal beads | $7 per pound |\n| ceramic beads | $11 per pound |\n| paper beads | $6 per pound |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:14",
+      "question": "A philanthropic organization compared the amounts of money that its members donated to certain causes. How much more money did Eve donate to clean water than Eli?",
+      "true_answer": "10",
+      "predicted_answer": "3",
+      "context": "Donations\n\n| Person | Animal rights | Clean water |\n| --- | --- | --- |\n| Eve | $4 | $15 |\n| Eli | $12 | $5 |\n| Bridgette | $9 | $11 |\n| Kamal | $18 | $11 |\n| Janelle | $13 | $13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:19",
+      "question": "Clarksville Flooring tracked the number of broken tiles in each shipment it received last year. How many shipments had at least 53 broken tiles?",
+      "true_answer": "8",
+      "predicted_answer": "3",
+      "context": "Broken tiles per shipment\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 9 |\n| 3 | 1, 6, 8, 9 |\n| 4 | 1, 2, 3, 7, 9, 9 |\n| 5 | 0 |\n| 6 | 1, 1, 3, 5, 6 |\n| 7 | 0, 6, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:21",
+      "question": "How much money does Sidney need to buy a piece of mint chocolate and 7 peanut butter cups?",
+      "true_answer": "1.47",
+      "predicted_answer": "1.50",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| peanut butter cup | $0.19 |\n| gummy bear | $0.10 |\n| piece of mint chocolate | $0.14 |\n| piece of licorice | $0.19 |\n| piece of gum | $0.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:28",
+      "question": "Five of the sports teams from Cedarburg High School decided to raise funds to buy new sports equipment. What fraction of the funds were raised by the track team? Simplify your answer.",
+      "true_answer": "0.16452442159383032",
+      "predicted_answer": "0.32",
+      "context": "Sports equipment fundraising\n\n| Team | Funds raised ($) |\n| --- | --- |\n| Football | 950 |\n| Water polo | 730 |\n| Soccer | 780 |\n| Track | 640 |\n| Basketball | 790 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:34",
+      "question": "How much money does Daniel need to buy a black jacket and a green sweatshirt?",
+      "true_answer": "44.08",
+      "predicted_answer": "43.08",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| winter jacket | $28.25 |\n| denim jacket | $20.85 |\n| green sweatshirt | $17.48 |\n| blue sweater | $16.83 |\n| red sweater | $15.26 |\n| black jacket | $26.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:38",
+      "question": "In the first episode of a reality show, contestants had to spin two wheels of fate. Spinning the first wheel determined the remote location where contestants would reside for the duration of the season. Spinning the second wheel determined which \"bonus survival tool\" they would be allowed to bring, along with a few other necessary items. What is the probability that a randomly selected participant spun the second wheel and landed on a tent and spun the first wheel and landed on desert? Simplify any fractions.",
+      "true_answer": "0.23076923076923078",
+      "predicted_answer": "0.42857142857142855",
+      "context": "|  | Desert | Rainforest |\n| --- | --- | --- |\n| A tent | 3 | 1 |\n| Matches | 5 | 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:41",
+      "question": "Principal Navarro reported the state test scores from some students at her school. How many students scored at least 45 points but fewer than 59 points?",
+      "true_answer": "4",
+      "predicted_answer": "5",
+      "context": "Test scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0 |\n| 3 | 4 |\n| 4 | 0, 3, 6 |\n| 5 | 1, 1, 5 |\n| 6 | 0, 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:43",
+      "question": "Janice tracked the attendance at the school play. What is the mean of the numbers?",
+      "true_answer": "67",
+      "predicted_answer": "66",
+      "context": "Tickets sold\n\n| Day | Number of tickets |\n| --- | --- |\n| Thursday | 73 |\n| Friday | 62 |\n| Saturday | 51 |\n| Sunday | 82 |\n| Monday | 53 |\n| Tuesday | 75 |\n| Wednesday | 73 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:43",
+      "question": "The newspaper photographer logged how many pictures he had taken during the past 6 days. What is the mean of the numbers?",
+      "true_answer": "32",
+      "predicted_answer": "31",
+      "context": "Pictures taken\n\n| Day | Number of pictures |\n| --- | --- |\n| Sunday | 31 |\n| Monday | 31 |\n| Tuesday | 27 |\n| Wednesday | 32 |\n| Thursday | 37 |\n| Friday | 34 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:45",
+      "question": "A researcher working for a cereal company surveyed people about their cereal consumption habits. How many people ate cereal fewer than 4 times?",
+      "true_answer": "44",
+      "predicted_answer": "48",
+      "context": "Eating cereal last week\n\n| Times eaten | Frequency |\n| --- | --- |\n| 0 | 3 |\n| 1 | 14 |\n| 2 | 16 |\n| 3 | 11 |\n| 4 | 5 |\n| 5 | 15 |\n| 6 | 12 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:47",
+      "question": "While writing a paper on making decisions in groups, Desmond researched the size of a number of committees. How many committees have exactly 17 members?",
+      "true_answer": "3",
+      "predicted_answer": "0",
+      "context": "Committee sizes (number of members)\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 0, 2, 7, 7, 7 |\n| 2 | 8 |\n| 3 | 5 |\n| 4 |  |\n| 5 |  |\n| 6 | 2 |\n| 7 |  |\n| 8 | 0, 3 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:50",
+      "question": "Natalie's family went on a road trip and counted the number of cars they saw each day. What is the mean of the numbers?",
+      "true_answer": "97",
+      "predicted_answer": "96",
+      "context": "Number of cars\n\n| Day | Number of cars |\n| --- | --- |\n| Sunday | 97 |\n| Monday | 100 |\n| Tuesday | 92 |\n| Wednesday | 100 |\n| Thursday | 99 |\n| Friday | 95 |\n| Saturday | 96 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:51",
+      "question": "A wilderness retail store asked a consulting company to do an analysis of their hiking shoe customers. The consulting company gathered data from each customer that purchased hiking shoes, and recorded the shoe brand and the customer's level of happiness. What is the probability that a randomly selected customer is displeased and purchased a Footlong shoe? Simplify any fractions.",
+      "true_answer": "0.25",
+      "predicted_answer": "0.3333333333333333",
+      "context": "|  | A Footlong shoe | A Toes Knows shoe |\n| --- | --- | --- |\n| Displeased | 4 | 5 |\n| Pleased | 3 | 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:52",
+      "question": "Carly buys 1+3/10 pounds of balsamic vinaigrette. What is the total cost?",
+      "true_answer": "3.9",
+      "predicted_answer": "10",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| Thousand Island dressing | $3 per lb |\n| raspberry vinaigrette | $4 per lb |\n| Italian dressing | $7 per lb |\n| blue cheese dressing | $3 per lb |\n| balsamic vinaigrette | $3 per lb |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:52",
+      "question": "The transportation company tracked the number of train tickets sold in the past 4 days. How many train tickets were sold in all on Tuesday and Wednesday?",
+      "true_answer": "9581",
+      "predicted_answer": "9031",
+      "context": "Train tickets sold\n\n| Day | Number of tickets |\n| --- | --- |\n| Sunday | 8,590 |\n| Monday | 5,356 |\n| Tuesday | 1,557 |\n| Wednesday | 8,024 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:27:58",
+      "question": "Polly's classmates revealed how many science articles they read. What is the mean of the numbers?",
+      "true_answer": "35",
+      "predicted_answer": "36",
+      "context": "Science articles read\n\n| Name | Number of science articles |\n| --- | --- |\n| Polly | 37 |\n| Kendrick | 31 |\n| Leo | 40 |\n| Tiana | 36 |\n| Erica | 36 |\n| Aaliyah | 26 |\n| Scott | 39 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:02",
+      "question": "As part of a stuffed animal drive for the local children's hospital, the students at Shah Elementary School record how many stuffed animals they have collected. How many students have more than 5 stuffed animals?",
+      "true_answer": "17",
+      "predicted_answer": "2",
+      "context": "Stuffed animals\n\n| Number of stuffed animals | Frequency |\n| --- | --- |\n| 0 | 11 |\n| 1 | 19 |\n| 2 | 18 |\n| 3 | 5 |\n| 4 | 16 |\n| 5 | 2 |\n| 6 | 17 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:05",
+      "question": "Darnell counted the number of words per page in his new book. How many pages have fewer than 92 words?",
+      "true_answer": "8",
+      "predicted_answer": "5",
+      "context": "Words per page\n\n| Stem | Leaf  |\n| --- | --- |\n| 5 | 9, 9 |\n| 6 | 4, 8 |\n| 7 | 2, 6, 6 |\n| 8 |  |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:08",
+      "question": "Manuel, who has five different fruit trees growing in his yard, kept track of how many pieces of fruit he picked this year. What fraction of the pieces of fruit picked were oranges? Simplify your answer.",
+      "true_answer": "0.4132231404958678",
+      "predicted_answer": "0.2631578947368421",
+      "context": "Pieces of fruit picked\n\n| Fruits | Pieces of fruit |\n| --- | --- |\n| Persimmons | 39 |\n| Lemons | 40 |\n| Apples | 23 |\n| Oranges | 100 |\n| Peaches | 40 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:08",
+      "question": "Michelle, who rents properties for a living, measures all the offices in a building she is renting. How many offices are exactly 38 square meters?",
+      "true_answer": "2",
+      "predicted_answer": "0",
+      "context": "Office sizes (square meters)\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 1, 1, 3, 7, 8, 8 |\n| 4 | 8 |\n| 5 | 3, 4 |\n| 6 | 9 |\n| 7 | 2, 3 |\n| 8 | 0, 9 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:17",
+      "question": "Manny wants to buy 5 kilograms of Parmesan and 2 kilograms of ricotta. How much will he spend?",
+      "true_answer": "16",
+      "predicted_answer": "21",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| gorgonzola | $2 per kg |\n| American cheese | $3 per kg |\n| Parmesan | $2 per kg |\n| cheddar | $3 per kg |\n| ricotta | $3 per kg |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:22",
+      "question": "Some friends discussed the sizes of their coin collections. What is the mean of the numbers?",
+      "true_answer": "84",
+      "predicted_answer": "83",
+      "context": "Coin collections\n\n| Name | Number of coins |\n| --- | --- |\n| Braden | 76 |\n| Camilla | 94 |\n| Rick | 86 |\n| Mary | 84 |\n| Hector | 80 |\n| Devin | 83 |\n| Emily | 82 |\n| Avery | 87 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:24",
+      "question": "A food critic counted the number of menu items at each restaurant in town. How many restaurants have fewer than 90 menu items?",
+      "true_answer": "20",
+      "predicted_answer": "8",
+      "context": "Menu items per restaurant\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 2, 8 |\n| 2 | 1, 9 |\n| 3 | 0 |\n| 4 |  |\n| 5 | 0, 3, 4, 5, 5, 8, 9 |\n| 6 | 3, 7, 9 |\n| 7 | 1, 9, 9 |\n| 8 | 0, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:25",
+      "question": "Mr. Davidson, a P.E. teacher, wrote down how much weight each of his students could lift. How many people lifted exactly 78 pounds?",
+      "true_answer": "2",
+      "predicted_answer": "3",
+      "context": "Weight lifting results (lbs)\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 3, 9 |\n| 4 | 6, 6, 9 |\n| 5 | 2, 6, 7 |\n| 6 | 4, 5, 5, 7 |\n| 7 | 0, 1, 4, 5, 6, 6, 6, 8, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:26",
+      "question": "At Winchester Consulting, the head of human resources examined how the number of employees with health care benefits varied in response to policy changes. According to the table, what was the rate of change between 2007 and 2008?",
+      "true_answer": "-7",
+      "predicted_answer": "-35",
+      "context": "Employees with health care benefits\n\n| Year | Employees |\n| --- | --- |\n| 2006 | 19 |\n| 2007 | 20 |\n| 2008 | 13 |\n| 2009 | 17 |\n| 2010 | 12 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:29",
+      "question": "Austin went to the store and bought 3 pounds of fool's gold, 1 pound of topaz, and 2 pounds of tiger's eye. How much did he spend?",
+      "true_answer": "87.13",
+      "predicted_answer": "75.04",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| topaz | $18.55 per lb |\n| amethyst | $19.88 per lb |\n| tiger's eye | $10.29 per lb |\n| fool's gold | $16.00 per lb |\n| quartz | $14.63 per lb |\n| calcite | $15.39 per lb |\n| granite | $19.23 per lb |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:29",
+      "question": "As part of a food drive, four friends collected canned food. What fraction of the cans were collected by Tracy? Simplify your answer.",
+      "true_answer": "0.22382671480144403",
+      "predicted_answer": "0.31",
+      "context": "Cans of food collected\n\n| Name | Number of cans of food |\n| --- | --- |\n| Max | 890 |\n| Tracy | 620 |\n| Felix | 610 |\n| Angie | 650 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:31",
+      "question": "For a math project, students in Mrs. Holloway's class recorded the number of pets that each student has. How many students have more than 1 pet?",
+      "true_answer": "45",
+      "predicted_answer": "43",
+      "context": "Pets\n\n| Number of pets | Frequency |\n| --- | --- |\n| 0 | 11 |\n| 1 | 0 |\n| 2 | 2 |\n| 3 | 7 |\n| 4 | 20 |\n| 5 | 16 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:34",
+      "question": "How much would it cost to buy 3 kilograms of kettle corn and 2 kilograms of Parmesan popcorn?",
+      "true_answer": "4.89",
+      "predicted_answer": "5.63",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| caramel corn | $1.13 per kg |\n| chocolate popcorn | $1.78 per kg |\n| kettle corn | $0.69 per kg |\n| ranch popcorn | $1.72 per kg |\n| cheddar popcorn | $0.90 per kg |\n| Parmesan popcorn | $1.41 per kg |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:35",
+      "question": "How much more does a jersey signed by a famous basketball player cost than a photograph signed by a famous race car driver?",
+      "true_answer": "3151",
+      "predicted_answer": "4151",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| painting signed by a famous artist | $9,254.00 |\n| jersey signed by a famous basketball player | $6,047.00 |\n| photograph signed by a famous movie star | $8,658.00 |\n| ball signed by a famous football player | $1,788.00 |\n| photograph signed by a famous race car driver | $2,896.00 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:37",
+      "question": "The employees at Tessa's Construction monitored the number of cracked window panes in each shipment they received. How many shipments had at least 40 cracked window panes but less than 60 cracked window panes?",
+      "true_answer": "9",
+      "predicted_answer": "5",
+      "context": "Cracked window panes per shipment\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 1 |\n| 4 | 0, 0, 1, 5 |\n| 5 | 0, 2, 5, 9, 9 |\n| 6 |  |\n| 7 | 0 |\n| 8 | 6 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:41",
+      "question": "How much money does Malik need to buy a red wagon, a model airplane, and a remote control car?",
+      "true_answer": "79.99",
+      "predicted_answer": "80.99",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| stuffed animal | $16.93 |\n| red wagon | $26.44 |\n| remote control car | $18.45 |\n| toy guitar | $21.74 |\n| model airplane | $35.10 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:42",
+      "question": "Gabriel conducted a blind taste test on some of his friends in order to determine if organic fruits tasted different than non-organic fruits. Each friend ate one type of fruit. What is the probability that a randomly selected friend tasted apples and preferred non-organic? Simplify any fractions.",
+      "true_answer": "0.45454545454545453",
+      "predicted_answer": "0.625",
+      "context": "|  | Organic | Non-organic |\n| --- | --- | --- |\n| Apples | 3 | 5 |\n| Peaches | 1 | 2 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:43",
+      "question": "Caleb has $127.92. How much money will Caleb have left if he buys a baseball ticket and a basketball ticket?",
+      "true_answer": "80.69",
+      "predicted_answer": "80",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| golf ticket | $59.92 |\n| football ticket | $95.00 |\n| baseball ticket | $10.57 |\n| basketball ticket | $36.66 |\n| soccer ticket | $73.21 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:43",
+      "question": "What is the total cost for 3 pounds of potatoes and 2 pounds of yams?",
+      "true_answer": "7",
+      "predicted_answer": "10",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| beets | $3/pound |\n| potatoes | $1/pound |\n| cucumbers | $2/pound |\n| yams | $2/pound |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:45",
+      "question": "Kelsey, a candy store employee, placed peppermint candies into jars of various sizes. How many jars had at least 25 peppermint candies?",
+      "true_answer": "15",
+      "predicted_answer": "8",
+      "context": "Peppermint candies per jar\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0, 0, 5, 7, 8, 8, 9 |\n| 3 | 7 |\n| 4 | 3, 6, 8 |\n| 5 | 0, 1, 3, 5, 5, 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:47",
+      "question": "Joy is a sandwich maker at a local deli. Last week, she tracked the number of peanut butter and jelly sandwiches ordered, noting the flavor of jelly and type of peanut butter requested. What is the probability that a randomly selected sandwich was made with grape jelly and chunky peanut butter? Simplify any fractions.",
+      "true_answer": "0.35",
+      "predicted_answer": "0.7",
+      "context": "|  | Creamy peanut butter | Chunky peanut butter |\n| --- | --- | --- |\n| Strawberry jelly | 7 | 3 |\n| Grape jelly | 3 | 7 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:48",
+      "question": "Addison purchased 3 kilograms of size 3 screws and 5 kilograms of size 5 screws. What was the total cost?",
+      "true_answer": "30.88",
+      "predicted_answer": "24.84",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| size 5 screws | $4.28/kilogram |\n| size 6 screws | $3.75/kilogram |\n| size 2 screws | $3.84/kilogram |\n| size 4 screws | $2.79/kilogram |\n| size 3 screws | $3.16/kilogram |\n| size 1 screws | $4.49/kilogram |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:51",
+      "question": "A grocery store monitored how many paper bags were used in the past 5 days. How many more paper bags did the grocery store use on Sunday than on Monday?",
+      "true_answer": "6445",
+      "predicted_answer": "6195",
+      "context": "Paper bags used\n\n| Day | Number of paper bags |\n| --- | --- |\n| Friday | 6,569 |\n| Saturday | 3,016 |\n| Sunday | 8,094 |\n| Monday | 1,649 |\n| Tuesday | 4,366 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:54",
+      "question": "The owner of a plant nursery wrote down the number of roses on each bush. How many bushes have at least 79 roses?",
+      "true_answer": "3",
+      "predicted_answer": "0",
+      "context": "Roses per bush\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 3, 7 |\n| 4 | 3, 3, 8 |\n| 5 | 6, 7, 8 |\n| 6 | 2, 5, 8 |\n| 7 | 1, 4, 4, 6 |\n| 8 | 2, 9 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:55",
+      "question": "For a math assignment, Christina researched the scores of the people competing on her favorite quiz show. How many people scored exactly 15 points?",
+      "true_answer": "4",
+      "predicted_answer": "0",
+      "context": "Quiz show scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 5, 5, 5, 5 |\n| 2 | 2, 3, 4, 4, 5, 9 |\n| 3 | 7 |\n| 4 | 7 |\n| 5 | 1, 3, 6, 6, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:57",
+      "question": "What is the total cost for 1 pound of licorice and 5 pounds of lemon sours?",
+      "true_answer": "14",
+      "predicted_answer": "22",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| chocolate-covered raisins | $2 per pound |\n| licorice | $4 per pound |\n| lemon sours | $2 per pound |\n| chocolates | $2 per pound |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:28:59",
+      "question": "Students at Fairfax High School were polled regarding their favorite drinks. What fraction of students preferred fruit punch? Simplify your answer.",
+      "true_answer": "0.43037974683544306",
+      "predicted_answer": "0.68",
+      "context": "Drink preferences\n\n| Drink | Number of students |\n| --- | --- |\n| Diet cola | 450 |\n| Fruit punch | 680 |\n| Lemon-lime soda | 130 |\n| Other | 320 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:00",
+      "question": "If Samuel buys 5 pounds of smoked bacon, 5 pounds of pepperoni, and 1 pound of salami, how much will he spend?",
+      "true_answer": "41",
+      "predicted_answer": "43",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| Canadian bacon | $6/lb |\n| pepperoni | $4/lb |\n| prosciutto | $4/lb |\n| salami | $6/lb |\n| smoked bacon | $3/lb |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:02",
+      "question": "Gordon has $167.97. How much money will Gordon have left if he buys a bearded dragon and a cockatoo?",
+      "true_answer": "88.92",
+      "predicted_answer": "84",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| hedgehog | $68.85 |\n| rabbit | $49.84 |\n| tarantula | $35.97 |\n| bearded dragon | $37.91 |\n| cockatoo | $41.14 |\n| scorpion | $20.72 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:04",
+      "question": "Shelby was a spectator at her town's air guitar competition. Contestants were allowed to play either the acoustic or electric air guitar, but not both. Shelby recorded which type of guitar each contestant played. She also counted the number of contestants wearing different kinds of pants, as there were some interesting stylistic choices. What is the probability that a randomly selected contestant was dressed in velvet and played an electric guitar? Simplify any fractions.",
+      "true_answer": "0.09090909090909091",
+      "predicted_answer": "0.2",
+      "context": "|  | Acoustic guitar | Electric guitar |\n| --- | --- | --- |\n| Leather | 2 | 4 |\n| Velvet | 4 | 1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:05",
+      "question": "How much money does Alvin need to buy a red ballpoint pen, a thin blue marker, and an orange marker?",
+      "true_answer": "0.19",
+      "predicted_answer": "0.20",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| purple colored pencil | $0.07 |\n| thin blue marker | $0.09 |\n| black pen | $0.01 |\n| red ballpoint pen | $0.08 |\n| pink eraser | $0.07 |\n| orange marker | $0.02 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:05",
+      "question": "Ivan went to the store and bought 1 pound of mayonnaise, 2 pounds of soy sauce, and 5 pounds of Dijon mustard. How much did he spend?",
+      "true_answer": "35.64",
+      "predicted_answer": "30.56",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| hot sauce | $5.40/lb |\n| mustard | $5.01/lb |\n| mayonnaise | $2.66/lb |\n| soy sauce | $3.44/lb |\n| ketchup | $3.77/lb |\n| Dijon mustard | $5.22/lb |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:06",
+      "question": "Erik has $7,616.00. How much money will Erik have left if he buys a parrot and a kinkajou?",
+      "true_answer": "4656",
+      "predicted_answer": "5",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| alpaca | $1,605.00 |\n| kinkajou | $1,837.00 |\n| python | $8,343.00 |\n| parrot | $1,123.00 |\n| macaw | $1,629.00 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:14",
+      "question": "How much money does Darnel need to buy a striped scarf and a pair of shorts?",
+      "true_answer": "16.38",
+      "predicted_answer": "16.86",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| red hat | $8.94 |\n| pair of tennis shoes | $6.12 |\n| pair of shorts | $8.93 |\n| pair of brown pants | $5.57 |\n| striped scarf | $7.45 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:16",
+      "question": "A real estate agent evaluated the number of houses sold this year in each town in Clinton County. What fraction of houses sold in Clinton County were in Hillsdale? Simplify your answer.",
+      "true_answer": "0.27627627627627627",
+      "predicted_answer": "0.23",
+      "context": "Number of houses sold\n\n| Town | Number of houses sold |\n| --- | --- |\n| Livingston | 900 |\n| Lexington | 730 |\n| Hillsdale | 920 |\n| Vindale | 170 |\n| Other | 610 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:18",
+      "question": "The train conductor made sure to count the number of passengers on each train. How many trains had at least 30 passengers?",
+      "true_answer": "14",
+      "predicted_answer": "6",
+      "context": "Passengers per train\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 5 |\n| 2 | 1 |\n| 3 | 7 |\n| 4 | 1, 2 |\n| 5 | 0, 1, 8 |\n| 6 | 5, 6, 8, 9 |\n| 7 | 2 |\n| 8 | 8, 9 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:19",
+      "question": "Jayla counted the number of pieces of pepperoni on each pizza she made. How many pizzas had fewer than 46 pieces of pepperoni?",
+      "true_answer": "14",
+      "predicted_answer": "10",
+      "context": "Pieces of pepperoni per pizza\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 2, 5, 6 |\n| 2 | 2, 5, 6, 8, 9 |\n| 3 | 1, 7, 9 |\n| 4 | 0, 3, 3 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:19",
+      "question": "Brett counted the number of pieces of pepperoni on each pizza he made. How many pizzas had at least 30 pieces of pepperoni but fewer than 50 pieces of pepperoni?",
+      "true_answer": "10",
+      "predicted_answer": "5",
+      "context": "Pieces of pepperoni per pizza\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 1, 2, 5, 5, 6, 6, 6, 7, 8, 9 |\n| 2 | 3, 3, 4, 5, 6 |\n| 3 | 3, 4, 4, 5, 8 |\n| 4 | 1, 3, 6, 7, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:23",
+      "question": "The Springdale Chamber of Commerce researched the number of employees working at local companies. How many companies have at least 10 employees but less than 30 employees?",
+      "true_answer": "14",
+      "predicted_answer": "9",
+      "context": "Company sizes (number of employees)\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 0, 8, 8, 9, 9 |\n| 2 | 1, 1, 3, 3, 8, 8, 8, 8, 9 |\n| 3 | 1, 5, 6 |\n| 4 | 1, 3, 4, 7, 9 |\n| 5 | 8, 8, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:28",
+      "question": "Eliana wanted to know if there was a connection between her coffee consumption and how well she slept that night. For weeks, Eliana recorded how many cups of coffee she drank in the morning and how many hours she slept that night. What is the probability that a randomly selected day is one when she slept exactly 7 hours and is one when she drank exactly 0 cups of coffee? Simplify any fractions.",
+      "true_answer": "0.2777777777777778",
+      "predicted_answer": "0.16666666666666666",
+      "context": "| Column 1 | Column 2 | Column 3 |\n| --- | --- | --- |\n|  | 0 cups of coffee | 1 cup of coffee |\n| 6 hours | 5 | 3 |\n| 7 hours | 5 | 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:34",
+      "question": "How much money does Carly need to buy 9 yellow bath towels and 8 fleece blankets?",
+      "true_answer": "120.7",
+      "predicted_answer": "80.52",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| fleece blanket | $5.75 |\n| flannel sheet | $8.63 |\n| yellow bath towel | $8.30 |\n| beach towel | $8.68 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:36",
+      "question": "The owner of an orchard kept records about how many apples were picked in the past 6 days. What is the mean of the numbers?",
+      "true_answer": "44",
+      "predicted_answer": "43",
+      "context": "Apples picked\n\n| Day | Number of apples |\n| --- | --- |\n| Tuesday | 50 |\n| Wednesday | 44 |\n| Thursday | 41 |\n| Friday | 45 |\n| Saturday | 44 |\n| Sunday | 40 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:39",
+      "question": "While hanging Christmas lights for neighbors, Kayla counted the number of broken lights on each string. What is the smallest number of broken lights?",
+      "true_answer": "24",
+      "predicted_answer": "2",
+      "context": "Broken lights per string\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 4 |\n| 3 | 4, 7 |\n| 4 | 5, 7, 9 |\n| 5 | 3, 5, 8, 8 |\n| 6 | 6 |\n| 7 | 0, 8, 9 |\n| 8 | 7, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:42",
+      "question": "For Earth Day, Fairfax High's environmental club tracked the number of seeds planted by its members. How many members planted fewer than 3 seeds?",
+      "true_answer": "19",
+      "predicted_answer": "18",
+      "context": "Planting seeds in the garden\n\n| Seeds planted | Frequency |\n| --- | --- |\n| 0 | 2 |\n| 1 | 3 |\n| 2 | 14 |\n| 3 | 13 |\n| 4 | 5 |\n| 5 | 19 |\n| 6 | 11 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:43",
+      "question": "Miss Pratt ran a sit-up competition among her P.E. students and monitored how many sit-ups each students could do. How many people did fewer than 90 sit-ups?",
+      "true_answer": "21",
+      "predicted_answer": "19",
+      "context": "Sit-up competition (number of sit-ups)\n\n| Stem | Leaf  |\n| --- | --- |\n| 6 | 0, 1, 1, 3, 3, 5, 5, 6, 6, 9, 9 |\n| 7 | 2, 4, 5, 8 |\n| 8 | 0, 1, 6, 6, 6, 9 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:44",
+      "question": "A candy dispenser put various numbers of orange candies into bags. How many bags had exactly 42 orange candies?",
+      "true_answer": "0",
+      "predicted_answer": "1",
+      "context": "Orange candies per bag\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 2, 5, 6, 7, 8 |\n| 2 | 0, 0, 6, 7, 9 |\n| 3 | 1, 4, 5, 9 |\n| 4 | 1, 5, 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:44",
+      "question": "A farmer counted the number of apples on each tree in her orchard. How many trees have fewer than 60 apples?",
+      "true_answer": "7",
+      "predicted_answer": "15",
+      "context": "Apples per tree\n\n| Stem | Leaf  |\n| --- | --- |\n| 4 | 0, 3, 4, 5, 9 |\n| 5 | 7, 8 |\n| 6 | 3, 3, 3, 4, 7, 7 |\n| 7 | 0, 2, 3, 8 |\n| 8 | 0, 0, 3 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:56",
+      "question": "How much money does Nathan need to buy 7 rakes and 3 hammers?",
+      "true_answer": "223",
+      "predicted_answer": "181",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| lawn mower | $52 |\n| hammer | $23 |\n| wrench | $11 |\n| measuring tape | $10 |\n| shovel | $13 |\n| rake | $22 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:29:59",
+      "question": "The staff of a game show tracked the performance of all the contestants during the past season. How many people scored fewer than 68 points?",
+      "true_answer": "22",
+      "predicted_answer": "14",
+      "context": "Game show scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 1, 9 |\n| 3 | 0, 2, 8, 8, 9 |\n| 4 | 1, 1, 1, 1, 4, 8, 9 |\n| 5 | 5, 7, 9, 9 |\n| 6 | 1, 2, 3, 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:30:03",
+      "question": "Some friends compared the sizes of their sticker collections. If you combine their sticker collections, how many stickers do Lisa and Sandeep have?",
+      "true_answer": "8322",
+      "predicted_answer": "8312",
+      "context": "Sticker collections\n\n| Name | Number of stickers |\n| --- | --- |\n| Lisa | 2,887 |\n| Wanda | 2,123 |\n| Sandeep | 5,435 |\n| Elizabeth | 2,105 |\n| Dakota | 2,387 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:30:05",
+      "question": "The students in Mr. West's class recorded the number of siblings that each has. How many students have at least 2 siblings?",
+      "true_answer": "41",
+      "predicted_answer": "22",
+      "context": "Siblings\n\n| Number of siblings | Frequency |\n| --- | --- |\n| 0 | 20 |\n| 1 | 12 |\n| 2 | 5 |\n| 3 | 17 |\n| 4 | 19 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:30:06",
+      "question": "A pet store owner had his staff count the number of fish in each tank. How many tanks have at least 50 fish?",
+      "true_answer": "7",
+      "predicted_answer": "0",
+      "context": "Fish per tank\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 3, 4, 5 |\n| 3 | 8 |\n| 4 | 1, 2, 3 |\n| 5 | 1, 2, 8, 8 |\n| 6 | 3, 6 |\n| 7 |  |\n| 8 | 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:30:07",
+      "question": "How much money does Desmond need to buy a centrifuge and an autoclave?",
+      "true_answer": "7859",
+      "predicted_answer": "7719",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| laboratory freezer | $5,738.00 |\n| centrifuge | $3,686.00 |\n| precision balance | $4,027.00 |\n| microscope | $5,339.00 |\n| autoclave | $4,173.00 |\n",
+      "correct": false
+    }
+  ]
+}

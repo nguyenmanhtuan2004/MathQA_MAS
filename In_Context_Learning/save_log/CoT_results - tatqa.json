@@ -1,0 +1,2881 @@
+{
+  "accuracy": 62.33333333333333,
+  "correct": 187,
+  "total": 300,
+  "wrong_answers": [
+    {
+      "timestamp": "2025-07-15 22:58:10",
+      "question": "What is the average revenues from operations in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the revenues for the years 2018 and 2019 from the table.",
+          "output": "2018: 14762, 2019: 23713"
+        },
+        {
+          "explanation": "Add the revenues from both years to find the total revenues.",
+          "output": "14762 + 23713 = 38475"
+        },
+        {
+          "explanation": "Divide the total revenues by the number of years (2) to find the average revenues.",
+          "output": "38475 / 2 = 19237.5"
+        }
+      ],
+      "true_answer": "19237.5",
+      "predicted_answer": "19237",
+      "context": "Results of Operations\n\n|  | Years Ended December 31 |  | Change |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | % |\n|  | (in thousands) |  |  |\n| Revenues | $23,713 | $14,762 | 60.6 |\n| Cost of goods sold | 24,574 | 11,780 | (108.6) |\n| Gross profit (loss) | (861) | 2,982 |  |\n| Gross profit % | -3.6% | 20.2% |  |\n| Selling, general and administrative expenses | 13,696 | 11,194 | (22.4) |\n| Loss from operations | (14,557) | (8,212) | (77.3) |\n| Other income (expense): | (96) | (12) |  |\n| Interest expense | 50 | - |  |\n| Other, net | 868 | 168 |  |\n| Total other (expense) income | 822 | 156 |  |\n| Loss before income taxes | $(13,735) | $(8,056) |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:13",
+      "question": "What is the percentage change in selling, general and administrative expenses from operations in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the selling, general and administrative expenses for 2018 and 2019.",
+          "output": "2018: 11,194; 2019: 13,696"
+        },
+        {
+          "explanation": "Calculate the change in expenses from 2018 to 2019.",
+          "output": "Change = 13,696 - 11,194 = 2,502"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (2,502 / 11,194) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 2,502 / 11,194 = 0.2234, then multiply by 100.",
+          "output": "Percentage Change = 22.34%"
+        }
+      ],
+      "true_answer": "22.35",
+      "predicted_answer": "22.4",
+      "context": "Results of Operations\n\n|  | Years Ended December 31 |  | Change |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | % |\n|  | (in thousands) |  |  |\n| Revenues | $23,713 | $14,762 | 60.6 |\n| Cost of goods sold | 24,574 | 11,780 | (108.6) |\n| Gross profit (loss) | (861) | 2,982 |  |\n| Gross profit % | -3.6% | 20.2% |  |\n| Selling, general and administrative expenses | 13,696 | 11,194 | (22.4) |\n| Loss from operations | (14,557) | (8,212) | (77.3) |\n| Other income (expense): | (96) | (12) |  |\n| Interest expense | 50 | - |  |\n| Other, net | 868 | 168 |  |\n| Total other (expense) income | 822 | 156 |  |\n| Loss before income taxes | $(13,735) | $(8,056) |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:39",
+      "question": "What is the percentage change in computers, software, furniture and fixtures between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the value of computers, software, furniture and fixtures for 2019 and 2018.",
+          "output": "2019: 1406, 2018: 1407"
+        },
+        {
+          "explanation": "Calculate the difference in value between 2019 and 2018.",
+          "output": "Difference = 1406 - 1407 = -1"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Old Value) * 100.",
+          "output": "Percentage Change = (-1 / 1407) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = -0.0711% (approximately)"
+        }
+      ],
+      "true_answer": "-0.07",
+      "predicted_answer": "-0",
+      "context": "| As of December 31, |  |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Computers, software, furniture and fixtures | $1,406 | $1,407 |\n| Equipment under capital lease  3,348 | 3,348 | 3,525 |\n| Less accumulated depreciation and amortization | (3,171) | (2,448) |\n| Property and equipment, net | $1,583 | $2,484 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:44",
+      "question": "What was the percentage change in TCE earnings in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify TCE earnings for 2019 and 2018 from the table.",
+          "output": "TCE earnings 2019 = 424.9, TCE earnings 2018 = 352.4."
+        },
+        {
+          "explanation": "Calculate the difference in TCE earnings between 2019 and 2018.",
+          "output": "Difference = 424.9 - 352.4 = 72.5."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / TCE earnings 2018) * 100.",
+          "output": "Percentage change = (72.5 / 352.4) * 100."
+        },
+        {
+          "explanation": "Perform the calculation for percentage change.",
+          "output": "Percentage change = 20.56."
+        }
+      ],
+      "true_answer": "20.57",
+      "predicted_answer": "20.56",
+      "context": "| USDm | 2019 | 2018 | 2017 |\n| --- | --- | --- | --- |\n| Reconciliation to revenue |  |  |  |\n| Revenue | 692.6 | 635.4 | 657.0 |\n| Port expenses, bunkers and commissions | -267.7 | -283.0 | -259.9 |\n| TCE earnings | 424.9 | 352.4 | 397.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:48",
+      "question": "What is the percentage change in net inventories from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net inventories for 2018 and 2019 from the table.",
+          "output": "Net inventories 2018 = 84299, Net inventories 2019 = 106794"
+        },
+        {
+          "explanation": "Calculate the difference in net inventories between 2019 and 2018.",
+          "output": "Difference = 106794 - 84299 = 22495"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "Percentage change = (22495 / 84299) * 100"
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "Percentage change = 0.2665 * 100 = 26.65"
+        }
+      ],
+      "true_answer": "26.84",
+      "predicted_answer": "27",
+      "context": "Inventories consist of the following (in thousands):\n\n|  |  | September 30, |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Finished products | $10,905 | $7,099 |\n| Work in process and inventoried costs under long-term contracts | 46,951 | 63,169 |\n| Materials and purchased parts | 48,938 | 23,710 |\n| Customer advances | — | (9,779) |\n| Net inventories | $  106,794 | $  84,199 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:55",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and vested RSUs?",
+      "steps": [
+        {
+          "explanation": "Identify the weighted-average grant date fair value for granted RSUs.",
+          "output": "45.55"
+        },
+        {
+          "explanation": "Identify the weighted-average grant date fair value for vested RSUs.",
+          "output": "47.86"
+        },
+        {
+          "explanation": "Calculate the difference between the vested and granted RSUs' fair values.",
+          "output": "-2.31"
+        }
+      ],
+      "true_answer": "2.31",
+      "predicted_answer": "-2.31",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:58:57",
+      "question": "What is the average Charter aircraft expense for fiscal years 2018 and 2017?",
+      "steps": [
+        {
+          "explanation": "Identify the Charter aircraft expense for 2018 and 2017 from the table.",
+          "output": "2018: 2167, 2017: 900"
+        },
+        {
+          "explanation": "Add the Charter aircraft expenses for both years together.",
+          "output": "2167 + 900 = 3067"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average.",
+          "output": "3067 / 2 = 1533.5"
+        }
+      ],
+      "true_answer": "1533.5",
+      "predicted_answer": "1534",
+      "context": "| Selling, General and Administrative Costs (in thousands) |  |  |  |\n| --- | --- | --- | --- |\n| Description | Twelve months ended October 31, 2018 | Twelve months ended October 31, 2017 | Increase/(Decrease)  |\n| Start-up expense (Tyler, Texas complex)  | $13,394 | $403 | $ 12,991 |\n| Legal services expense  | 17,573 | 7,879 | 9,694 |\n| All other SG&A  | 68,863 | 61,847 | 7,016 |\n| Administrative salary expense | 42,288 | 36,193 | 6,095 |\n| Trainee expense  | 21,553 | 16,182 | 5,371 |\n| Charter aircraft expense | 2,167 | 900 | 1,267 |\n| Depreciation expense - machinery and equipment  | 5,801 | 4,555 | 1,246 |\n| Stock compensation expense  | 15,702 | 16,952 | (1,250) |\n| Marketing expense | 32,624 | 34,272 | (1,648) |\n| Start-up expense (St. Pauls, North Carolina complex)  | — | 4,022 | (4,022) |\n| Bonus award program expense  | — | 15,098 | (15,098) |\n| Employee Stock Ownership Plan (\"ESOP\") expense | 2,000 | 18,000 | (16,000) |\n| Total SG&A  | $221,965 | $216,303 | $ 5,662 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:06",
+      "question": "What was the percentage change in Other (income) expense, net in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the values for Other (income) expense, net for 2019 and 2018.",
+          "output": "2019: 29.5, 2018: 1.4"
+        },
+        {
+          "explanation": "Calculate the change in value from 2018 to 2019.",
+          "output": "Change = 29.5 - 1.4 = 28.1"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (28.1 / 1.4) * 100"
+        },
+        {
+          "explanation": "Perform the division: 28.1 / 1.4 = 20.07142857.",
+          "output": "20.07142857"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 20.07142857 * 100 = 2007.142857.",
+          "output": "2007.142857"
+        },
+        {
+          "explanation": "Round to the nearest whole number for the final answer.",
+          "output": "2007"
+        }
+      ],
+      "true_answer": "2007.14",
+      "predicted_answer": "2007",
+      "context": "|  | 2019 | 2018 | 2018-2019 Change |\n| --- | --- | --- | --- |\n|  |  | (in millions) |  |\n| Interest income | $(24.8) | $(26.7) | $1.9 |\n| Interest expense | 23.1 | 31.3 | (8.2) |\n| Other (income) expense, net | 29.5 | 1.4 | 28.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:08",
+      "question": "What is the total Foreign exchange forward contracts sold for March 29, 2019 and March 30, 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the values for Foreign exchange forward contracts sold for both dates.",
+          "output": "March 29, 2019: 116 million, March 30, 2018: 151 million."
+        },
+        {
+          "explanation": "Add the values of Foreign exchange forward contracts sold for both dates.",
+          "output": "116 + 151 = 267."
+        }
+      ],
+      "true_answer": "273",
+      "predicted_answer": "267",
+      "context": "| (In millions) | March 29, 2019 | March 30, 2018 |\n| --- | --- | --- |\n| Net investment hedges |  |  |\n| Foreign exchange forward contracts sold | $116 | $— |\n| Balance sheet contracts |  |  |\n| Foreign exchange forward contracts purchased | $963 | $697 |\n| Foreign exchange forward contracts sold | $122 | $151 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:36",
+      "question": "What was the change in benefit obligations between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the benefit obligations for both years.",
+          "output": "Benefit obligations in 2018: (53) million, Benefit obligations in 2019: (61) million."
+        },
+        {
+          "explanation": "Calculate the change in benefit obligations by subtracting the 2018 value from the 2019 value.",
+          "output": "Change in benefit obligations = (61) - (53) = (8) million."
+        },
+        {
+          "explanation": "Since we are looking for the absolute change, we take the positive value of the change.",
+          "output": "Absolute change in benefit obligations = 8 million."
+        }
+      ],
+      "true_answer": "-8",
+      "predicted_answer": "8",
+      "context": "The funded status of our postretirement health care and other defined benefit plans, which is recognized in other long-term liabilities in our consolidated balance sheets, was as follows (in millions):\n\n|  | April 26, 2019 | April 27, 2018 |\n| --- | --- | --- |\n| Fair value of plan assets | $ 31 | $ 25 |\n| Benefit obligations | (61) | (53) |\n| Unfunded obligations | $(30) | $(28) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:41",
+      "question": "What was the percentage change in the amount of restricted cash between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the amount of restricted cash for both years.",
+          "output": "Restricted cash 2019: 736, Restricted cash 2018: 12892."
+        },
+        {
+          "explanation": "Calculate the change in restricted cash by subtracting the 2019 amount from the 2018 amount.",
+          "output": "Change = 736 - 12892 = -12156."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Amount) * 100.",
+          "output": "Percentage Change = (-12156 / 12892) * 100."
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "Percentage Change = -0.9434 * 100 = -94.34."
+        }
+      ],
+      "true_answer": "-94.29",
+      "predicted_answer": "-94",
+      "context": "|  | December 31, 2019 | December 31,2018 |\n| --- | --- | --- |\n| Cash on hand and at banks | $77,041 | $131,432 |\n| Short-term deposits and highly liquid funds | 950 | 6,450 |\n| Restricted cash | 736 | 12,892 |\n| Cash and cash equivalents and restricted cash | $78,727 | $150,774 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:45",
+      "question": "What was the change in non-cash impairment charges in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the non-cash impairment charges for the Americas 2018 Exit Plan.",
+          "output": "5,875"
+        },
+        {
+          "explanation": "Identify the non-cash impairment charges for the Americas 2019 Exit Plan.",
+          "output": "1,582"
+        },
+        {
+          "explanation": "Calculate the change in non-cash impairment charges from 2018 to 2019 by subtracting the 2019 charges from the 2018 charges.",
+          "output": "5,875 - 1,582"
+        },
+        {
+          "explanation": "Perform the subtraction to find the change in non-cash impairment charges.",
+          "output": "4,293"
+        }
+      ],
+      "true_answer": "-4293",
+      "predicted_answer": "4293",
+      "context": "The cumulative costs incurred to date related to cash and non-cash expenditures resulting from the Americas 2018 and 2019 Exit Plans are outlined below as of December 31, 2019 (in thousands):\n\n|  | Americas 2018 Exit Plan | Americas 2019 Exit Plan |\n| --- | --- | --- |\n| Lease obligations and facility exit costs (1) | $7,073 | $— |\n| Severance and related costs (2) | 3,426 | 191 |\n| Severance and related costs (1) | 1,037 | 2,155 |\n| Non-cash impairment charges | 5,875 | 1,582 |\n| Other non-cash charges | — | 244 |\n|  | $17,411 | $4,172 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:51",
+      "question": "What is the percentage constitution of the commitments for operating leases for year ending 2020 among the total commitments for operating leases?",
+      "steps": [
+        {
+          "explanation": "Identify the operating leases for the year ending 2020.",
+          "output": "38790"
+        },
+        {
+          "explanation": "Identify the total commitments for operating leases.",
+          "output": "330848"
+        },
+        {
+          "explanation": "Calculate the percentage of operating leases for the year ending 2020 among the total commitments for operating leases using the formula: (Operating Leases for 2020 / Total Operating Leases) * 100.",
+          "output": "(38790 / 330848) * 100"
+        },
+        {
+          "explanation": "Perform the division: 38790 / 330848.",
+          "output": "0.117"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage.",
+          "output": "11.7"
+        }
+      ],
+      "true_answer": "11.72",
+      "predicted_answer": "11.7",
+      "context": "|  | Operating Leases | Other Contractual Commitments | Total |\n| --- | --- | --- | --- |\n|  |  | (U.S. $ in thousands) |  |\n| Fiscal Period: |  |  |  |\n| Year ending 2020 | $38,790 | $108,978 | $147,768 |\n| Years ending 2021 - 2024 | 148,021 | 219,342 | 367,363 |\n| Thereafter | 144,037 | — | 144,037 |\n| Total commitments | $330,848 | $328,320 | 659,168 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 22:59:57",
+      "question": "What is the percentage of deferred tax assets in foreign items to valuation allowance in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the deferred tax assets in foreign items for 2019.",
+          "output": "183.4"
+        },
+        {
+          "explanation": "Identify the valuation allowance for 2019.",
+          "output": "197.6"
+        },
+        {
+          "explanation": "Calculate the percentage of deferred tax assets in foreign items to valuation allowance using the formula: (foreign items / valuation allowance) * 100.",
+          "output": "(183.4 / 197.6) * 100"
+        },
+        {
+          "explanation": "Perform the division: 183.4 / 197.6 = 0.9277.",
+          "output": "0.9277"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.9277 * 100 = 92.77.",
+          "output": "92.77"
+        }
+      ],
+      "true_answer": "92.81",
+      "predicted_answer": "92.77",
+      "context": "A valuation allowance has been provided based on the uncertainty of utilizing the tax benefits, mainly related to the following deferred tax assets: • $183.4 million of foreign items, primarily net operating losses; and • $7.7 million of state tax credits.\n\n|  | December 31, |  |\n| --- | --- | --- |\n| (In millions) | 2019 | 2018 |\n| Accruals not yet deductible for tax purposes | $ 17.4 | $ 17.5 |\n| Net operating loss carryforwards | 245.9 | 265.5 |\n| Foreign, federal and state credits | 8.4 | 10.4 |\n| Employee benefit items | 79.5 | 77.0 |\n| Capitalized expenses | 32.2 | 8.9 |\n| Intangibles | 21.8 | — |\n| Derivatives and other | 47.7 | 38.0 |\n| Sub-total deferred tax assets | 452.9 | 417.3 |\n| Valuation allowance | (197.6) | (218.4) |\n| Total deferred tax assets | $ 255.3 | $ 198.9 |\n| Depreciation and amortization | $ (37.0) | $ (26.8) |\n| Unremitted foreign earnings | (10.0) | — |\n| Intangible assets | — | (21.7) |\n| Other | (0.4) | (0.4) |\n| Total deferred tax liabilities | (47.4) | (48.9) |\n| Net deferred tax assets | $ 207.9 | $ 150.0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:00",
+      "question": "What is the percentage change in stock based compensation on sales and marketing between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the stock-based compensation for sales and marketing for 2018 and 2019.",
+          "output": "2018: 5667, 2019: 5765"
+        },
+        {
+          "explanation": "Calculate the difference in stock-based compensation for sales and marketing between 2019 and 2018.",
+          "output": "5765 - 5667 = 98"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (New Value - Old Value) / Old Value * 100.",
+          "output": "(98 / 5667) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 98 / 5667 = 0.0173, then multiply by 100 to convert to percentage.",
+          "output": "0.0173 * 100 = 1.73"
+        },
+        {
+          "explanation": "Round the percentage to two decimal places.",
+          "output": "1.73"
+        }
+      ],
+      "true_answer": "1.73",
+      "predicted_answer": "2",
+      "context": "|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Stock-based compensation by type of award: |  |  |  |\n| Stock options | $648 | $1,353 | $2,705 |\n| Stock awards | 14,882 | 10,445 | 11,421 |\n| Employee stock purchase rights(1) | 999 | 5,240 | 3,077 |\n| Total | $16,529 | $17,038 | $17,203 |\n| Stock-based compensation by category of expense: |  |  |  |\n| Cost of revenue | $1,500 | $1,602 | $1,362 |\n| Sales and marketing | 5,765 | 5,667 | 6,075 |\n| Research and development | 6,039 | 6,631 | 6,343 |\n| General and administrative | 3,225 | 3,138 | 3,423 |\n| Total | $16,529 | $17,038 | $17,203 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:04",
+      "question": "What is the percentage change in net deferred tax assets from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net deferred tax asset for 2018 and 2019.",
+          "output": "2018: 7194, 2019: 11041"
+        },
+        {
+          "explanation": "Calculate the change in net deferred tax assets by subtracting the 2018 value from the 2019 value.",
+          "output": "11041 - 7194 = 3857"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "(3857 / 7194) * 100"
+        },
+        {
+          "explanation": "Perform the division: 3857 / 7194 = 0.5365.",
+          "output": "0.5365"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.5365 * 100 = 53.65.",
+          "output": "53.65"
+        }
+      ],
+      "true_answer": "53.48",
+      "predicted_answer": "54",
+      "context": "|  | 2019 | 2018 |\n| --- | --- | --- |\n| Deferred tax assets: |  |  |\n| Stock-based compensation | $2,646 | $3,067 |\n| Net operating loss carryforwards | 9,419 | 8,568 |\n| Research credit carryforwards | 5,570 | 3,890 |\n| Intangibles | 58 | — |\n| Other, net | 90 | 354 |\n| Total deferred assets | 17,783 | 15,879 |\n| Deferred tax liabilities: |  |  |\n| Intangibles | — | (181) |\n| Foreign deferred liabilities | (5,811) | (8,032) |\n| Net deferred tax asset | 11,972 | 7,666 |\n| Valuation allowance for net deferred tax assets | (931) | (472) |\n| Net deferred tax asset | $11,041 | $7,194 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:07",
+      "question": "What is the percentage change in total other current assets in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the total other current assets for 2019 and 2018.",
+          "output": "Total other current assets 2019 = 808, Total other current assets 2018 = 918."
+        },
+        {
+          "explanation": "Calculate the difference in total other current assets between 2019 and 2018.",
+          "output": "Difference = 808 - 918 = -110."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Old Value) * 100.",
+          "output": "Percentage change = (-110 / 918) * 100."
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage change = -11.97."
+        }
+      ],
+      "true_answer": "-11.98",
+      "predicted_answer": "-12",
+      "context": "|  | As of December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n|  | (Dollars in millions) |  |\n| Prepaid expenses | $274 | 307 |\n| Income tax receivable | 35 | 82 |\n| Materials, supplies and inventory | 105 | 120 |\n| Contract assets | 42 | 52 |\n| Contract acquisition costs | 178 | 167 |\n| Contract fulfillment costs | 115 | 82 |\n| Other | 59 | 108 |\n| Total other current assets | $808 | 918 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:10",
+      "question": "What is the average Income tax expense for the period December 31, 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the income tax expenses for the periods December 31, 2019 and December 31, 2018.",
+          "output": "Income tax expense for December 31, 2019 = -62 million, Income tax expense for December 31, 2018 = -28 million."
+        },
+        {
+          "explanation": "Calculate the total income tax expense for the two periods.",
+          "output": "Total income tax expense = -62 + (-28) = -90 million."
+        },
+        {
+          "explanation": "Calculate the average income tax expense by dividing the total by the number of periods (2).",
+          "output": "Average income tax expense = -90 / 2 = -45 million."
+        }
+      ],
+      "true_answer": "45",
+      "predicted_answer": "-45",
+      "context": "|  |  | Three Months Ended |  |\n| --- | --- | --- | --- |\n|  | December 31, 2019 | September 29, 2019 | December 31, 2018 |\n|  |  | (Unaudited, in millions) |  |\n| Income tax expense | $(62) | $(28) | $(28) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:26",
+      "question": "What was the total cost for 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the costs for each category at 30 June 2019.",
+          "output": "Cost of Rights and licenses = 13"
+        },
+        {
+          "explanation": "Identify the costs for each category at 30 June 2019.",
+          "output": "Cost of Internally generated software = 12,961"
+        },
+        {
+          "explanation": "Identify the costs for each category at 30 June 2019.",
+          "output": "Cost of Software under development = 16,284"
+        },
+        {
+          "explanation": "Calculate the total cost by summing the costs of all categories.",
+          "output": "Total Cost = 13 + 12,961 + 16,284"
+        },
+        {
+          "explanation": "Perform the addition: 13 + 12,961 + 16,284 = 29,258.",
+          "output": "Total Cost = 29,258"
+        }
+      ],
+      "true_answer": "29259",
+      "predicted_answer": "29258",
+      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:30",
+      "question": "What is the 2017 deferred tax on overseas earnings, excluding the 95€m charge relating to the combination of Vodafone India with Idea Cellular?",
+      "steps": [
+        {
+          "explanation": "Identify the deferred tax on overseas earnings for 2017 from the provided data.",
+          "output": "26"
+        },
+        {
+          "explanation": "The charge relating to the combination of Vodafone India with Idea Cellular is €95 million, which needs to be excluded from the deferred tax on overseas earnings.",
+          "output": "95"
+        },
+        {
+          "explanation": "Since the question asks for the deferred tax on overseas earnings excluding the €95 million charge, we only consider the deferred tax on overseas earnings for 2017.",
+          "output": "26"
+        },
+        {
+          "explanation": "The final answer is simply the deferred tax on overseas earnings for 2017, as the charge does not apply to this specific item.",
+          "output": "26"
+        }
+      ],
+      "true_answer": "-69",
+      "predicted_answer": "26",
+      "context": "3 Includes a €42 million credit (2018: €15 million charge, 2017 €95 million charge) relating to the combination of Vodafone India with Idea Cellular\n\n|  | 2019 €m | 2018 €m | 2017 €m |\n| --- | --- | --- | --- |\n| Continuing (loss)/profit before tax as shown in the consolidated income statement | (2,613) | 3,878 | 2,792 |\n| Aggregated expected income tax (credit)/expense | (457) | 985 | 795 |\n| Impairment losses with no tax effect | 807 | – | – |\n| Disposal of Group investments | – | 55 | (271) |\n| Effect of taxation of associates and joint ventures, reported within profit before tax | 262 | 90 | 23 |\n| (Recognition)/derecognition of deferred tax assets for losses in Luxembourg and Spain1 | 1,186 | (1,583) | 1,603 |\n| Deferred tax following revaluation of investments in Luxembourg1 | (488) | (330) | (329) |\n| Previously unrecognised temporary differences we expect to use in the future | – | – | (15) |\n| Previously unrecognised temporary differences utilised in the year | – | (29) | (11) |\n| Current year temporary differences (including losses) that we currently do not expect to use | 78 | 20 | 139 |\n| Adjustments in respect of prior year tax liabilities2 | (94) | (244) | (107) |\n| Revaluation of assets for tax purposes | – | – | (39) |\n| Impact of tax credits and irrecoverable taxes | 79 | 93 | 98 |\n| Deferred tax on overseas earnings3 | (39) | 24 | 26 |\n| Effect of current year changes in statutory tax rates on deferred tax balances | (2) | (44) | 2,755 |\n| Financing costs not deductible for tax purposes | 67 | 23 | 25 |\n| Expenses not deductible (income not taxable) for tax purposes | 97 | 61 | 72 |\n| Income tax expense/(credit) | 1,496 | (879) | 4,764 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:43",
+      "question": "What is the average net revenues from Microcontrollers and Digital ICs Group (MDG) for the period December 31, 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net revenues for MDG for December 31, 2019 and December 31, 2018.",
+          "output": "742, 689"
+        },
+        {
+          "explanation": "Add the net revenues for both years: 742 + 689.",
+          "output": "1431"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average: 1431 / 2.",
+          "output": "715.5"
+        }
+      ],
+      "true_answer": "715.5",
+      "predicted_answer": "715",
+      "context": "|  |  | Three Months Ended |  | % Variation |  |\n| --- | --- | --- | --- | --- | --- |\n|  | December 31, 2019 | September 29, 2019 | December 31, 2018 | Sequential | Year-Over-Year |\n|  |  |  | (Unaudited, in millions) |  |  |\n| Automotive and Discrete Group (ADG) | $924 | $894 | $967 | 3.3% | (4.5)% |\n| Analog, MEMS and Sensors Group (AMS) | 1,085 | 968 | 988 | 12.1 | 9.9 |\n| Microcontrollers and Digital ICs Group (MDG) | 742 | 688 | 689 | 7.9 | 7.6 |\n| Others | 3 | 3 | 4 | — | — |\n| Total consolidated net revenues | $2,754 | $2,553 | $2,648 | 7.9% | 4.0% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:46",
+      "question": "What was the percentage change in franking credits between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the franking credits for 2018 and 2019 from the table.",
+          "output": "2018: 3125, 2019: 1586"
+        },
+        {
+          "explanation": "Calculate the difference in franking credits between 2019 and 2018.",
+          "output": "Difference = 1586 - 3125 = -1539"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "Percentage Change = (-1539 / 3125) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = -49.152%"
+        },
+        {
+          "explanation": "Round the percentage change to the nearest whole number.",
+          "output": "-49%"
+        }
+      ],
+      "true_answer": "-49.25",
+      "predicted_answer": "-49",
+      "context": "|  | 2019 | 2018 |\n| --- | --- | --- |\n|  | $’000 | $’000 |\n| Dividends paid during the year (net of dividend re-investment) |  |  |\n| 4 cent per share final dividend paid 27 September 2018 – fully franked1 | 7,319 |  |\n| 3 cent per share final dividend paid 30 September 2017 – fully franked |  | 5,175 |\n| 3 cent per share interim dividend paid 29 March 2019 – fully franked | 5,318 |  |\n| 3 cent per share interim dividend paid 29 March 2018 – fully franked |  | 5,217 |\n|  | 12,637 | 10,392 |\n| Proposed dividend not recognised at the end of the year | 5,922 | 7,865 |\n| Dividends franking account |  |  |\n| 30% franking credits, on a tax paid basis, are available to shareholders of Hansen Technologies Ltd for subsequent financial years | 1,586 | 3,125 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:00:59",
+      "question": "What was the change in pension expenses in FY2019 from FY2018?",
+      "steps": [
+        {
+          "explanation": "Identify the pension expenses for FY2018 and FY2019 from the table.",
+          "output": "Pension expenses FY2018 = 36, Pension expenses FY2019 = 31"
+        },
+        {
+          "explanation": "Calculate the change in pension expenses by subtracting FY2019 expenses from FY2018 expenses.",
+          "output": "Change = 36 - 31"
+        },
+        {
+          "explanation": "Perform the subtraction to find the numerical change.",
+          "output": "Change = 5"
+        }
+      ],
+      "true_answer": "-5",
+      "predicted_answer": "5",
+      "context": "| € million | 2017/2018 | 2018/2019 |\n| --- | --- | --- |\n| Current service cost1 | 24 | 21 |\n| Net interest expenses2 | 11 | 9 |\n| Past service cost (incl. curtailments and changes) | 0 | 0 |\n| Settlements | 0 | 0 |\n| Other pension expenses | 1 | 1 |\n| Pension expenses | 36 | 31 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:05",
+      "question": "What is the change in the number of unvested RSUs between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the number of unvested RSUs at the end of 2018.",
+          "output": "10623"
+        },
+        {
+          "explanation": "Identify the number of unvested RSUs at the end of 2019.",
+          "output": "9328"
+        },
+        {
+          "explanation": "Calculate the change in unvested RSUs by subtracting the 2019 value from the 2018 value.",
+          "output": "1325"
+        }
+      ],
+      "true_answer": "-1295",
+      "predicted_answer": "1325",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:07",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and forfeited RSUs?",
+      "steps": [
+        {
+          "explanation": "Identify the weighted-average grant date fair value for granted RSUs.",
+          "output": "45.55"
+        },
+        {
+          "explanation": "Identify the weighted-average grant date fair value for forfeited RSUs.",
+          "output": "54.61"
+        },
+        {
+          "explanation": "Calculate the difference between the weighted-average grant date fair value of granted and forfeited RSUs.",
+          "output": "45.55 - 54.61"
+        }
+      ],
+      "true_answer": "9.06",
+      "predicted_answer": "-9.06",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:10",
+      "question": "What was the percentage change in pension expenses in FY2019 from FY2018?",
+      "steps": [
+        {
+          "explanation": "Identify the pension expenses for FY2018 and FY2019 from the table.",
+          "output": "FY2018: 36, FY2019: 31"
+        },
+        {
+          "explanation": "Calculate the difference in pension expenses between FY2018 and FY2019.",
+          "output": "36 - 31 = 5"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original) * 100.",
+          "output": "(5 / 36) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage value.",
+          "output": "13.88888888888889"
+        },
+        {
+          "explanation": "Round the percentage to two decimal places for clarity.",
+          "output": "13.89"
+        }
+      ],
+      "true_answer": "-13.89",
+      "predicted_answer": "13.89",
+      "context": "| € million | 2017/2018 | 2018/2019 |\n| --- | --- | --- |\n| Current service cost1 | 24 | 21 |\n| Net interest expenses2 | 11 | 9 |\n| Past service cost (incl. curtailments and changes) | 0 | 0 |\n| Settlements | 0 | 0 |\n| Other pension expenses | 1 | 1 |\n| Pension expenses | 36 | 31 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:12",
+      "question": "What is the change in future minimum commitments of Operating Leases from 2020 to 2021?",
+      "steps": [
+        {
+          "explanation": "Identify the future minimum commitments for Operating Leases in 2020 and 2021.",
+          "output": "2020: $92,404, 2021: $91,164"
+        },
+        {
+          "explanation": "Calculate the change in future minimum commitments by subtracting the 2021 amount from the 2020 amount.",
+          "output": "$92,404 - $91,164"
+        },
+        {
+          "explanation": "Perform the subtraction to find the change.",
+          "output": "$1,240"
+        }
+      ],
+      "true_answer": "-1240",
+      "predicted_answer": "1240",
+      "context": "The future minimum commitments under these leases are as follows:\n\n| At December 31, 2019 | Operating Leases | Finance Lease |\n| --- | --- | --- |\n| 2020 | $92,404 | $4,172 |\n| 2021 | 91,164 | 4,161 |\n| 2022 | 107,654 | 4,161 |\n| 2023 | 43,015 | 4,161 |\n| 2024 | 9,168 | 4,172 |\n| Thereafter | 4,534 | 17,180 |\n| Net minimum lease payments | 347,939 | 38,007 |\n| Less: present value discount | 40,891 | 10,448 |\n| Total lease liabilities | $307,048 | $27,559 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:17",
+      "question": "What is the average Recorded investment of Loan receivables for Americas and EMEA for December 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Recorded investment of Loan receivables for Americas and EMEA.",
+          "output": "6,726 (Americas) + 3,901 (EMEA) = 10,627"
+        },
+        {
+          "explanation": "Calculate the total number of regions considered (2 regions: Americas and EMEA).",
+          "output": "2"
+        },
+        {
+          "explanation": "Calculate the average Recorded investment of Loan receivables by dividing the total by the number of regions.",
+          "output": "10,627 / 2 = 5,313.5"
+        }
+      ],
+      "true_answer": "5313.5",
+      "predicted_answer": "5313",
+      "context": "| ($ in millions) |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| At December 31, 2019: | Americas | EMEA | Asia Pacific | Total |\n| Recorded investment: |  |  |  |  |\n| Lease receivables | $ 3,419 | $1,186 | $  963 | $ 5,567 |\n| Loan receivables | 6,726 | 3,901 | 2,395 | 13,022 |\n| Ending balance | $10,144 | $5,087 | $3,359 | $18,590 |\n| Recorded investment, collectively evaluated for impairment | $10,032 | $5,040 | $3,326 | $18,399 |\n| Recorded investment, individually evaluated for impairment | $   112 | $   47 | $   32 | $   191 |\n| Allowance for credit losses |  |  |  |  |\n| Beginning balance at January 1, 2019 |  |  |  |  |\n| Lease receivables | $    53 | $   22 | $   24 | $     99 |\n| Loan receivables | 105 | 43 | 32 | 179 |\n| Total | $   158 | $   65 | $   56 | $   279 |\n| Write-offs | (42) | (3) | (18) | (63) |\n| Recoveries | 1 | 0 | 1 | 2 |\n| Provision | 5 | (7) | (3) | (5) |\n| Other* | (1) | 0 | (1) | (2) |\n| Ending balance at December 31, 2019 | $   120 | $   54 | $   36 | $   210 |\n| Lease receivables | $    33 | $   23 | $   16 | $    72 |\n| Loan receivables | $    88 | $   31 | $   20 | $   138 |\n| Related allowance, collectively evaluated for impairment | $    25 | $   11 | $    4 | $    39 |\n| Related allowance, individually evaluated for impairment | $    96 | $   43 | $   32 | $   171 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:20",
+      "question": "What is the percentage change in the cash receipts from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the cash receipts for 2018 and 2019 from the table.",
+          "output": "2018: (23,651), 2019: (23,574)"
+        },
+        {
+          "explanation": "Calculate the difference in cash receipts between 2019 and 2018.",
+          "output": "Difference = 23,651 - 23,574 = 77"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "Percentage Change = (77 / 23,651) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = 0.325%"
+        }
+      ],
+      "true_answer": "-0.33",
+      "predicted_answer": "0",
+      "context": "|  | CONSOLIDATED |  |\n| --- | --- | --- |\n|  | 2019 $’000 | 2018 $’000 |\n| Current | 25,626 | 22,103 |\n| Non-current | 88,452 | 80,817 |\n| Total trail commission asset | 114,078 | 102,920 |\n| Reconciliation of movement in trail commission asset: |  |  |\n| Opening balance | 102,920 | 93,564 |\n| Trail commission revenue – current period trail commission sales sales | 34,732 | 33,007 |\n| Cash receipts | (23,574) | (23,651) |\n| Closing balance | 114,078 | 102,920 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:23",
+      "question": "What is the number of unvested Restricted Stock Units as a percentage of the total Weighted-average common shares, diluted in 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the number of unvested Restricted Stock Units for 2018, which is 215,196.",
+          "output": "215196"
+        },
+        {
+          "explanation": "Identify the total Weighted-average common shares, diluted for 2018, which is 28,416,512.",
+          "output": "28416512"
+        },
+        {
+          "explanation": "Calculate the percentage of unvested Restricted Stock Units relative to the total Weighted-average common shares, diluted using the formula: (unvested RSUs / total diluted shares) * 100.",
+          "output": "0.758"
+        }
+      ],
+      "true_answer": "0.76",
+      "predicted_answer": "1",
+      "context": "* For the twelve months ended December 31, 2018, the diluted earnings per common share included the weighted average effect of 215,196 unvested Restricted Stock Units and 716,661 stock options that are potentially dilutive to earnings per share since the exercise price of such securities was less than the average market price during the period. For the twelve months ended December 31, 2017, the diluted earnings per common share included 438,712 unvested Restricted Stock Units and the weighted average effect of 477,048 stock options that are potentially dilutive to earnings per share since the exercise price of such securities was less than the average market price during the period.\n\n|  |  | Years Ended |  |\n| --- | --- | --- | --- |\n|  |  | December 31, |  |\n|  | 2019 | 2018 | 2017 |\n|  |  | (In thousands, except share and per share data) |  |\n| Numerator: |  |  |  |\n| Net income (loss) attributable to common stockholders | $(16,490) | $19,813 | $17,929 |\n| Denominator: |  |  |  |\n| Weighted-average common shares, basic | 27,618,284 | 27,484,655 | 25,353,966 |\n| Weighted-average common shares, diluted* | 27,618,284 | 28,416,512 | 26,269,727 |\n| Net income (loss) per common share: |  |  |  |\n| Basic: | $(0.60) | $0.72 | $0.71 |\n| Diluted: | $(0.60) | $0.70 | $0.68 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:25",
+      "question": "What was the average Cloud & Cognitive Software external revenue in 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Calculate the total Cloud & Cognitive Software external revenue for 2019 and 2018.",
+          "output": "23,200 + 22,209 = 45,409"
+        },
+        {
+          "explanation": "Divide the total revenue by the number of years (2) to find the average.",
+          "output": "45,409 / 2 = 22,704.5"
+        }
+      ],
+      "true_answer": "22704.5",
+      "predicted_answer": "22704",
+      "context": "| ($ in millions) |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| For the year ended December 31: | 2019 | 2018 | Yr.-to-Yr. Percent Change ** | Yr.-to-Yr. Percent Change Adjusted for Currency ** |\n| Cloud & Cognitive Software external revenue | $23,200 | $22,209 | 4.5% | 6.2% |\n| Cognitive Applications | $ 5,765 | $ 5,633 | 2.3% | 3.9% |\n| Cloud & Data Platforms | 9,499 | 8,603 | 10.4 | 12.3 |\n| Transaction Processing Platforms | 7,936 | 7,974 | (0.5) | 1.4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:28",
+      "question": "What was the change in Foreign in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the Foreign income for 2019 and 2018 from the table.",
+          "output": "Foreign 2019 = 11.8, Foreign 2018 = 19.9"
+        },
+        {
+          "explanation": "Calculate the change in Foreign income by subtracting the 2018 value from the 2019 value.",
+          "output": "Change = Foreign 2019 - Foreign 2018 = 11.8 - 19.9"
+        },
+        {
+          "explanation": "Perform the subtraction to find the change.",
+          "output": "Change = -8.1"
+        }
+      ],
+      "true_answer": "-8.1",
+      "predicted_answer": "-8",
+      "context": "|  |  | Years Ended June 30, |  |\n| --- | --- | --- | --- |\n| ($ in millions) | 2019 | 2018 | 2017 |\n| Domestic | $204.2 | $140.3 | $56.0 |\n| Foreign | 11.8 | 19.9 | 14.2 |\n| Income before income taxes | $216.0 | $160.2 | $70.2 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:41",
+      "question": "What was the percentage change in non-cash impairment charges in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the non-cash impairment charges for 2018 and 2019.",
+          "output": "2018: 5875, 2019: 1582"
+        },
+        {
+          "explanation": "Calculate the difference in non-cash impairment charges between 2018 and 2019.",
+          "output": "Difference = 5875 - 1582 = 4293"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "Percentage Change = (4293 / 5875) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 4293 / 5875 = 0.7305, then multiply by 100.",
+          "output": "Percentage Change = 0.7305 * 100 = 73.05"
+        },
+        {
+          "explanation": "Round the percentage change to two decimal places.",
+          "output": "Percentage Change = 73.05"
+        }
+      ],
+      "true_answer": "-73.07",
+      "predicted_answer": "73",
+      "context": "|  | Americas 2018 Exit Plan | Americas 2019 Exit Plan |\n| --- | --- | --- |\n| Lease obligations and facility exit costs (1) | $7,073 | $— |\n| Severance and related costs (2) | 3,426 | 191 |\n| Severance and related costs (1) | 1,037 | 2,155 |\n| Non-cash impairment charges | 5,875 | 1,582 |\n| Other non-cash charges | — | 244 |\n|  | $17,411 | $4,172 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:46",
+      "question": "What is the average value of finished goods in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the finished goods values for 2018 and 2019 from the table.",
+          "output": "2018: 853, 2019: 698"
+        },
+        {
+          "explanation": "Add the finished goods values for both years.",
+          "output": "853 + 698 = 1551"
+        },
+        {
+          "explanation": "Divide the total by the number of years (2) to find the average.",
+          "output": "1551 / 2 = 775.5"
+        }
+      ],
+      "true_answer": "775.5",
+      "predicted_answer": "775",
+      "context": "The following table details the components of inventories (in thousands).\n\n|  | December 31 |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Finished goods | $698 | $853 |\n| Raw materials | 90 | 3 |\n| Packaging | 110 | 102 |\n| Inventories | $ 898 | $ 958 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:01:49",
+      "question": "What is the increase/ (decrease) in Net investing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net investing cash flows for the years 2019 and 2018.",
+          "output": "Net investing cash flows 2019 = -50,391, Net investing cash flows 2018 = -663,456."
+        },
+        {
+          "explanation": "Calculate the change in net investing cash flows by subtracting the 2018 value from the 2019 value.",
+          "output": "Change = Net investing cash flows 2019 - Net investing cash flows 2018 = (-50,391) - (-663,456)."
+        },
+        {
+          "explanation": "Simplify the calculation: -50,391 + 663,456 = 613,065.",
+          "output": "Change in net investing cash flows = 613,065."
+        }
+      ],
+      "true_answer": "-613065",
+      "predicted_answer": "613065",
+      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:02:11",
+      "question": "What was the change in Accrued compensation and employee benefits between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the accrued compensation and employee benefits for August 31, 2019.",
+          "output": "600907"
+        },
+        {
+          "explanation": "Identify the accrued compensation and employee benefits for August 31, 2018.",
+          "output": "570400"
+        },
+        {
+          "explanation": "Calculate the change by subtracting the 2018 value from the 2019 value.",
+          "output": "600907 - 570400"
+        },
+        {
+          "explanation": "Perform the subtraction to find the change.",
+          "output": "30407"
+        }
+      ],
+      "true_answer": "30507",
+      "predicted_answer": "30407",
+      "context": "Accrued expenses consist of the following (in thousands):\n\n|  | August 31, 2019 | August 31, 2018 |\n| --- | --- | --- |\n| Contract liabilities | $511,329 | $— |\n| Deferred income | — | 691,365 |\n| Accrued compensation and employee benefits | 600,907 | 570,400 |\n| Obligation associated with securitization programs | 475,251 | — |\n| Other accrued expenses | 1,402,657 | 1,000,979 |\n| Accrued expenses | $2,990,144 | $2,262,744 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:02:24",
+      "question": "What was the percentage change in cost of revenue from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the cost of revenue for 2018 and 2019.",
+          "output": "Cost of revenue 2018 = 2435, Cost of revenue 2019 = 2843"
+        },
+        {
+          "explanation": "Calculate the difference in cost of revenue between 2019 and 2018.",
+          "output": "Difference = 2843 - 2435 = 408"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Cost of revenue 2018) * 100.",
+          "output": "Percentage change = (408 / 2435) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage change = 16.75"
+        }
+      ],
+      "true_answer": "16.76",
+      "predicted_answer": "16.75",
+      "context": "|  |  | Year Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n|  |  | (In thousands) |  |\n| Cost of revenue | $2,843 | $2,435 | $1,406 |\n| Research and development | 6,532 | 4,283 | 2,968 |\n| Sales and marketing | 9,069 | 8,267 | 5,481 |\n| General and administrative | 10,693 | 11,476 | 9,114 |\n| Total | $29,137 | $26,461 | $18,969 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:02:40",
+      "question": "What is the percentage change in the net value of property and equipment between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net value of property and equipment for 2018 and 2019.",
+          "output": "2018: 2484, 2019: 1583"
+        },
+        {
+          "explanation": "Calculate the change in net value from 2018 to 2019.",
+          "output": "Change = 1583 - 2484 = -901"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (-901 / 2484) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change.",
+          "output": "Percentage Change = -36.24"
+        }
+      ],
+      "true_answer": "-36.27",
+      "predicted_answer": "-36",
+      "context": "| As of December 31, |  |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Computers, software, furniture and fixtures | $1,406 | $1,407 |\n| Equipment under capital lease  3,348 | 3,348 | 3,525 |\n| Less accumulated depreciation and amortization | (3,171) | (2,448) |\n| Property and equipment, net | $1,583 | $2,484 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:03:19",
+      "question": "What is the percentage change in balance at end of year from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the balance at the end of 2018 and 2019.",
+          "output": "Balance 2018: 7955, Balance 2019: 16424"
+        },
+        {
+          "explanation": "Calculate the change in balance from 2018 to 2019.",
+          "output": "Change = Balance 2019 - Balance 2018 = 16424 - 7955 = 8479"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Balance) * 100.",
+          "output": "Percentage Change = (8479 / 7955) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 8479 / 7955 = 1.067, then multiply by 100.",
+          "output": "Percentage Change = 1.067 * 100 = 106.7"
+        },
+        {
+          "explanation": "Round the percentage change to one decimal place.",
+          "output": "Percentage Change = 106.7"
+        }
+      ],
+      "true_answer": "106.46",
+      "predicted_answer": "106.7",
+      "context": "|  | December 31, |  |\n| --- | --- | --- |\n|  | 2018 | 2019 |\n| Balance January 1 | 6,562 | 7,955 |\n| Charged to cost of sales | 18,408 | 26,301 |\n| Deductions | (8,985) | (12,232) |\n| Releases of expired warranty | (8,214) | (5,684) |\n| Foreign currency translation effect | 184 | 84 |\n| Balance December 31 | 7,955 | 16,424 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:03:42",
+      "question": "What is the average federal income tax expense at statutory rates in 2017 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the federal income tax expense at statutory rates for 2017 and 2018 from the table.",
+          "output": "2017: -10892, 2018: -8690"
+        },
+        {
+          "explanation": "Add the federal income tax expenses for 2017 and 2018.",
+          "output": "-10892 + -8690 = -19582"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average for the two years.",
+          "output": "-19582 / 2 = -9791"
+        }
+      ],
+      "true_answer": "9791",
+      "predicted_answer": "-9791",
+      "context": "The following is a reconciliation of the Federal statutory income taxes to the amounts reported in the financial statements (in thousands).\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Federal income tax expense at statutory rates | $(11,061) | $(8,690) | $(10,892) |\n| Effect of: |  |  |  |\n| State income taxes, net of federal benefit | (2,973) | (2,665) | (2,244) |\n| Impact of foreign operations | (11) | (146) | 74 |\n| Non-deductible expenses | (592) | (1,274) | (1,350) |\n| Federal tax rate change | — | — | (9,046) |\n| Tax effect of TCJA from foreign earnings | (28) | (130) | (2,296) |\n| Other | (581) | (645) | 239 |\n| Changes in valuation allowance | 92 | 835 | 273 |\n| Income tax expense | $(15,154) | $(12,715) | $(25,242) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:03:45",
+      "question": "How many percent of total depreciation was the VAS depreciation?",
+      "steps": [
+        {
+          "explanation": "Identify the total depreciation amount from the table.",
+          "output": "12,303"
+        },
+        {
+          "explanation": "Identify the VAS depreciation amount from the table.",
+          "output": "3,461"
+        },
+        {
+          "explanation": "Calculate the percentage of VAS depreciation relative to total depreciation using the formula: (VAS depreciation / Total depreciation) * 100.",
+          "output": "(3,461 / 12,303) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 3,461 divided by 12,303 equals approximately 0.2813, then multiply by 100 to convert to percentage.",
+          "output": "28.13"
+        }
+      ],
+      "true_answer": "28.13",
+      "predicted_answer": "28",
+      "context": "|  | VAS | FinTech and Business Services | Online Advertising | Others | Total |\n| --- | --- | --- | --- | --- | --- |\n|  | RMB’Million | RMB’Million | RMB’Million | RMB’Million | RMB’Million |\n| Segment revenues | 199,991 | 101,355 | 68,377 | 7,566 | 377,289 |\n| Gross profit | 105,905 | 27,524 | 33,517 | 587 | 167,533 |\n| Depreciation | 3,461 | 6,669 | 2,065 | 108 | 12,303 |\n| Amortisation | 14,710 | – | 9,977 | 3,115 | 27,802 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:03:49",
+      "question": "How many percent of total amortisation was the VAS amortisation?",
+      "steps": [
+        {
+          "explanation": "Identify the total amortisation amount from the table.",
+          "output": "27,802"
+        },
+        {
+          "explanation": "Identify the VAS amortisation amount from the table.",
+          "output": "14,710"
+        },
+        {
+          "explanation": "Calculate the percentage of VAS amortisation relative to total amortisation using the formula: (VAS amortisation / Total amortisation) * 100.",
+          "output": "(14,710 / 27,802) * 100"
+        },
+        {
+          "explanation": "Perform the division: 14,710 / 27,802 = 0.5284.",
+          "output": "0.5284"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.5284 * 100 = 52.84.",
+          "output": "52.84"
+        }
+      ],
+      "true_answer": "52.91",
+      "predicted_answer": "52.84",
+      "context": "|  | VAS | FinTech and Business Services | Online Advertising | Others | Total |\n| --- | --- | --- | --- | --- | --- |\n|  | RMB’Million | RMB’Million | RMB’Million | RMB’Million | RMB’Million |\n| Segment revenues | 199,991 | 101,355 | 68,377 | 7,566 | 377,289 |\n| Gross profit | 105,905 | 27,524 | 33,517 | 587 | 167,533 |\n| Depreciation | 3,461 | 6,669 | 2,065 | 108 | 12,303 |\n| Amortisation | 14,710 | – | 9,977 | 3,115 | 27,802 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:03:52",
+      "question": "What was the intelligent cloud as a percentage of total revenue in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the revenue for Intelligent Cloud in 2019.",
+          "output": "38,985"
+        },
+        {
+          "explanation": "Identify the total revenue in 2019.",
+          "output": "125,843"
+        },
+        {
+          "explanation": "Calculate the percentage of Intelligent Cloud revenue relative to total revenue using the formula: (Intelligent Cloud Revenue / Total Revenue) * 100.",
+          "output": "(38,985 / 125,843) * 100"
+        },
+        {
+          "explanation": "Perform the division: 38,985 / 125,843 = 0.3093.",
+          "output": "0.3093"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.3093 * 100 = 30.93.",
+          "output": "30.93"
+        }
+      ],
+      "true_answer": "30.98",
+      "predicted_answer": "30.93",
+      "context": "| (In millions, except percentages) | 2019 | 2018 | 2017 | Percentage Change 2019 Versus 2018 | Percentage Change 2018 Versus 2017 |\n| --- | --- | --- | --- | --- | --- |\n| Revenue |  |  |  |  |  |\n| Productivity and Business Processes | $ 41,160 | $ 35,865 | $ 29,870 | 15% | 20% |\n| Intelligent Cloud | 38,985 | 32,219 | 27,407 | 21% | 18% |\n| More Personal Computing | 45,698 | 42,276 | 39,294 | 8% | 8% |\n| Total | $  125,843 | $  110,360 | $  96,571 | 14% | 14% |\n|  | Operating Income (Loss) |  |  |  |  |\n| Productivity and Business Processes | $ 16,219 | $ 12,924 | $ 11,389 | 25% | 13% |\n| Intelligent Cloud | 13,920 | 11,524 | 9,127 | 21% | 26% |\n| More Personal Computing | 12,820 | 10,610 | 8,815 | 21% | 20% |\n| Corporate and Other | 0 | 0 | (306) | * | * |\n| Total | $42,959 | $35,058 | $29,025 | 23% | 21% |\n| * not meaningful |  |  |  |  |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:04:08",
+      "question": "What is the average operating income from 2017 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the operating income values for the years 2017, 2018, and 2019.",
+          "output": "2017: 29025, 2018: 35058, 2019: 42959"
+        },
+        {
+          "explanation": "Sum the operating income values from 2017 to 2019.",
+          "output": "29025 + 35058 + 42959 = 107042"
+        },
+        {
+          "explanation": "Count the number of years (3) to calculate the average.",
+          "output": "3"
+        },
+        {
+          "explanation": "Calculate the average operating income by dividing the total operating income by the number of years.",
+          "output": "107042 / 3 = 35680.6667"
+        }
+      ],
+      "true_answer": "35680.67",
+      "predicted_answer": "35681",
+      "context": "| (In millions, except percentages) | 2019 | 2018 | 2017 | Percentage Change 2019 Versus 2018 | Percentage Change 2018 Versus 2017 |\n| --- | --- | --- | --- | --- | --- |\n| Revenue |  |  |  |  |  |\n| Productivity and Business Processes | $ 41,160 | $ 35,865 | $ 29,870 | 15% | 20% |\n| Intelligent Cloud | 38,985 | 32,219 | 27,407 | 21% | 18% |\n| More Personal Computing | 45,698 | 42,276 | 39,294 | 8% | 8% |\n| Total | $  125,843 | $  110,360 | $  96,571 | 14% | 14% |\n|  | Operating Income (Loss) |  |  |  |  |\n| Productivity and Business Processes | $ 16,219 | $ 12,924 | $ 11,389 | 25% | 13% |\n| Intelligent Cloud | 13,920 | 11,524 | 9,127 | 21% | 26% |\n| More Personal Computing | 12,820 | 10,610 | 8,815 | 21% | 20% |\n| Corporate and Other | 0 | 0 | (306) | * | * |\n| Total | $42,959 | $35,058 | $29,025 | 23% | 21% |\n| * not meaningful |  |  |  |  |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:04:15",
+      "question": "What was the percentage change in net income(loss) between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net income for 2019 and 2018.",
+          "output": "Net income 2019 = 18498, Net income 2018 = 16617."
+        },
+        {
+          "explanation": "Calculate the change in net income from 2018 to 2019.",
+          "output": "Change = 18498 - 16617 = 781."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Net income 2018) * 100.",
+          "output": "Percentage change = (781 / 16617) * 100."
+        },
+        {
+          "explanation": "Perform the calculation for the percentage change.",
+          "output": "Percentage change = 4.696%."
+        }
+      ],
+      "true_answer": "10.72",
+      "predicted_answer": "4.7",
+      "context": "|  |  | Year Ended February 28, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Net income (loss) | $18,398 | $16,617 | $(7,904) |\n| Basic weighted average number of common shares outstanding | 34,589 | 35,250 | 35,917 |\n| Effect of stock options and restricted stock units computed on |  |  |  |\n| treasury stock method | 705 | 889 | - |\n| Diluted weighted average number of common shares outstanding | 35,294 | 36,139 | 35,917 |\n| Earnings (loss) per share: |  |  |  |\n| Basic | $0.53 | $0.47 | $(0.22) |\n| Diluted | $0.52 | $0.46 | $(0.22) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:04:48",
+      "question": "What was the average increase / (decrease) in video service customers between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the number of video service customers for 2018 and 2019.",
+          "output": "649,583 (2019), 688,768 (2018) = 649,583 + 39,185 (loss) = 688,768"
+        },
+        {
+          "explanation": "Calculate the change in video service customers from 2018 to 2019.",
+          "output": "649,583 - 688,768 = -39,185"
+        },
+        {
+          "explanation": "Determine the average change by dividing the total change by the number of years (1 year in this case).",
+          "output": "-39,185 / 1 = -39,185"
+        }
+      ],
+      "true_answer": "-38110",
+      "predicted_answer": "-39,185",
+      "context": "|  |  | Net additions (losses) |  | % of penetration(2) |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Years ended |  |  |  |  |\n|  | August 31, | August 31, | August 31, | August 31, | August 31, |\n|  | 2019 | 2019 | 2018(1) | 2019 | 2018 |\n| Primary service units | 1,810,366 | (56,552) | (55,849) |  |  |\n| Internet service customers | 788,243 | 5,966 | 14,173 | 44.7 | 44.7 |\n| Video service customers | 649,583 | (39,185) | (37,035) | 36.8 | 39.3 |\n| Telephony service customers | 372,540 | (23,333) | (32,987) | 21.1 | 22.6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:04:52",
+      "question": "What is the proportion of research credit carryforwards and intangible assets over total deferred assets in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the values for research credit carryforwards and intangible assets for 2019.",
+          "output": "Research credit carryforwards = 5,570, Intangibles = 58"
+        },
+        {
+          "explanation": "Calculate the total of research credit carryforwards and intangible assets.",
+          "output": "5,570 + 58 = 5,628"
+        },
+        {
+          "explanation": "Identify the total deferred assets for 2019.",
+          "output": "Total deferred assets = 17,783"
+        },
+        {
+          "explanation": "Calculate the proportion of research credit carryforwards and intangible assets over total deferred assets.",
+          "output": "5,628 / 17,783"
+        },
+        {
+          "explanation": "Convert the proportion to a percentage by multiplying by 100.",
+          "output": "(5,628 / 17,783) * 100 = 31.64%"
+        }
+      ],
+      "true_answer": "0.32",
+      "predicted_answer": "31",
+      "context": "|  | 2019 | 2018 |\n| --- | --- | --- |\n| Deferred tax assets: |  |  |\n| Stock-based compensation | $2,646 | $3,067 |\n| Net operating loss carryforwards | 9,419 | 8,568 |\n| Research credit carryforwards | 5,570 | 3,890 |\n| Intangibles | 58 | — |\n| Other, net | 90 | 354 |\n| Total deferred assets | 17,783 | 15,879 |\n| Deferred tax liabilities: |  |  |\n| Intangibles | — | (181) |\n| Foreign deferred liabilities | (5,811) | (8,032) |\n| Net deferred tax asset | 11,972 | 7,666 |\n| Valuation allowance for net deferred tax assets | (931) | (472) |\n| Net deferred tax asset | $11,041 | $7,194 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:04",
+      "question": "What is the percentage change of GPV from 2017 to 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the GPV for 2017 and 2018.",
+          "output": "2017 GPV = 65343, 2018 GPV = 84654"
+        },
+        {
+          "explanation": "Calculate the difference in GPV between 2018 and 2017.",
+          "output": "Difference = 84654 - 65343 = 19311"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / 2017 GPV) * 100.",
+          "output": "Percentage Change = (19311 / 65343) * 100"
+        },
+        {
+          "explanation": "Calculate the final percentage change value.",
+          "output": "Percentage Change = 29.54%"
+        }
+      ],
+      "true_answer": "29.55",
+      "predicted_answer": "29.54",
+      "context": "|  |  |  | Year Ended December 31, |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 2018 | 2017 | 2016 | 2015 | 2014 |\n|  |  |  | (in thousands, except for GPV and per share data) |  |  |\n| Gross Payment Volume (GPV)(in millions) | $84,654 | $65,343 | $49,683 | $35,643 | $23,780 |\n| Adjusted Revenue | $1,587,641 | $983,963 | $686,618 | $452,168 | $276,310 |\n| Adjusted EBITDA | $256,523 | $139,009 | $44,887 | $(41,115) | $(67,741) |\n| Adjusted Net Income (Loss) Per Share: |  |  |  |  |  |\n| Basic | $0.55 | $0.30 | $0.04 | $(0.39) | $(0.62) |\n| Diluted | $0.47 | $0.27 | $0.04 | $(0.39) | $(0.62) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:08",
+      "question": "What is the percentage change in the total number of shares in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the number of shares outstanding at the beginning of 2019.",
+          "output": "898200415"
+        },
+        {
+          "explanation": "Identify the number of shares outstanding at the end of 2019.",
+          "output": "903908182"
+        },
+        {
+          "explanation": "Calculate the change in the number of shares by subtracting the beginning number from the end number.",
+          "output": "903908182 - 898200415 = 1700767"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (change / original) * 100.",
+          "output": "(1700767 / 898200415) * 100"
+        },
+        {
+          "explanation": "Perform the calculation to find the percentage change.",
+          "output": "0.1899"
+        }
+      ],
+      "true_answer": "-0.31",
+      "predicted_answer": "0.19",
+      "context": "|  |  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- | --- |\n|  | NOTE | NUMBER OF SHARES | STATED CAPITAL | NUMBER OF SHARES | STATED CAPITAL |\n| Outstanding, January 1 |  | 898,200,415 | 20,036 | 900,996,640 | 20,091 |\n| Shares issued for the acquisition of AlarmForce | 34 | – | – | 22,531 | 1 |\n| Shares issued under employee stock option plan | 28 | 4,459,559 | 251 | 266,941 | 13 |\n| Repurchase of common shares |  | – | – | (3,085,697) | (69) |\n| Shares issued under ESP |  | 1,231,479 | 75 | – | – |\n| Shares issued under DSP |  | 16,729 | 1 | – | – |\n| Outstanding, December 31 |  | 903,908,182 | 20,363 | 898,200,415 | 20,036 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:13",
+      "question": "What is the percentage change in the total trail commission asset from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the total trail commission asset for 2018 and 2019.",
+          "output": "2018: 102920, 2019: 114078"
+        },
+        {
+          "explanation": "Calculate the change in total trail commission asset by subtracting the 2018 value from the 2019 value.",
+          "output": "114078 - 102920 = 11558"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original) * 100.",
+          "output": "(11558 / 102920) * 100"
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "0.1122 * 100 = 11.22"
+        }
+      ],
+      "true_answer": "10.84",
+      "predicted_answer": "11",
+      "context": "|  | CONSOLIDATED |  |\n| --- | --- | --- |\n|  | 2019 $’000 | 2018 $’000 |\n| Current | 25,626 | 22,103 |\n| Non-current | 88,452 | 80,817 |\n| Total trail commission asset | 114,078 | 102,920 |\n| Reconciliation of movement in trail commission asset: |  |  |\n| Opening balance | 102,920 | 93,564 |\n| Trail commission revenue – current period trail commission sales sales | 34,732 | 33,007 |\n| Cash receipts | (23,574) | (23,651) |\n| Closing balance | 114,078 | 102,920 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:23",
+      "question": "What was the percentage change in total inventories between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the total inventories for 2019 and 2018 from the table.",
+          "output": "Total inventories 2019 = 711.7 million, Total inventories 2018 = 476.2 million."
+        },
+        {
+          "explanation": "Calculate the difference in total inventories between 2019 and 2018.",
+          "output": "Difference = 711.7 - 476.2 = 235.5 million."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Total inventories 2018) * 100.",
+          "output": "Percentage change = (235.5 / 476.2) * 100."
+        },
+        {
+          "explanation": "Perform the calculation for the percentage change.",
+          "output": "Percentage change = 49.4."
+        }
+      ],
+      "true_answer": "49.45",
+      "predicted_answer": "49",
+      "context": "The components of inventories consist of the following (in millions):\n\n|  | March 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Raw materials | $74.5 | $26.0 |\n| Work in process | 413.0 | 311.8 |\n| Finished goods | 224.2 | 138.4 |\n| Total inventories | $711.7 | $476.2 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:32",
+      "question": "What is the average Rent expense related to build-to-suit facilities between 2015-2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Rent expense values from the years 2015 to 2019.",
+          "output": "2015: 0, 2016: 0, 2017: 0, 2018: -785, 2019: -4482"
+        },
+        {
+          "explanation": "Sum the Rent expense values from 2015 to 2019.",
+          "output": "0 + 0 + 0 - 785 - 4482 = -5267"
+        },
+        {
+          "explanation": "Count the number of years with Rent expense data (only 2018 and 2019 have values).",
+          "output": "2"
+        },
+        {
+          "explanation": "Calculate the average Rent expense by dividing the total Rent expense by the number of years with data.",
+          "output": "-5267 / 2 = -2633.5"
+        }
+      ],
+      "true_answer": "-1053.4",
+      "predicted_answer": "-2634",
+      "context": "|  |  |  | Year Ended March 31, |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 | 2016 | 2015 |\n|  |  |  | (in thousands) |  |  |\n| Reconciliation of Adjusted EBITDA: |  |  |  |  |  |\n| Net (loss) income  | $(7,001) | $(12,386) | $(5,441) | $(3,244) | $285 |\n| Depreciation, amortization and disposals of long-lived assets | 29,960 | 19,141 | 11,881 | 10,527 | 11,028 |\n| Rent expense related to build-to-suit facilities | (4,482) | (785) | — | — | — |\n| Interest expense (income), net   | 3,425 | (712) | (242) | 616 | 641 |\n| Provision for income taxes   | 2,001 | 2,705 | 2,202 | 865 | 152 |\n| Share-based compensation expense   | 25,954 | 11,734 | 10,294 | 7,886 | 5,426 |\n| Impairments of long-lived assets   | — | 1,712 | — | — | — |\n| Restructuring   | (170) | 832 | — | — | 1,203 |\n| Foreign exchange expense (income)   | 1,647 | 3,511 | (6,892) | (811) | (4,508) |\n| Acquisition-related expenses (1) (3)   | 2,012 | — | 655 | — | — |\n| Gain on previously held asset (2)   | (338) | — | — | — | — |\n| Litigation-related expenses (4)   | 1,000 | — | — | — | — |\n| Adjusted EBITDA | $54,008 | $25,752 | $12,457 | $15,839 | $14,227 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:38",
+      "question": "What was the percentage change in cost of software under development between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the cost of software under development at 30 June 2018 and 30 June 2019.",
+          "output": "Cost at 30 June 2018 = 6,509"
+        },
+        {
+          "explanation": "Cost at 30 June 2019 is given as 16,284.",
+          "output": "Cost at 30 June 2019 = 16,284"
+        },
+        {
+          "explanation": "Calculate the change in cost from 2018 to 2019.",
+          "output": "Change in cost = 16,284 - 6,509 = 9,775"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change in cost / Original cost) * 100.",
+          "output": "Percentage change = (9,775 / 6,509) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 9,775 / 6,509 = 1.4994, then multiply by 100 to get percentage.",
+          "output": "Percentage change = 149.94%"
+        }
+      ],
+      "true_answer": "150.18",
+      "predicted_answer": "149",
+      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:41",
+      "question": "What is the average Recorded investment of Lease receivables for Americas and EMEA for December 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Recorded investment of Lease receivables for Americas and EMEA.",
+          "output": "Americas: 3419, EMEA: 1186"
+        },
+        {
+          "explanation": "Calculate the total Recorded investment of Lease receivables for both regions.",
+          "output": "3419 + 1186 = 4605"
+        },
+        {
+          "explanation": "Count the number of regions considered (Americas and EMEA).",
+          "output": "2"
+        },
+        {
+          "explanation": "Calculate the average by dividing the total by the number of regions.",
+          "output": "4605 / 2 = 2302.5"
+        }
+      ],
+      "true_answer": "2302.5",
+      "predicted_answer": "2302",
+      "context": "| ($ in millions) |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| At December 31, 2019: | Americas | EMEA | Asia Pacific | Total |\n| Recorded investment: |  |  |  |  |\n| Lease receivables | $ 3,419 | $1,186 | $  963 | $ 5,567 |\n| Loan receivables | 6,726 | 3,901 | 2,395 | 13,022 |\n| Ending balance | $10,144 | $5,087 | $3,359 | $18,590 |\n| Recorded investment, collectively evaluated for impairment | $10,032 | $5,040 | $3,326 | $18,399 |\n| Recorded investment, individually evaluated for impairment | $   112 | $   47 | $   32 | $   191 |\n| Allowance for credit losses |  |  |  |  |\n| Beginning balance at January 1, 2019 |  |  |  |  |\n| Lease receivables | $    53 | $   22 | $   24 | $     99 |\n| Loan receivables | 105 | 43 | 32 | 179 |\n| Total | $   158 | $   65 | $   56 | $   279 |\n| Write-offs | (42) | (3) | (18) | (63) |\n| Recoveries | 1 | 0 | 1 | 2 |\n| Provision | 5 | (7) | (3) | (5) |\n| Other* | (1) | 0 | (1) | (2) |\n| Ending balance at December 31, 2019 | $   120 | $   54 | $   36 | $   210 |\n| Lease receivables | $    33 | $   23 | $   16 | $    72 |\n| Loan receivables | $    88 | $   31 | $   20 | $   138 |\n| Related allowance, collectively evaluated for impairment | $    25 | $   11 | $    4 | $    39 |\n| Related allowance, individually evaluated for impairment | $    96 | $   43 | $   32 | $   171 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:46",
+      "question": "What is the proportion (in percentage) of sales from the Frontera acquisition and Thanasi acquisition over Grocery & Snacks’ net sales in the fiscal year 2018?",
+      "steps": [
+        {
+          "explanation": "Calculate the total contribution from the Frontera and Thanasi acquisitions.",
+          "output": "75.1"
+        },
+        {
+          "explanation": "Calculate the proportion of the total acquisition sales to Grocery & Snacks' net sales.",
+          "output": "0.0229"
+        },
+        {
+          "explanation": "Convert the proportion to a percentage by multiplying by 100.",
+          "output": "2.29"
+        }
+      ],
+      "true_answer": "2.28",
+      "predicted_answer": "2.29",
+      "context": "Grocery & Snacks net sales for fiscal 2018 were $3.29 billion, an increase of $78.2 million, or 2%, compared to fiscal 2017. Results reflected a decrease in volumes of approximately 2% in fiscal 2018 compared to the prior-year period, excluding the impact of acquisitions. The decrease in sales volumes reflected a reduction in promotional intensity, planned discontinuation of certain lower-performing products, retailer inventory reductions, which were higher than anticipated, and deliberate actions to optimize distribution on certain lower-margin products, consistent with the Company's value over volume strategy. Price/ mix was flat compared to the prior-year period as favorable mix improvements from recent innovation and higher net pricing nearly offset continued investments in retailer marketing to drive brand saliency, enhanced distribution, and consumer trial. The acquisition of Angie's Artisan Treats, LLC contributed $68.1 million to Grocery & Snacks net sales during fiscal 2018. The Frontera acquisition contributed $8.6 million and the Thanasi acquisition contributed $66.5 million to Grocery & Snacks net sales during fiscal 2018 through the one-year anniversaries of the acquisitions. The Frontera and Thanasi acquisitions occurred in September 2016 and April 2017, respectively.\n\n| ($ in millions) |  |  |  |\n| --- | --- | --- | --- |\n| Reporting Segment | Fiscal 2018 Net Sales | Fiscal 2017 Net Sales | % Inc (Dec) |\n| Grocery & Snacks | $3,287.0 | $3,208.8 | 2% |\n| Refrigerated & Frozen | 2,753.0 | 2,652.7 | 4% |\n| International | 843.5 | 816.0 | 3% |\n| Foodservice | 1,054.8 | 1,078.3 | (2)% |\n| Commercial | — | 71.1 | (100)% |\n| Total | $7,938.3 | $7,826.9 | 1% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:05:56",
+      "question": "What is the percentage change in segment net revenues between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the segment net revenues for 2018 and 2019.",
+          "output": "2018: 6835, 2019: 5969"
+        },
+        {
+          "explanation": "Calculate the change in segment net revenues by subtracting the 2019 value from the 2018 value.",
+          "output": "Change = 6835 - 5969 = 866"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (866 / 6835) * 100"
+        },
+        {
+          "explanation": "Perform the division: 866 / 6835 = 0.1267 (approximately).",
+          "output": "0.1267"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.1267 * 100 = 12.67 (approximately).",
+          "output": "12.67"
+        }
+      ],
+      "true_answer": "-12.67",
+      "predicted_answer": "12.67",
+      "context": "|  | For the Years Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Reconciliation to consolidated net revenues: |  |  |\n| Segment net revenues | $5,969 | $6,835 |\n| Revenues from non-reportable segments (1) | 462 | 480 |\n| Net effect from recognition (deferral) of deferred net revenues (2) | 101 | 238 |\n| Elimination of intersegment revenues (3) | (43) | (53) |\n| Consolidated net revenues | $6,489 | $7,500 |\n| Reconciliation to consolidated income before income tax expense: |  |  |\n| Segment operating income | $2,054 | $2,446 |\n| Operating income (loss) from non-reportable segments (1) | 24 | 31 |\n| Net effect from recognition (deferral) of deferred net revenues and related cost of revenues (2) | 52 | 100 |\n| Share-based compensation expense | (166) | (209) |\n| Amortization of intangible assets | (203) | (370) |\n| Restructuring and related costs (4) | (137) | (10) |\n| Discrete tax-related items (5) | (17) | — |\n| Consolidated operating income | 1,607 | 1,988 |\n| Interest and other expense (income), net | (26) | 71 |\n| Loss on extinguishment of debt | — | 40 |\n| Consolidated income before income tax expense | $1,633 | $1,877 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:10",
+      "question": "What is the percentage change in the cost of goods sold from operations in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the cost of goods sold for 2018 and 2019.",
+          "output": "2018: 11780, 2019: 24574"
+        },
+        {
+          "explanation": "Calculate the change in cost of goods sold: 24574 - 11780.",
+          "output": "12794"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "(12794 / 11780) * 100"
+        },
+        {
+          "explanation": "Perform the division: 12794 / 11780 = 1.0851.",
+          "output": "1.0851"
+        },
+        {
+          "explanation": "Multiply by 100 to get the percentage: 1.0851 * 100 = 108.51.",
+          "output": "108.51"
+        }
+      ],
+      "true_answer": "108.61",
+      "predicted_answer": "108.6",
+      "context": "Results of Operations\n\n|  | Years Ended December 31 |  | Change |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | % |\n|  | (in thousands) |  |  |\n| Revenues | $23,713 | $14,762 | 60.6 |\n| Cost of goods sold | 24,574 | 11,780 | (108.6) |\n| Gross profit (loss) | (861) | 2,982 |  |\n| Gross profit % | -3.6% | 20.2% |  |\n| Selling, general and administrative expenses | 13,696 | 11,194 | (22.4) |\n| Loss from operations | (14,557) | (8,212) | (77.3) |\n| Other income (expense): | (96) | (12) |  |\n| Interest expense | 50 | - |  |\n| Other, net | 868 | 168 |  |\n| Total other (expense) income | 822 | 156 |  |\n| Loss before income taxes | $(13,735) | $(8,056) |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:25",
+      "question": "What is the ending outstanding number of vested RSUs in 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the number of vested RSUs at the end of 2019 from the provided data.",
+          "output": "825"
+        },
+        {
+          "explanation": "The ending outstanding number of vested RSUs in 2019 is directly given in the table under the 'Vested RSUs' column for the year 2019.",
+          "output": "825"
+        }
+      ],
+      "true_answer": "1017",
+      "predicted_answer": "825",
+      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:29",
+      "question": "What was the percentage change in Basic weighted average number of common shares outstanding between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Basic weighted average number of common shares outstanding for 2018 and 2019.",
+          "output": "2018: 35,250, 2019: 34,589"
+        },
+        {
+          "explanation": "Calculate the difference in the number of shares between 2019 and 2018.",
+          "output": "34,589 - 35,250 = -661"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "(-661 / 35,250) * 100"
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "-1.88"
+        }
+      ],
+      "true_answer": "-1.88",
+      "predicted_answer": "-2",
+      "context": "|  |  | Year Ended February 28, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Net income (loss) | $18,398 | $16,617 | $(7,904) |\n| Basic weighted average number of common shares outstanding | 34,589 | 35,250 | 35,917 |\n| Effect of stock options and restricted stock units computed on |  |  |  |\n| treasury stock method | 705 | 889 | - |\n| Diluted weighted average number of common shares outstanding | 35,294 | 36,139 | 35,917 |\n| Earnings (loss) per share: |  |  |  |\n| Basic | $0.53 | $0.47 | $(0.22) |\n| Diluted | $0.52 | $0.46 | $(0.22) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:35",
+      "question": "What was the percentage change in Foreign in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the Foreign income for 2019 and 2018.",
+          "output": "2019: 11.8, 2018: 19.9"
+        },
+        {
+          "explanation": "Calculate the change in Foreign income from 2018 to 2019.",
+          "output": "Change = 11.8 - 19.9 = -8.1"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "Percentage Change = (-8.1 / 19.9) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = -40.7070707070707"
+        }
+      ],
+      "true_answer": "-40.7",
+      "predicted_answer": "-40",
+      "context": "|  |  | Years Ended June 30, |  |\n| --- | --- | --- | --- |\n| ($ in millions) | 2019 | 2018 | 2017 |\n| Domestic | $204.2 | $140.3 | $56.0 |\n| Foreign | 11.8 | 19.9 | 14.2 |\n| Income before income taxes | $216.0 | $160.2 | $70.2 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:55",
+      "question": "What is the percentage change in total net sales of International and Refrigerated & Frozen from the fiscal year 2017 to 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net sales for International in fiscal 2018 and 2017.",
+          "output": "Fiscal 2018: 843.5 million, Fiscal 2017: 816.0 million."
+        },
+        {
+          "explanation": "Calculate the change in net sales for International: 843.5 - 816.0 = 27.5 million.",
+          "output": "27.5 million."
+        },
+        {
+          "explanation": "Calculate the percentage change for International: (27.5 / 816.0) * 100.",
+          "output": "3.37%."
+        },
+        {
+          "explanation": "Identify the net sales for Refrigerated & Frozen in fiscal 2018 and 2017.",
+          "output": "Fiscal 2018: 2,753.0 million, Fiscal 2017: 2,652.7 million."
+        },
+        {
+          "explanation": "Calculate the change in net sales for Refrigerated & Frozen: 2,753.0 - 2,652.7 = 100.3 million.",
+          "output": "100.3 million."
+        },
+        {
+          "explanation": "Calculate the percentage change for Refrigerated & Frozen: (100.3 / 2,652.7) * 100.",
+          "output": "3.78%."
+        },
+        {
+          "explanation": "Combine the percentage changes of International and Refrigerated & Frozen: (3.37 + 3.78) / 2.",
+          "output": "3.575%."
+        }
+      ],
+      "true_answer": "3.68",
+      "predicted_answer": "3.58",
+      "context": "| ($ in millions) |  |  |  |\n| --- | --- | --- | --- |\n| Reporting Segment | Fiscal 2018 Net Sales | Fiscal 2017 Net Sales | % Inc (Dec) |\n| Grocery & Snacks | $3,287.0 | $3,208.8 | 2% |\n| Refrigerated & Frozen | 2,753.0 | 2,652.7 | 4% |\n| International | 843.5 | 816.0 | 3% |\n| Foodservice | 1,054.8 | 1,078.3 | (2)% |\n| Commercial | — | 71.1 | (100)% |\n| Total | $7,938.3 | $7,826.9 | 1% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:06:59",
+      "question": "What is the value of the company's Q1 revenue performance goal as a percentage of its Q2 performance goal?",
+      "steps": [
+        {
+          "explanation": "Identify the Q1 revenue performance goal.",
+          "output": "199.5"
+        },
+        {
+          "explanation": "Identify the Q2 revenue performance goal.",
+          "output": "211.7"
+        },
+        {
+          "explanation": "Calculate the percentage of Q1 revenue performance goal relative to Q2 revenue performance goal using the formula: (Q1 / Q2) * 100.",
+          "output": "(199.5 / 211.7) * 100"
+        },
+        {
+          "explanation": "Perform the division: 199.5 / 211.7 = 0.9411.",
+          "output": "0.9411"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 0.9411 * 100 = 94.11.",
+          "output": "94.11"
+        }
+      ],
+      "true_answer": "94.24",
+      "predicted_answer": "94",
+      "context": "| 2019 Performance Period | Revenue Performance Goal(in millions) | Operating Margin Performance Goal |\n| --- | --- | --- |\n| Q1 | $199.5 | 8.1% |\n| Q2 | $211.7 | 8.3% |\n| Q3 | $227.3 | 9.6% |\n| Q4 | $243.2 | 10.8% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:08",
+      "question": "What is the percentage change in the Income tax expense computed at federal statutory rate from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Income tax expense computed at federal statutory rate for 2018 and 2019.",
+          "output": "2018: 891,011; 2019: 513,780"
+        },
+        {
+          "explanation": "Calculate the difference in Income tax expense between 2019 and 2018.",
+          "output": "Difference = 513,780 - 891,011 = -377,231"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Previous Year) * 100.",
+          "output": "Percentage Change = (-377,231 / 891,011) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = -42.34%"
+        }
+      ],
+      "true_answer": "-42.34",
+      "predicted_answer": "-42",
+      "context": "|  |  | Year Ended |  |\n| --- | --- | --- | --- |\n|  | June 30, 2019 | June 24, 2018 | June 25, 2017 |\n|  |  | (in thousands) |  |\n| Income tax expense computed at federal statutory rate | $513,780 | $891,011 | $634,086 |\n| State income taxes, net of federal tax benefit | (17,565) | (50,585) | (11,973) |\n| Foreign income taxed at different rates | (260,344) | (939,808) | (352,860) |\n| Settlements and reductions in uncertain tax positions | (31,291) | (33,367) | (144,519) |\n| Tax credits | (71,779) | (69,301) | (37,713) |\n| State valuation allowance, net of federal tax benefit | 26,742 | 57,302 | 12,070 |\n| Equity-based compensation | (7,566) | (35,875) | 13,187 |\n| Other permanent differences and miscellaneous items | 39,251 | 43,214 | 1,632 |\n| U.S. tax reform impacts | 63,913 | 908,517 | — |\n|  | $255,141 | $771,108 | $113,910 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:21",
+      "question": "What was the average increase / (decrease) in the internet service customers between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the number of internet service customers for the years 2018 and 2019.",
+          "output": "2018: 788,243 + 14,173 = 802,416"
+        },
+        {
+          "explanation": "Calculate the change in internet service customers from 2018 to 2019.",
+          "output": "802,416 - 788,243 = 14,173"
+        },
+        {
+          "explanation": "Determine the average increase in internet service customers over the year.",
+          "output": "14,173 / 1 = 14,173"
+        }
+      ],
+      "true_answer": "10069.5",
+      "predicted_answer": "14173",
+      "context": "|  |  | Net additions (losses) |  | % of penetration(2) |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Years ended |  |  |  |  |\n|  | August 31, | August 31, | August 31, | August 31, | August 31, |\n|  | 2019 | 2019 | 2018(1) | 2019 | 2018 |\n| Primary service units | 1,810,366 | (56,552) | (55,849) |  |  |\n| Internet service customers | 788,243 | 5,966 | 14,173 | 44.7 | 44.7 |\n| Video service customers | 649,583 | (39,185) | (37,035) | 36.8 | 39.3 |\n| Telephony service customers | 372,540 | (23,333) | (32,987) | 21.1 | 22.6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:24",
+      "question": "What is the percentage change in net sales from Frozen Kefir between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net sales for Frozen Kefir in 2018 and 2019.",
+          "output": "2018: 1,434, 2019: 1,617"
+        },
+        {
+          "explanation": "Calculate the change in net sales for Frozen Kefir: 1,617 - 1,434.",
+          "output": "183"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (change/original) * 100.",
+          "output": "(183/1434) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: 183 / 1434 = 0.1275, then multiply by 100.",
+          "output": "12.75"
+        },
+        {
+          "explanation": "Round the percentage change to two decimal places.",
+          "output": "12.75"
+        }
+      ],
+      "true_answer": "12.76",
+      "predicted_answer": "13",
+      "context": "|  |  | 2019 |  | 2018 |\n| --- | --- | --- | --- | --- |\n| In thousands | $ | % | $ | % |\n| Drinkable Kefir other than ProBugs | $ 71,822 | 77% | $ 78,523 | 76% |\n| Cheese | 11,459 | 12% | 11,486 | 11% |\n| Cream and other | 4,228 | 4% | 5,276 | 5% |\n| ProBugs Kefir | 2,780 | 3% | 2,795 | 3% |\n| Other dairy | 1,756 | 2% | 3,836 | 4% |\n| Frozen Kefir (a) | 1,617 | 2% | 1,434 | 1% |\n| Net Sales | $ 93,662 | 100% | $ 103,350 | 100% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:36",
+      "question": "What is the average age of the directors in the company?",
+      "steps": [
+        {
+          "explanation": "Identify the ages of the directors from the table.",
+          "output": "69, 55, 62, 49"
+        },
+        {
+          "explanation": "Add the ages of the directors together.",
+          "output": "69 + 55 + 62 + 49 = 235"
+        },
+        {
+          "explanation": "Count the number of directors.",
+          "output": "4"
+        },
+        {
+          "explanation": "Divide the total age by the number of directors to find the average age.",
+          "output": "235 / 4 = 58.75"
+        }
+      ],
+      "true_answer": "58.75",
+      "predicted_answer": "58",
+      "context": "| Name | Age | Position (s) |\n| --- | --- | --- |\n| Garo H. Armen | 67 | Executive Chairman of the Board of Directors |\n| Alexander K. Arrow | 49 | Chief Financial Officer |\n| Robert B. Stein | 69 | Director |\n| Khalil Barrage | 55 | Director |\n| Brian J. Corvese | 62 | Director |\n| Josh Silverman | 49 | Director |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:40",
+      "question": "What was the percentage change in profit from operations from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the profit from operations for 2018 and 2019.",
+          "output": "2018: 292,518, 2019: 123,364"
+        },
+        {
+          "explanation": "Calculate the change in profit from operations: 123,364 - 292,518.",
+          "output": "-169,154"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original) * 100.",
+          "output": "(-169,154 / 292,518) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: -169,154 / 292,518 = -0.5774, then multiply by 100.",
+          "output": "-57.74"
+        },
+        {
+          "explanation": "Round to two decimal places.",
+          "output": "-57.74"
+        }
+      ],
+      "true_answer": "-57.83",
+      "predicted_answer": "-57.74",
+      "context": "|  |  | Year ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2018 | 2019 | Change |\n| Amounts are in thousands of U.S. Dollars |  |  |  |\n| Revenues | $618,344 | $668,637 | $50,293 |\n| Net pool allocation | 17,818 | (4,264) | (22,082) |\n| Voyage expenses and commissions | (20,374) | (23,772) | (3,398) |\n| Vessel operating and supervision costs | (128,084) | (139,662) | (11,578) |\n| Depreciation | (153,193) | (168,041) | (14,848) |\n| General and administrative expenses | (41,993) | (47,385) | (5,392) |\n| Impairment loss on vessels | — | (162,149) | (162,149) |\n| Profit from operations | 292,518 | 123,364 | (169,154) |\n| Financial costs | (166,627) | (190,481) | (23,854) |\n| Financial income | 4,784 | 5,318 | 534 |\n| Loss on derivatives | (6,077) | (55,441) | (49,364) |\n| Share of profit of associates | 1,800 | 1,627 | (173) |\n| Total other expenses, net | (166,120) | (238,977) | (72,857) |\n| Profit/(loss) for the year | 126,398 | (115,613) | (242,011) |\n| Non-controlling interests | 78,715 | (14,952) | (93,667) |\n| Profit/(loss) attributable to owners of the Group | $47,683 | $(100,661) | $(148,344) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:46",
+      "question": "In 2019, how many countries have revenues of less than $100 thousand?",
+      "steps": [
+        {
+          "explanation": "List the revenues for each country in 2019.",
+          "output": "Belgium: 49, France: 40, China: 359, Russia: 2, Germany: 36, Italy: 159, South Korea: 0, Singapore: 215, Other: 525."
+        },
+        {
+          "explanation": "Identify the countries with revenues less than $100 thousand.",
+          "output": "Belgium (49), France (40), Russia (2), Germany (36)."
+        },
+        {
+          "explanation": "Count the number of countries identified with revenues less than $100 thousand.",
+          "output": "4."
+        }
+      ],
+      "true_answer": "5",
+      "predicted_answer": "4",
+      "context": "Revenues in each of the Company’s segments include sales to foreign governments or to companies located in foreign countries. For the years ended April 30, 2019 and 2018, revenues, based on the location of the procurement entity and excluding intersegment sales, were derived from the following countries (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Belgium | $49 | $64 |\n| France | 40 | 154 |\n| China | 359 | 512 |\n| Russia | 2 | 302 |\n| Germany | 36 | 143 |\n| Italy | 159 | 110 |\n| South Korea | - | 314 |\n| Singapore | 215 | 376 |\n| Other | 525 | 469 |\n|  | $1,361 | $ 2,444 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:54",
+      "question": "What was the percentage change in accrued expenses between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the accrued expenses for 2018 and 2019 from the table.",
+          "output": "Accrued expenses 2018 = 2262744, Accrued expenses 2019 = 2990144."
+        },
+        {
+          "explanation": "Calculate the difference in accrued expenses between 2019 and 2018.",
+          "output": "Difference = 2990144 - 2262744 = 727400."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Accrued expenses 2018) * 100.",
+          "output": "Percentage change = (727400 / 2262744) * 100."
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "Percentage change = 0.321 = 32.1%."
+        }
+      ],
+      "true_answer": "32.15",
+      "predicted_answer": "32",
+      "context": "Accrued expenses consist of the following (in thousands):\n\n|  | August 31, 2019 | August 31, 2018 |\n| --- | --- | --- |\n| Contract liabilities | $511,329 | $— |\n| Deferred income | — | 691,365 |\n| Accrued compensation and employee benefits | 600,907 | 570,400 |\n| Obligation associated with securitization programs | 475,251 | — |\n| Other accrued expenses | 1,402,657 | 1,000,979 |\n| Accrued expenses | $2,990,144 | $2,262,744 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:07:57",
+      "question": "What is the average net revenues from Analog, MEMS and Sensors Group (AMS) for the period December 31, 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net revenues for AMS for December 31, 2019 and December 31, 2018.",
+          "output": "1,085 (2019), 988 (2018)"
+        },
+        {
+          "explanation": "Add the net revenues for both years together.",
+          "output": "1,085 + 988 = 2,073"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average.",
+          "output": "2,073 / 2 = 1,036.5"
+        }
+      ],
+      "true_answer": "1036.5",
+      "predicted_answer": "1036",
+      "context": "|  |  | Three Months Ended |  | % Variation |  |\n| --- | --- | --- | --- | --- | --- |\n|  | December 31, 2019 | September 29, 2019 | December 31, 2018 | Sequential | Year-Over-Year |\n|  |  |  | (Unaudited, in millions) |  |  |\n| Automotive and Discrete Group (ADG) | $924 | $894 | $967 | 3.3% | (4.5)% |\n| Analog, MEMS and Sensors Group (AMS) | 1,085 | 968 | 988 | 12.1 | 9.9 |\n| Microcontrollers and Digital ICs Group (MDG) | 742 | 688 | 689 | 7.9 | 7.6 |\n| Others | 3 | 3 | 4 | — | — |\n| Total consolidated net revenues | $2,754 | $2,553 | $2,648 | 7.9% | 4.0% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:09",
+      "question": "What is the increase/ (decrease) in Net financing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net financing cash flows for the years 2019 and 2018.",
+          "output": "Net financing cash flows 2019: -382,229; Net financing cash flows 2018: 434,786."
+        },
+        {
+          "explanation": "Calculate the change in net financing cash flows by subtracting the 2018 value from the 2019 value.",
+          "output": "Change = -382,229 - 434,786."
+        },
+        {
+          "explanation": "Perform the arithmetic operation to find the change.",
+          "output": "Change = -382,229 - 434,786 = -817,015."
+        },
+        {
+          "explanation": "The result indicates a decrease in net financing cash flows from 2018 to 2019.",
+          "output": "Decrease in net financing cash flows = -817,015."
+        }
+      ],
+      "true_answer": "-52557",
+      "predicted_answer": "-817015",
+      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:12",
+      "question": "What is the average revenue from Singapore in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the revenue from Singapore for 2018 and 2019 from the provided data.",
+          "output": "2018: 376, 2019: 215"
+        },
+        {
+          "explanation": "Add the revenues from both years to find the total revenue from Singapore.",
+          "output": "376 + 215 = 591"
+        },
+        {
+          "explanation": "Divide the total revenue by the number of years (2) to find the average revenue.",
+          "output": "591 / 2 = 295.5"
+        }
+      ],
+      "true_answer": "295.5",
+      "predicted_answer": "295",
+      "context": "Revenues in each of the Company’s segments include sales to foreign governments or to companies located in foreign countries. For the years ended April 30, 2019 and 2018, revenues, based on the location of the procurement entity and excluding intersegment sales, were derived from the following countries (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Belgium | $49 | $64 |\n| France | 40 | 154 |\n| China | 359 | 512 |\n| Russia | 2 | 302 |\n| Germany | 36 | 143 |\n| Italy | 159 | 110 |\n| South Korea | - | 314 |\n| Singapore | 215 | 376 |\n| Other | 525 | 469 |\n|  | $1,361 | $ 2,444 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:19",
+      "question": "What is the difference between the number of RSUs granted in 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the number of RSUs granted in 2019 from the table.",
+          "output": "333"
+        },
+        {
+          "explanation": "Identify the number of RSUs granted in 2018 from the table.",
+          "output": "759"
+        },
+        {
+          "explanation": "Calculate the difference between the RSUs granted in 2019 and 2018.",
+          "output": "333 - 759 = -426"
+        }
+      ],
+      "true_answer": "426",
+      "predicted_answer": "-426",
+      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:21",
+      "question": "What was the change in METRO AG in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the METRO AG values for 2018 and 2019 from the table.",
+          "output": "2018: 863, 2019: 837"
+        },
+        {
+          "explanation": "Calculate the change by subtracting the 2019 value from the 2018 value.",
+          "output": "863 - 837"
+        },
+        {
+          "explanation": "Perform the subtraction to find the change.",
+          "output": "26"
+        }
+      ],
+      "true_answer": "-26",
+      "predicted_answer": "26",
+      "context": "|  | 2018 | 2019 |\n| --- | --- | --- |\n| METRO | 86,239 | 82,979 |\n| METRO Germany | 11,816 | 11,760 |\n| METRO Western Europe (excl.Germany) | 24,073 | 24,044 |\n| METRO Russia | 13,884 | 12,288 |\n| METRO Eastern Europe (excl.Russia) | 28,264 | 27,589 |\n| METRO Asia | 8,202 | 7,298 |\n| Others | 6,916 | 7,067 |\n| METROAG | 863 | 837 |\n| Total | 94,018 | 90,883 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:27",
+      "question": "What is the percentage change in the current trail commission asset from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the current trail commission asset values for 2018 and 2019.",
+          "output": "2018: 22,103; 2019: 25,626"
+        },
+        {
+          "explanation": "Calculate the difference in current trail commission asset between 2019 and 2018.",
+          "output": "25,626 - 22,103 = 3,523"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Original Value) * 100.",
+          "output": "(3,523 / 22,103) * 100"
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "0.1598 * 100 = 15.98"
+        }
+      ],
+      "true_answer": "15.94",
+      "predicted_answer": "16",
+      "context": "|  | CONSOLIDATED |  |\n| --- | --- | --- |\n|  | 2019 $’000 | 2018 $’000 |\n| Current | 25,626 | 22,103 |\n| Non-current | 88,452 | 80,817 |\n| Total trail commission asset | 114,078 | 102,920 |\n| Reconciliation of movement in trail commission asset: |  |  |\n| Opening balance | 102,920 | 93,564 |\n| Trail commission revenue – current period trail commission sales sales | 34,732 | 33,007 |\n| Cash receipts | (23,574) | (23,651) |\n| Closing balance | 114,078 | 102,920 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:31",
+      "question": "How much would diluted earnings per share for fiscal year 2018 be without the net charge (benefit) related to the enactment of the TCJA?",
+      "steps": [
+        {
+          "explanation": "The diluted earnings per share (EPS) for fiscal year 2018 is given as 2.13.",
+          "output": "2.13"
+        },
+        {
+          "explanation": "The net charge (benefit) related to the enactment of the TCJA decreased diluted EPS by $1.78 for Q2, $(0.01) for Q4, and $1.75 for the entire fiscal year 2018.",
+          "output": "1.78 + 0.01 + 1.75 = 3.54"
+        },
+        {
+          "explanation": "To find the diluted EPS without the net charge, we add the total impact of the TCJA to the reported diluted EPS.",
+          "output": "2.13 + 3.54 = 5.67"
+        }
+      ],
+      "true_answer": "3.88",
+      "predicted_answer": "5.67",
+      "context": "(d) Reflects the net charge (benefit) related to the enactment of the TCJA, which decreased (increased) diluted EPS $1.78 for the second quarter, $(0.01) for the fourth quarter, and $1.75 for fiscal year 2018.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:43",
+      "question": "What is the change between the value of machinery, equipment and furniture between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the value of machinery, equipment and furniture for 2018.",
+          "output": "57,503"
+        },
+        {
+          "explanation": "Identify the value of machinery, equipment and furniture for 2019.",
+          "output": "57,157"
+        },
+        {
+          "explanation": "Calculate the change by subtracting the 2019 value from the 2018 value.",
+          "output": "346"
+        }
+      ],
+      "true_answer": "-346",
+      "predicted_answer": "346",
+      "context": "Property, plant and equipment at April 30, 2019 and 2018, consisted of the following (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Buildings and building improvements | $2,692 | $2,790 |\n| Machinery, equipment and furniture | 57,157 | 57,503 |\n|  | 59,849 | 60,293 |\n| Less, accumulated depreciation | (46,811 ) | (46,166) |\n|  | $13,038 | $ 14,127 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:47",
+      "question": "How much would diluted EPS be for second quarter ended of fiscal year 2019 without the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers?",
+      "steps": [
+        {
+          "explanation": "The diluted EPS for the second quarter of fiscal year 2019 is given as 1.08.",
+          "output": "1.08"
+        },
+        {
+          "explanation": "The net charge related to the TCJA and intangible property transfers decreased diluted EPS by $0.02 for the second quarter.",
+          "output": "0.02"
+        },
+        {
+          "explanation": "To find the diluted EPS without the net charge, we add the decrease back to the reported diluted EPS.",
+          "output": "1.08 + 0.02"
+        },
+        {
+          "explanation": "Calculating the adjusted diluted EPS: 1.08 + 0.02 = 1.10.",
+          "output": "1.10"
+        }
+      ],
+      "true_answer": "1.73",
+      "predicted_answer": "1.10",
+      "context": "(b) Reflects the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers, which decreased (increased) diluted EPS $0.02 for the second quarter, $(0.34) for the fourth quarter, and $(0.31) for fiscal year 2019.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:50",
+      "question": "What is the average Unamortized debt discount for 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the unamortized debt discount for 2018 and 2019.",
+          "output": "2019: 1,328, 2018: 1,630"
+        },
+        {
+          "explanation": "Add the unamortized debt discounts for both years.",
+          "output": "1,328 + 1,630 = 2,958"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average.",
+          "output": "2,958 / 2 = 1,479"
+        }
+      ],
+      "true_answer": "-1479",
+      "predicted_answer": "1479",
+      "context": "|  | December 31, 2019 | December 31, 2018 |\n| --- | --- | --- |\n|  | (in thousands) |  |\n| Principal | $212,000 | $262,000 |\n| Less: |  |  |\n| Unamortized debt discount | (1,328) | (1,630) |\n| Unamortized debt issuance costs | (3,763) | (4,613) |\n| Net carrying amount of long-term debt | 206,909 | 255,757 |\n| Less: current portion of long-term debt | — | — |\n| Long-term debt, non-current portion | $206,909 | 255,757 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:08:53",
+      "question": "What was the percentage change in Sales in FY2019 from FY2018?",
+      "steps": [
+        {
+          "explanation": "Identify the sales figures for FY2018 and FY2019.",
+          "output": "Sales FY2018 = 2680 million, Sales FY2019 = 2901 million."
+        },
+        {
+          "explanation": "Calculate the difference in sales between FY2019 and FY2018.",
+          "output": "Difference = 2901 - 2680 = 221 million."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Sales FY2018) * 100.",
+          "output": "Percentage Change = (221 / 2680) * 100."
+        },
+        {
+          "explanation": "Perform the calculation for the percentage change.",
+          "output": "Percentage Change = 8.24."
+        }
+      ],
+      "true_answer": "8.25",
+      "predicted_answer": "8",
+      "context": "| € million | 2017/2018 | 2018/2019 |\n| --- | --- | --- |\n| Sales | 2,680 | 2,901 |\n| Expenses | −2,563 | −2,736 |\n| Current earnings from discontinued operations before taxes | 117 | 165 |\n| Income taxes on gains/losses on the current result | −29 | −43 |\n| Current earnings from discontinued operations after taxes | 88 | 122 |\n| Gains/losses from the remeasurement or disposal of discontinued operations before taxes | 0 | 0 |\n| Gains/losses from the remeasurement or disposal of discontinued operations after taxes | 0 | 0 |\n| Profit or loss for the period from discontinued operations after taxes | 88 | 122 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:09:08",
+      "question": "What is the average Income tax expense for the period September 29, and December 31, 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the income tax expenses for the relevant periods: September 29, 2019 is $(28) million and December 31, 2019 is $(62) million.",
+          "output": "Income tax expenses: -28, -62"
+        },
+        {
+          "explanation": "Calculate the sum of the income tax expenses for the two periods: -28 + (-62) = -90.",
+          "output": "Sum of expenses: -90"
+        },
+        {
+          "explanation": "Count the number of periods considered: There are 2 periods (September 29, 2019 and December 31, 2019).",
+          "output": "Number of periods: 2"
+        },
+        {
+          "explanation": "Calculate the average income tax expense by dividing the total sum of expenses by the number of periods: -90 / 2 = -45.",
+          "output": "Average income tax expense: -45"
+        }
+      ],
+      "true_answer": "45",
+      "predicted_answer": "-45",
+      "context": "|  |  | Three Months Ended |  |\n| --- | --- | --- | --- |\n|  | December 31, 2019 | September 29, 2019 | December 31, 2018 |\n|  |  | (Unaudited, in millions) |  |\n| Income tax expense | $(62) | $(28) | $(28) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:09:27",
+      "question": "What is the percentage change in the pension discount rate for actuarial benefit obligations between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the pension discount rates for 2018 and 2019.",
+          "output": "2018: 3.80%, 2019: 3.20%."
+        },
+        {
+          "explanation": "Calculate the change in the pension discount rate from 2018 to 2019.",
+          "output": "Change = 3.20% - 3.80% = -0.60%."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (-0.60% / 3.80%) * 100."
+        },
+        {
+          "explanation": "Perform the calculation: -0.60 / 3.80 = -0.15789473684210526, then multiply by 100.",
+          "output": "Percentage Change = -15.789473684210526."
+        },
+        {
+          "explanation": "Round the percentage change to two decimal places.",
+          "output": "Percentage Change = -15.79."
+        }
+      ],
+      "true_answer": "-0.6",
+      "predicted_answer": "-15.79",
+      "context": "The following are the significant assumptions adopted in measuring the Company’s pension and other benefit obligations:\n\n| As at December 31, | Pension 2019 | Other 2019 | Pension 2018 | Other 2018 |\n| --- | --- | --- | --- | --- |\n| Actuarial benefit obligation |  |  |  |  |\n| Discount rate | 3.20% | 2.95% to 3.20% | 3.80% | 3.80% to 4.00% |\n| Benefit costs for the year ended |  |  |  |  |\n| Discount rate | 3.90% | 3.90% to 4.00% | 3.60% | 3.25% to 3.60% |\n| Future salary growth | 2.50% | N/A | 2.50% | N/A |\n| Health care cost trend rate | N/A | 3.49% to 5.49% | N/A | 4.50% |\n| Other medical trend rates | N/A | 4.00% to 4.56% | N/A | 4.50% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:09:35",
+      "question": "What was the percentage change in unfunded obligations between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the unfunded obligations for both years.",
+          "output": "Unfunded obligations 2019: -30, Unfunded obligations 2018: -28."
+        },
+        {
+          "explanation": "Calculate the change in unfunded obligations from 2018 to 2019.",
+          "output": "Change = -30 - (-28) = -30 + 28 = -2."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "Percentage change = (-2 / -28) * 100."
+        },
+        {
+          "explanation": "Simplify the calculation: (-2 / -28) = 1/14.",
+          "output": "Percentage change = (1/14) * 100."
+        },
+        {
+          "explanation": "Calculate 100 / 14 to find the percentage.",
+          "output": "Percentage change = 7.14."
+        }
+      ],
+      "true_answer": "7.14",
+      "predicted_answer": "7",
+      "context": "The funded status of our postretirement health care and other defined benefit plans, which is recognized in other long-term liabilities in our consolidated balance sheets, was as follows (in millions):\n\n|  | April 26, 2019 | April 27, 2018 |\n| --- | --- | --- |\n| Fair value of plan assets | $ 31 | $ 25 |\n| Benefit obligations | (61) | (53) |\n| Unfunded obligations | $(30) | $(28) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:09:47",
+      "question": "What is the percentage change of deferred sensor module revenues from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the deferred sensor module revenues for 2018 and 2019.",
+          "output": "2018: 16, 2019: 13"
+        },
+        {
+          "explanation": "Calculate the change in deferred sensor module revenues from 2018 to 2019.",
+          "output": "Change = 13 - 16 = -3"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "Percentage Change = (-3 / 16) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: -3 / 16 = -0.1875, then multiply by 100.",
+          "output": "Percentage Change = -18.75"
+        },
+        {
+          "explanation": "Round the percentage change to two decimal places if necessary.",
+          "output": "-18.75"
+        }
+      ],
+      "true_answer": "-18.75",
+      "predicted_answer": "-19",
+      "context": "|  | Years ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Deferred license fees revenues | $28 | $- |\n| Deferred NRE revenues | 20 | - |\n| Deferred AirBar revenues | 6 | 59 |\n| Deferred sensor modules revenues | 13 | 16 |\n|  | $67 | $75 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:09:55",
+      "question": "What is the percentage change in segment operating income between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the segment operating income for 2018 and 2019.",
+          "output": "2018: 2446, 2019: 2054"
+        },
+        {
+          "explanation": "Calculate the difference in segment operating income between 2019 and 2018.",
+          "output": "2054 - 2446 = -392"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (new value - old value) / old value * 100.",
+          "output": "(-392 / 2446) * 100"
+        },
+        {
+          "explanation": "Perform the calculation to find the percentage change.",
+          "output": "-16.02"
+        }
+      ],
+      "true_answer": "-16.03",
+      "predicted_answer": "-16",
+      "context": "|  | For the Years Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Reconciliation to consolidated net revenues: |  |  |\n| Segment net revenues | $5,969 | $6,835 |\n| Revenues from non-reportable segments (1) | 462 | 480 |\n| Net effect from recognition (deferral) of deferred net revenues (2) | 101 | 238 |\n| Elimination of intersegment revenues (3) | (43) | (53) |\n| Consolidated net revenues | $6,489 | $7,500 |\n| Reconciliation to consolidated income before income tax expense: |  |  |\n| Segment operating income | $2,054 | $2,446 |\n| Operating income (loss) from non-reportable segments (1) | 24 | 31 |\n| Net effect from recognition (deferral) of deferred net revenues and related cost of revenues (2) | 52 | 100 |\n| Share-based compensation expense | (166) | (209) |\n| Amortization of intangible assets | (203) | (370) |\n| Restructuring and related costs (4) | (137) | (10) |\n| Discrete tax-related items (5) | (17) | — |\n| Consolidated operating income | 1,607 | 1,988 |\n| Interest and other expense (income), net | (26) | 71 |\n| Loss on extinguishment of debt | — | 40 |\n| Consolidated income before income tax expense | $1,633 | $1,877 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:10:18",
+      "question": "How many percent of total segment revenues is the VAS segment revenue? ",
+      "steps": [
+        {
+          "explanation": "Identify the total segment revenues and the VAS segment revenues from the table.",
+          "output": "Total segment revenues = 377,289 RMB’Million, VAS segment revenues = 199,991 RMB’Million."
+        },
+        {
+          "explanation": "Calculate the percentage of VAS segment revenues relative to total segment revenues using the formula: (VAS segment revenues / Total segment revenues) * 100.",
+          "output": "(199,991 / 377,289) * 100."
+        },
+        {
+          "explanation": "Perform the division to find the fraction of VAS segment revenues to total segment revenues.",
+          "output": "0.529."
+        },
+        {
+          "explanation": "Multiply the result by 100 to convert the fraction to a percentage.",
+          "output": "52.9."
+        }
+      ],
+      "true_answer": "53.01",
+      "predicted_answer": "52.9",
+      "context": "|  | VAS | FinTech and Business Services | Online Advertising | Others | Total |\n| --- | --- | --- | --- | --- | --- |\n|  | RMB’Million | RMB’Million | RMB’Million | RMB’Million | RMB’Million |\n| Segment revenues | 199,991 | 101,355 | 68,377 | 7,566 | 377,289 |\n| Gross profit | 105,905 | 27,524 | 33,517 | 587 | 167,533 |\n| Depreciation | 3,461 | 6,669 | 2,065 | 108 | 12,303 |\n| Amortisation | 14,710 | – | 9,977 | 3,115 | 27,802 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:10:27",
+      "question": "What is the average state income taxes, net of federal benefit in 2017 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the state income taxes, net of federal benefit for the years 2017 and 2018 from the table.",
+          "output": "(2,665) for 2018 and (2,244) for 2017."
+        },
+        {
+          "explanation": "Add the state income taxes for both years together: 2,665 + 2,244.",
+          "output": "4,909."
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average: 4,909 / 2.",
+          "output": "2,454.5."
+        }
+      ],
+      "true_answer": "2454.5",
+      "predicted_answer": "2454",
+      "context": "The following is a reconciliation of the Federal statutory income taxes to the amounts reported in the financial statements (in thousands).\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Federal income tax expense at statutory rates | $(11,061) | $(8,690) | $(10,892) |\n| Effect of: |  |  |  |\n| State income taxes, net of federal benefit | (2,973) | (2,665) | (2,244) |\n| Impact of foreign operations | (11) | (146) | 74 |\n| Non-deductible expenses | (592) | (1,274) | (1,350) |\n| Federal tax rate change | — | — | (9,046) |\n| Tax effect of TCJA from foreign earnings | (28) | (130) | (2,296) |\n| Other | (581) | (645) | 239 |\n| Changes in valuation allowance | 92 | 835 | 273 |\n| Income tax expense | $(15,154) | $(12,715) | $(25,242) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:10:29",
+      "question": "What is the amount of employee stock purchase rights including accelerated stock-based compensation expense at the end of 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the amount of employee stock purchase rights for the year ended December 31, 2018 from the table.",
+          "output": "5240"
+        },
+        {
+          "explanation": "Add the accelerated stock-based compensation expense of $4.1 million to the employee stock purchase rights amount.",
+          "output": "5240 + 4100"
+        },
+        {
+          "explanation": "Calculate the total amount by performing the addition.",
+          "output": "9340"
+        }
+      ],
+      "true_answer": "5240",
+      "predicted_answer": "9340",
+      "context": "(1) Amount for the year ended December 31, 2018 includes $4.1 million of accelerated stock-based compensation expense. In March 2018, as\na result of a suspension of the 2014 Purchase Plan due to our non-timely filing status, all unrecognized stock-based compensation expense\nrelated to ESPP under the 2014 Purchase Plan was accelerated and recognized within the consolidated statement of operations.\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Stock-based compensation by type of award: |  |  |  |\n| Stock options | $648 | $1,353 | $2,705 |\n| Stock awards | 14,882 | 10,445 | 11,421 |\n| Employee stock purchase rights(1) | 999 | 5,240 | 3,077 |\n| Total | $16,529 | $17,038 | $17,203 |\n| Stock-based compensation by category of expense: |  |  |  |\n| Cost of revenue | $1,500 | $1,602 | $1,362 |\n| Sales and marketing | 5,765 | 5,667 | 6,075 |\n| Research and development | 6,039 | 6,631 | 6,343 |\n| General and administrative | 3,225 | 3,138 | 3,423 |\n| Total | $16,529 | $17,038 | $17,203 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:10:33",
+      "question": "What is the company's average gross profit in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the gross profit for 2018 and 2019 from the table.",
+          "output": "2018: 1,146,966; 2019: 1,195,183"
+        },
+        {
+          "explanation": "Calculate the total gross profit for both years by adding the gross profits from 2018 and 2019.",
+          "output": "1,146,966 + 1,195,183 = 2,342,149"
+        },
+        {
+          "explanation": "Divide the total gross profit by the number of years (2) to find the average gross profit.",
+          "output": "2,342,149 / 2 = 1,171,074.5"
+        }
+      ],
+      "true_answer": "1171074.5",
+      "predicted_answer": "1171074",
+      "context": "|  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- |\n| (In thousands, except percentages) | Dollars | % of Revenue | Dollars | % of Revenue |\n| Revenue | $3,090,325 | 100.0% | $2,973,536 | 100.0% |\n| Cost of goods sold | 1,895,142 | 61.3 | 1,826,570 | 61.4 |\n| Gross profit | 1,195,183 | 38.7 | 1,146,966 | 38.6 |\n| Research and development | 450,482 | 14.6 | 445,103 | 15.0 |\n| Selling, general, and administrative | 476,074 | 15.4 | 527,751 | 17.7 |\n| Other operating expense | 52,161 | 1.7 | 103,830 | 3.5 |\n| Operatingincome | $216,466 | 7.0% | $70,282 | 2.4% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:04",
+      "question": "What was the percentage increase / (decrease) in the net revenue from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net revenue for the years 2019 and 2018.",
+          "output": "2019: 172.5, 2018: 194.3"
+        },
+        {
+          "explanation": "Calculate the change in net revenue by subtracting the 2018 value from the 2019 value.",
+          "output": "172.5 - 194.3 = -21.8"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "(-21.8 / 194.3) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: -21.8 / 194.3 = -0.1127, then multiply by 100 to convert to percentage.",
+          "output": "-11.27"
+        },
+        {
+          "explanation": "Round the percentage to two decimal places.",
+          "output": "-11.27"
+        }
+      ],
+      "true_answer": "-11.22",
+      "predicted_answer": "-11",
+      "context": "Segment Results of Operations\nIn the Company's Consolidated Financial Statements, other operating (income) expense includes (i) (gain) loss on sale or disposal of assets, (ii) lease termination costs, (iii)\nasset impairment expense, (iv) accretion of asset retirement obligations, and (v) FCC reimbursements. Each table summarizes the results of operations of our operating\nsegments and compares the amount of the change between the periods presented (in millions).                                Marine Services Segment\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | Increase / (Decrease) |\n| Net revenue | $172.5 | $194.3 | $(21.8) |\n| Cost of revenue | 127.1 | 163.0 | (35.9) |\n| Selling, general and administrative | 25.8 | 20.2 | 5.6 |\n| Depreciation and amortization | 25.7 | 27.2 | (1.5) |\n| Other operating income | — | (0.7) | 0.7 |\n| Income (loss) from operations | $(6.1) | $(15.4) | $9.3 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:13",
+      "question": "What was the average cost of revenue?",
+      "steps": [
+        {
+          "explanation": "Identify the cost of revenue for each year.",
+          "output": "2019: 127.1, 2018: 163.0"
+        },
+        {
+          "explanation": "Calculate the average cost of revenue over the two years.",
+          "output": "(127.1 + 163.0) / 2"
+        },
+        {
+          "explanation": "Perform the addition: 127.1 + 163.0 = 290.1",
+          "output": "290.1"
+        },
+        {
+          "explanation": "Now divide by 2 to find the average: 290.1 / 2 = 145.05",
+          "output": "145.05"
+        }
+      ],
+      "true_answer": "145.05",
+      "predicted_answer": "145",
+      "context": "Segment Results of Operations\nIn the Company's Consolidated Financial Statements, other operating (income) expense includes (i) (gain) loss on sale or disposal of assets, (ii) lease termination costs, (iii)\nasset impairment expense, (iv) accretion of asset retirement obligations, and (v) FCC reimbursements. Each table summarizes the results of operations of our operating\nsegments and compares the amount of the change between the periods presented (in millions).                                Marine Services Segment\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | Increase / (Decrease) |\n| Net revenue | $172.5 | $194.3 | $(21.8) |\n| Cost of revenue | 127.1 | 163.0 | (35.9) |\n| Selling, general and administrative | 25.8 | 20.2 | 5.6 |\n| Depreciation and amortization | 25.7 | 27.2 | (1.5) |\n| Other operating income | — | (0.7) | 0.7 |\n| Income (loss) from operations | $(6.1) | $(15.4) | $9.3 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:15",
+      "question": "What is the average of the total Asia Pacific revenues in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the total Asia Pacific revenues for 2018 and 2019 from the table.",
+          "output": "2018: 7859, 2019: 6490"
+        },
+        {
+          "explanation": "Add the total revenues for 2018 and 2019 together.",
+          "output": "7859 + 6490 = 14349"
+        },
+        {
+          "explanation": "Divide the sum by 2 to find the average.",
+          "output": "14349 / 2 = 7174.5"
+        }
+      ],
+      "true_answer": "7174.5",
+      "predicted_answer": "7174",
+      "context": "The following table sets forth the breakdown of revenues by category and segment. Travel revenue includes travel publications (Top 20, Website, Newsflash, Travelzoo Network), Getaway vouchers and hotel platform. Local revenue includes Local Deals vouchers and entertainment offers (vouchers and direct bookings) (in thousands).\n\n| Year Ended December 31, |  |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Asia Pacific |  |  |\n| Travel | $6,274 | $7,351 |\n| Local | 216 | 508 |\n| Total Asia Pacific revenues | 6,490 | 7,859 |\n| Europe |  |  |\n| Travel | 32,081 | 30,856 |\n| Local | 4,817 | 5,293 |\n| Total Europe revenues | 36,898 | 36,149 |\n| North America |  |  |\n| Travel | 57,863 | 56,145 |\n| Local | 10,161 | 11,169 |\n| Total North America revenues | 68,024 | 67,314 |\n| Consolidated |  |  |\n| Travel | 96,218 | 94,352 |\n| Local | 15,194 | 16,970 |\n| Total revenues | $111,412 | 111,322 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:23",
+      "question": "What was the percentage change in software under development between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the value of software under development for 2019 and 2018.",
+          "output": "2019: 16284, 2018: 6509"
+        },
+        {
+          "explanation": "Calculate the difference in software under development between 2019 and 2018.",
+          "output": "16284 - 6509 = 9785"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (difference / original value) * 100.",
+          "output": "(9785 / 6509) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change.",
+          "output": "150.00"
+        }
+      ],
+      "true_answer": "150.18",
+      "predicted_answer": "150",
+      "context": "|  | 30 June 2019 | 30 June 2018 |\n| --- | --- | --- |\n|  | $'000 | $'000 |\n| Rights and licences | 13 | 13 |\n| Internally generated software | 7,381 | 6,385 |\n| Software under development | 16,284 | 6,509 |\n| Total intangible assets | 23,678 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:33",
+      "question": "What is the percentage change in the Other permanent differences and miscellaneous items from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the value for Other permanent differences and miscellaneous items for 2018.",
+          "output": "43,214"
+        },
+        {
+          "explanation": "Identify the value for Other permanent differences and miscellaneous items for 2019.",
+          "output": "39,251"
+        },
+        {
+          "explanation": "Calculate the change in value from 2018 to 2019 by subtracting the 2019 value from the 2018 value.",
+          "output": "3,963"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Old Value) * 100.",
+          "output": "(3,963 / 43,214) * 100"
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "9.16"
+        }
+      ],
+      "true_answer": "-9.17",
+      "predicted_answer": "-9",
+      "context": "|  |  | Year Ended |  |\n| --- | --- | --- | --- |\n|  | June 30, 2019 | June 24, 2018 | June 25, 2017 |\n|  |  | (in thousands) |  |\n| Income tax expense computed at federal statutory rate | $513,780 | $891,011 | $634,086 |\n| State income taxes, net of federal tax benefit | (17,565) | (50,585) | (11,973) |\n| Foreign income taxed at different rates | (260,344) | (939,808) | (352,860) |\n| Settlements and reductions in uncertain tax positions | (31,291) | (33,367) | (144,519) |\n| Tax credits | (71,779) | (69,301) | (37,713) |\n| State valuation allowance, net of federal tax benefit | 26,742 | 57,302 | 12,070 |\n| Equity-based compensation | (7,566) | (35,875) | 13,187 |\n| Other permanent differences and miscellaneous items | 39,251 | 43,214 | 1,632 |\n| U.S. tax reform impacts | 63,913 | 908,517 | — |\n|  | $255,141 | $771,108 | $113,910 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:36",
+      "question": "What is the percentage increase / (decrease) in the gain on bargain purchase from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the gain on bargain purchase for 2018 and 2019.",
+          "output": "2018: -115.4, 2019: -1.1"
+        },
+        {
+          "explanation": "Calculate the change in gain on bargain purchase from 2018 to 2019.",
+          "output": "Change = 2019 - 2018 = -1.1 - (-115.4) = 114.3"
+        },
+        {
+          "explanation": "Calculate the percentage increase using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Increase = (114.3 / -115.4) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage increase value.",
+          "output": "Percentage Increase = -99.04% (approximately)"
+        }
+      ],
+      "true_answer": "-99.05",
+      "predicted_answer": "-99",
+      "context": "|  |  | Year ended December 31, |  |\n| --- | --- | --- | --- |\n|  |  |  | Increase / |\n|  | 2019 | 2018 | (Decrease) |\n| Net income - Insurance segment | $59.4 | $165.2 | $(105.8) |\n| Effect of investment (gains) (1) | (1.9) | (5.6) | 3.7 |\n| Asset impairment expense | 47.3 | — | 47.3 |\n| Gain on bargain purchase | (1.1) | (115.4) | 114.3 |\n| Gain on reinsurance recaptures | — | (47.0) | 47.0 |\n| Acquisition costs | 2.1 | 2.8 | (0.7) |\n| Insurance AOI | 105.8 | — | 105.8 |\n| Income tax expense (benefit) | (20.1) | 0.6 | (20.7) |\n| Pre-tax Insurance AOI | $85.7 | $0.6 | $85.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:11:52",
+      "question": "What is the percentage change of Adjusted Revenue from 2016 to 2017?",
+      "steps": [
+        {
+          "explanation": "Identify the Adjusted Revenue for 2016 and 2017.",
+          "output": "Adjusted Revenue 2016 = 686,618; Adjusted Revenue 2017 = 983,963."
+        },
+        {
+          "explanation": "Calculate the difference in Adjusted Revenue between 2017 and 2016.",
+          "output": "Difference = 983,963 - 686,618 = 297,345."
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Previous Year Revenue) * 100.",
+          "output": "Percentage Change = (297,345 / 686,618) * 100."
+        },
+        {
+          "explanation": "Perform the division and multiplication to find the percentage change.",
+          "output": "Percentage Change = 0.4325 * 100 = 43.25."
+        }
+      ],
+      "true_answer": "43.31",
+      "predicted_answer": "43",
+      "context": "|  |  |  | Year Ended December 31, |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 2018 | 2017 | 2016 | 2015 | 2014 |\n|  |  |  | (in thousands, except for GPV and per share data) |  |  |\n| Gross Payment Volume (GPV)(in millions) | $84,654 | $65,343 | $49,683 | $35,643 | $23,780 |\n| Adjusted Revenue | $1,587,641 | $983,963 | $686,618 | $452,168 | $276,310 |\n| Adjusted EBITDA | $256,523 | $139,009 | $44,887 | $(41,115) | $(67,741) |\n| Adjusted Net Income (Loss) Per Share: |  |  |  |  |  |\n| Basic | $0.55 | $0.30 | $0.04 | $(0.39) | $(0.62) |\n| Diluted | $0.47 | $0.27 | $0.04 | $(0.39) | $(0.62) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:00",
+      "question": "In which year were the pension expenses larger?",
+      "steps": [
+        {
+          "explanation": "Identify the pension expenses for each year from the table.",
+          "output": "2017/2018: 36, 2018/2019: 31"
+        },
+        {
+          "explanation": "Compare the pension expenses for the two years.",
+          "output": "36 > 31"
+        },
+        {
+          "explanation": "Determine which year had larger pension expenses based on the comparison.",
+          "output": "2017/2018 had larger expenses."
+        }
+      ],
+      "true_answer": "2018",
+      "predicted_answer": "0.9995044598612488",
+      "context": "| € million | 2017/2018 | 2018/2019 |\n| --- | --- | --- |\n| Current service cost1 | 24 | 21 |\n| Net interest expenses2 | 11 | 9 |\n| Past service cost (incl. curtailments and changes) | 0 | 0 |\n| Settlements | 0 | 0 |\n| Other pension expenses | 1 | 1 |\n| Pension expenses | 36 | 31 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:02",
+      "question": "What was the average tax loss and credit carry forward for 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the tax loss and credit carry forwards for 2018 and 2019.",
+          "output": "2019: 3012, 2018: 3576"
+        },
+        {
+          "explanation": "Add the tax loss and credit carry forwards for both years.",
+          "output": "3012 + 3576 = 6598"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average.",
+          "output": "6598 / 2 = 3299"
+        }
+      ],
+      "true_answer": "3294",
+      "predicted_answer": "3299",
+      "context": "|  |  | (dollars in millions) |\n| --- | --- | --- |\n| At December 31, | 2019 | 2018 |\n| Deferred Tax Assets |  |  |\n| Employee benefits | $ 5,048 | $ 5,403 |\n| Tax loss and credit carry forwards | 3,012 | 3,576 |\n| Other – assets | 5,595 | 1,650 |\n|  | 13,655 | 10,629 |\n| Valuation allowances | (2,260) | (2,741) |\n| Deferred tax assets | 11,395 | 7,888 |\n| Deferred Tax Liabilities |  |  |\n| Spectrum and other intangible amortization | 22,388 | 21,976 |\n| Depreciation | 16,884 | 15,662 |\n| Other—liabilities | 6,742 | 3,976 |\n| Deferred tax liabilities | 46,014 | 41,614 |\n| Net deferred tax liability | $ 34,619 | $ 33,726 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:07",
+      "question": "What was the percentage change in Research and development in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the values for Research and Development for 2019 and 2018.",
+          "output": "2019: 2990, 2018: 3247"
+        },
+        {
+          "explanation": "Calculate the difference in values between 2019 and 2018.",
+          "output": "2990 - 3247 = -257"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (difference / old value) * 100.",
+          "output": "(-257 / 3247) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change.",
+          "output": "-7.92"
+        }
+      ],
+      "true_answer": "-7.91",
+      "predicted_answer": "-8",
+      "context": "The following table shows total stock-based compensation expense and related tax benefits included in the Consolidated Statements of Operations for fiscal 2019, 2018 and 2017 (in thousands):\n\n|  |  | Fiscal |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Cost of sales | $4,880 | $4,403 | $3,541 |\n| Research and development | 2,990 | 3,247 | 2,973 |\n| Selling, general and administrative | 28,596 | 25,088 | 23,911 |\n| Income tax benefit | (4,946) | (5,073) | (7,073) |\n|  | $31,520 | $27,665 | $23,352 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:20",
+      "question": "What was the change in Short-term deposits and highly liquid funds between 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the value of Short-term deposits and highly liquid funds for 2019.",
+          "output": "950"
+        },
+        {
+          "explanation": "Identify the value of Short-term deposits and highly liquid funds for 2018.",
+          "output": "6450"
+        },
+        {
+          "explanation": "Calculate the change by subtracting the 2019 value from the 2018 value.",
+          "output": "6450 - 950 = 5500"
+        }
+      ],
+      "true_answer": "-5500",
+      "predicted_answer": "5500",
+      "context": "NAVIOS MARITIME HOLDINGS INC. NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Expressed in thousands of U.S. dollars — except share data)\n\n|  | December 31, 2019 | December 31,2018 |\n| --- | --- | --- |\n| Cash on hand and at banks | $77,041 | $131,432 |\n| Short-term deposits and highly liquid funds | 950 | 6,450 |\n| Restricted cash | 736 | 12,892 |\n| Cash and cash equivalents and restricted cash | $78,727 | $150,774 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:45",
+      "question": "What is the average Selling, general and administrative for the Fiscal Year Ended December 28, 2019 to December 29, 2018?  ",
+      "steps": [
+        {
+          "explanation": "Identify the Selling, general and administrative expenses for the two fiscal years: 2019 and 2018.",
+          "output": "2019: $106,335, 2018: $99,254"
+        },
+        {
+          "explanation": "Add the Selling, general and administrative expenses for both years together.",
+          "output": "106335 + 99254 = 205589"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average.",
+          "output": "205589 / 2 = 102794.5"
+        }
+      ],
+      "true_answer": "102794.5",
+      "predicted_answer": "102794",
+      "context": "|  |  | Fiscal Year Ended |  |  |\n| --- | --- | --- | --- | --- |\n|  | December 28, 2019 | December 29, 2018 | $ Change | % Change |\n|  |  | (Dollars in thousands) |  |  |\n| Selling, general and administrative | $106,335 | $99,254 | $7,081 | 7.1 % |\n| % of revenues | 18.0 % | 18.7 % |  |  |\n|  |  | Fiscal Year Ended |  |  |\n|  | December 29, 2018 | December 30, 2017 | $ Change | % Change |\n|  |  | (Dollars in thousands) |  |  |\n| Selling, general and administrative | $99,254 | $95,489 | $3,765 | 3.9 % |\n| % of revenues | 18.7 % | 17.4 % |  |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:12:55",
+      "question": "What is the value of Sub-total deferred tax assets as a percentage of Net deferred tax assets for 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the Sub-total deferred tax assets for 2019.",
+          "output": "452.9"
+        },
+        {
+          "explanation": "Identify the Net deferred tax assets for 2019.",
+          "output": "207.9"
+        },
+        {
+          "explanation": "Calculate the percentage of Sub-total deferred tax assets relative to Net deferred tax assets using the formula: (Sub-total deferred tax assets / Net deferred tax assets) * 100.",
+          "output": "(452.9 / 207.9) * 100"
+        },
+        {
+          "explanation": "Perform the division: 452.9 / 207.9 = 2.178.",
+          "output": "2.178"
+        },
+        {
+          "explanation": "Multiply by 100 to convert to percentage: 2.178 * 100 = 217.8.",
+          "output": "217.8"
+        }
+      ],
+      "true_answer": "217.85",
+      "predicted_answer": "217.8",
+      "context": "|  | December 31, |  |\n| --- | --- | --- |\n| (In millions) | 2019 | 2018 |\n| Accruals not yet deductible for tax purposes | $ 17.4 | $ 17.5 |\n| Net operating loss carryforwards | 245.9 | 265.5 |\n| Foreign, federal and state credits | 8.4 | 10.4 |\n| Employee benefit items | 79.5 | 77.0 |\n| Capitalized expenses | 32.2 | 8.9 |\n| Intangibles | 21.8 | — |\n| Derivatives and other | 47.7 | 38.0 |\n| Sub-total deferred tax assets | 452.9 | 417.3 |\n| Valuation allowance | (197.6) | (218.4) |\n| Total deferred tax assets | $ 255.3 | $ 198.9 |\n| Depreciation and amortization | $ (37.0) | $ (26.8) |\n| Unremitted foreign earnings | (10.0) | — |\n| Intangible assets | — | (21.7) |\n| Other | (0.4) | (0.4) |\n| Total deferred tax liabilities | (47.4) | (48.9) |\n| Net deferred tax assets | $ 207.9 | $ 150.0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:02",
+      "question": "What is the average Selling, general and administrative for the Fiscal Year Ended December 29, 2018 to December 30, 2017?",
+      "steps": [
+        {
+          "explanation": "Identify the Selling, general and administrative expenses for the fiscal years ended December 29, 2018 and December 30, 2017.",
+          "output": "$99,254 (2018), $95,489 (2017)"
+        },
+        {
+          "explanation": "Sum the Selling, general and administrative expenses for both years.",
+          "output": "$99,254 + $95,489 = $194,743"
+        },
+        {
+          "explanation": "Divide the total by the number of years to find the average.",
+          "output": "$194,743 / 2 = $97,371.5"
+        }
+      ],
+      "true_answer": "97371.5",
+      "predicted_answer": "97371",
+      "context": "|  |  | Fiscal Year Ended |  |  |\n| --- | --- | --- | --- | --- |\n|  | December 28, 2019 | December 29, 2018 | $ Change | % Change |\n|  |  | (Dollars in thousands) |  |  |\n| Selling, general and administrative | $106,335 | $99,254 | $7,081 | 7.1 % |\n| % of revenues | 18.0 % | 18.7 % |  |  |\n|  |  | Fiscal Year Ended |  |  |\n|  | December 29, 2018 | December 30, 2017 | $ Change | % Change |\n|  |  | (Dollars in thousands) |  |  |\n| Selling, general and administrative | $99,254 | $95,489 | $3,765 | 3.9 % |\n| % of revenues | 18.7 % | 17.4 % |  |  |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:04",
+      "question": "What is the number of potentially dilutive stock options as a percentage of the total Weighted-average common shares, diluted in 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the number of potentially dilutive stock options for 2018.",
+          "output": "716661"
+        },
+        {
+          "explanation": "Identify the total weighted-average common shares, diluted for 2018.",
+          "output": "28416512"
+        },
+        {
+          "explanation": "Calculate the percentage of potentially dilutive stock options relative to the total weighted-average common shares, diluted using the formula: (Potentially dilutive stock options / Total diluted shares) * 100.",
+          "output": "(716661 / 28416512) * 100"
+        }
+      ],
+      "true_answer": "2.52",
+      "predicted_answer": "2",
+      "context": "* For the twelve months ended December 31, 2018, the diluted earnings per common share included the weighted average effect of 215,196 unvested Restricted Stock Units and 716,661 stock options that are potentially dilutive to earnings per share since the exercise price of such securities was less than the average market price during the period. For the twelve months ended December 31, 2017, the diluted earnings per common share included 438,712 unvested Restricted Stock Units and the weighted average effect of 477,048 stock options that are potentially dilutive to earnings per share since the exercise price of such securities was less than the average market price during the period.\n\n|  |  | Years Ended |  |\n| --- | --- | --- | --- |\n|  |  | December 31, |  |\n|  | 2019 | 2018 | 2017 |\n|  |  | (In thousands, except share and per share data) |  |\n| Numerator: |  |  |  |\n| Net income (loss) attributable to common stockholders | $(16,490) | $19,813 | $17,929 |\n| Denominator: |  |  |  |\n| Weighted-average common shares, basic | 27,618,284 | 27,484,655 | 25,353,966 |\n| Weighted-average common shares, diluted* | 27,618,284 | 28,416,512 | 26,269,727 |\n| Net income (loss) per common share: |  |  |  |\n| Basic: | $(0.60) | $0.72 | $0.71 |\n| Diluted: | $(0.60) | $0.70 | $0.68 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:16",
+      "question": "What is the company's average revenue in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the revenue for 2019 and 2018 from the table.",
+          "output": "2019 Revenue = 3,090,325, 2018 Revenue = 2,973,536."
+        },
+        {
+          "explanation": "Calculate the total revenue for both years by adding the revenues for 2018 and 2019.",
+          "output": "Total Revenue = 3,090,325 + 2,973,536."
+        },
+        {
+          "explanation": "Calculate the total revenue: 3,090,325 + 2,973,536 = 6,063,861.",
+          "output": "Total Revenue = 6,063,861."
+        },
+        {
+          "explanation": "Divide the total revenue by the number of years (2) to find the average revenue.",
+          "output": "Average Revenue = 6,063,861 / 2."
+        },
+        {
+          "explanation": "Calculate the average revenue: 6,063,861 / 2 = 3,031,930.5.",
+          "output": "Average Revenue = 3,031,930.5."
+        }
+      ],
+      "true_answer": "3031930.5",
+      "predicted_answer": "3031930",
+      "context": "|  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- |\n| (In thousands, except percentages) | Dollars | % of Revenue | Dollars | % of Revenue |\n| Revenue | $3,090,325 | 100.0% | $2,973,536 | 100.0% |\n| Cost of goods sold | 1,895,142 | 61.3 | 1,826,570 | 61.4 |\n| Gross profit | 1,195,183 | 38.7 | 1,146,966 | 38.6 |\n| Research and development | 450,482 | 14.6 | 445,103 | 15.0 |\n| Selling, general, and administrative | 476,074 | 15.4 | 527,751 | 17.7 |\n| Other operating expense | 52,161 | 1.7 | 103,830 | 3.5 |\n| Operatingincome | $216,466 | 7.0% | $70,282 | 2.4% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:21",
+      "question": "What was the 2019 percentage change of dividends paid between 2018 and 2019 financial years?",
+      "steps": [
+        {
+          "explanation": "Identify the total dividends paid in 2019.",
+          "output": "12637"
+        },
+        {
+          "explanation": "Identify the total dividends paid in 2018.",
+          "output": "10392"
+        },
+        {
+          "explanation": "Calculate the difference in dividends paid between 2019 and 2018.",
+          "output": "2235"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Difference / Previous Year) * 100.",
+          "output": "21.5"
+        }
+      ],
+      "true_answer": "21.6",
+      "predicted_answer": "21.5",
+      "context": "|  | 2019 | 2018 |\n| --- | --- | --- |\n|  | $’000 | $’000 |\n| Dividends paid during the year (net of dividend re-investment) |  |  |\n| 4 cent per share final dividend paid 27 September 2018 – fully franked1 | 7,319 |  |\n| 3 cent per share final dividend paid 30 September 2017 – fully franked |  | 5,175 |\n| 3 cent per share interim dividend paid 29 March 2019 – fully franked | 5,318 |  |\n| 3 cent per share interim dividend paid 29 March 2018 – fully franked |  | 5,217 |\n|  | 12,637 | 10,392 |\n| Proposed dividend not recognised at the end of the year | 5,922 | 7,865 |\n| Dividends franking account |  |  |\n| 30% franking credits, on a tax paid basis, are available to shareholders of Hansen Technologies Ltd for subsequent financial years | 1,586 | 3,125 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:23",
+      "question": "What is the average net revenues from Automotive and Discrete Group (ADG) for the period December 31, 2019 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the net revenues for ADG for December 31, 2019 and December 31, 2018.",
+          "output": "924, 967"
+        },
+        {
+          "explanation": "Add the two values together: 924 + 967.",
+          "output": "1891"
+        },
+        {
+          "explanation": "Divide the sum by 2 to find the average: 1891 / 2.",
+          "output": "945.5"
+        }
+      ],
+      "true_answer": "945.5",
+      "predicted_answer": "945",
+      "context": "|  |  | Three Months Ended |  | % Variation |  |\n| --- | --- | --- | --- | --- | --- |\n|  | December 31, 2019 | September 29, 2019 | December 31, 2018 | Sequential | Year-Over-Year |\n|  |  |  | (Unaudited, in millions) |  |  |\n| Automotive and Discrete Group (ADG) | $924 | $894 | $967 | 3.3% | (4.5)% |\n| Analog, MEMS and Sensors Group (AMS) | 1,085 | 968 | 988 | 12.1 | 9.9 |\n| Microcontrollers and Digital ICs Group (MDG) | 742 | 688 | 689 | 7.9 | 7.6 |\n| Others | 3 | 3 | 4 | — | — |\n| Total consolidated net revenues | $2,754 | $2,553 | $2,648 | 7.9% | 4.0% |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:32",
+      "question": "What is the 2018 deferred tax on overseas earnings, excluding the 15€m charge relating to the combination of Vodafone India with Idea Cellular?",
+      "steps": [
+        {
+          "explanation": "Identify the deferred tax on overseas earnings for 2018 from the provided data.",
+          "output": "24"
+        },
+        {
+          "explanation": "The charge relating to the combination of Vodafone India with Idea Cellular is €15 million, but we need to exclude this from the deferred tax on overseas earnings.",
+          "output": "24"
+        },
+        {
+          "explanation": "Since the deferred tax on overseas earnings is not affected by the €15 million charge, the value remains the same.",
+          "output": "24"
+        }
+      ],
+      "true_answer": "9",
+      "predicted_answer": "24",
+      "context": "3 Includes a €42 million credit (2018: €15 million charge, 2017 €95 million charge) relating to the combination of Vodafone India with Idea Cellular\n\n|  | 2019 €m | 2018 €m | 2017 €m |\n| --- | --- | --- | --- |\n| Continuing (loss)/profit before tax as shown in the consolidated income statement | (2,613) | 3,878 | 2,792 |\n| Aggregated expected income tax (credit)/expense | (457) | 985 | 795 |\n| Impairment losses with no tax effect | 807 | – | – |\n| Disposal of Group investments | – | 55 | (271) |\n| Effect of taxation of associates and joint ventures, reported within profit before tax | 262 | 90 | 23 |\n| (Recognition)/derecognition of deferred tax assets for losses in Luxembourg and Spain1 | 1,186 | (1,583) | 1,603 |\n| Deferred tax following revaluation of investments in Luxembourg1 | (488) | (330) | (329) |\n| Previously unrecognised temporary differences we expect to use in the future | – | – | (15) |\n| Previously unrecognised temporary differences utilised in the year | – | (29) | (11) |\n| Current year temporary differences (including losses) that we currently do not expect to use | 78 | 20 | 139 |\n| Adjustments in respect of prior year tax liabilities2 | (94) | (244) | (107) |\n| Revaluation of assets for tax purposes | – | – | (39) |\n| Impact of tax credits and irrecoverable taxes | 79 | 93 | 98 |\n| Deferred tax on overseas earnings3 | (39) | 24 | 26 |\n| Effect of current year changes in statutory tax rates on deferred tax balances | (2) | (44) | 2,755 |\n| Financing costs not deductible for tax purposes | 67 | 23 | 25 |\n| Expenses not deductible (income not taxable) for tax purposes | 97 | 61 | 72 |\n| Income tax expense/(credit) | 1,496 | (879) | 4,764 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:42",
+      "question": "What was the change in the increase resulting from permanent differences between 2017 and 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the permanent differences for 2018 and 2017 from the table.",
+          "output": "Permanent differences for 2018: 0.8; Permanent differences for 2017: 3.0."
+        },
+        {
+          "explanation": "Calculate the change in permanent differences by subtracting the value for 2017 from the value for 2018.",
+          "output": "Change = 0.8 - 3.0."
+        },
+        {
+          "explanation": "Perform the subtraction to find the change.",
+          "output": "Change = -2.2."
+        }
+      ],
+      "true_answer": "-2.2",
+      "predicted_answer": "-2",
+      "context": "|  | 2019 | 2018 | 2017 |\n| --- | --- | --- | --- |\n| Federal statutory income tax rate | 21.0 % | 24.5 %  | 35.0 % |\n| Increase (decrease) resulting from:       |  |  |  |\n| Foreign tax rate differences | (21.0) | (30.2) | (39.9) |\n| Withholding tax on dividends  | (5.4) | 23.7 | — |\n| Permanent differences  | (1.3) | 0.8 | 3.0 |\n| Excess tax benefits related to share-based compensation  | (1.3) | (2.7) | (2.0) |\n| Global intangible low-taxed income (\"GILTI\")  | 11.7 | — | — |\n| Deemed repatriation tax  | 5.6 | 92.2 | — |\n| Non-deductible compensation | 1.5 | 0.2 | 0.2 |\n| Valuation allowances  | 1.5 | (30.6) | 12.2 |\n| Rate changes  | — | 9.0 | — |\n| Other, net  | 1.5 | 1.0 | (0.5) |\n| Effective income tax rate | 13.8 %  | 87.9 %  | 8.0 % |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:49",
+      "question": "What is the percentage increase / (decrease) in the net income - insurance segment from 2018 to 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the net income for 2018 and 2019.",
+          "output": "2018: 165.2, 2019: 59.4"
+        },
+        {
+          "explanation": "Calculate the change in net income from 2018 to 2019.",
+          "output": "Change = 59.4 - 165.2 = -105.8"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (-105.8 / 165.2) * 100"
+        },
+        {
+          "explanation": "Perform the calculation: -105.8 / 165.2 = -0.6405, then multiply by 100.",
+          "output": "Percentage Change = -64.05"
+        },
+        {
+          "explanation": "Round the percentage change to two decimal places.",
+          "output": "-64.05%"
+        }
+      ],
+      "true_answer": "-64.04",
+      "predicted_answer": "-64",
+      "context": "|  |  | Year ended December 31, |  |\n| --- | --- | --- | --- |\n|  |  |  | Increase / |\n|  | 2019 | 2018 | (Decrease) |\n| Net income - Insurance segment | $59.4 | $165.2 | $(105.8) |\n| Effect of investment (gains) (1) | (1.9) | (5.6) | 3.7 |\n| Asset impairment expense | 47.3 | — | 47.3 |\n| Gain on bargain purchase | (1.1) | (115.4) | 114.3 |\n| Gain on reinsurance recaptures | — | (47.0) | 47.0 |\n| Acquisition costs | 2.1 | 2.8 | (0.7) |\n| Insurance AOI | 105.8 | — | 105.8 |\n| Income tax expense (benefit) | (20.1) | 0.6 | (20.7) |\n| Pre-tax Insurance AOI | $85.7 | $0.6 | $85.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:13:53",
+      "question": "What was the percentage change in Interest expense in 2019 from 2018?",
+      "steps": [
+        {
+          "explanation": "Identify the Interest expense for 2018 and 2019 from the table.",
+          "output": "2018: 31.3, 2019: 23.1"
+        },
+        {
+          "explanation": "Calculate the change in Interest expense from 2018 to 2019.",
+          "output": "Change = 23.1 - 31.3 = -8.2"
+        },
+        {
+          "explanation": "Calculate the percentage change using the formula: (Change / Original Value) * 100.",
+          "output": "Percentage Change = (-8.2 / 31.3) * 100"
+        },
+        {
+          "explanation": "Calculate the percentage change value.",
+          "output": "Percentage Change = -26.18 (approximately)"
+        }
+      ],
+      "true_answer": "-26.2",
+      "predicted_answer": "-26",
+      "context": "|  | 2019 | 2018 | 2018-2019 Change |\n| --- | --- | --- | --- |\n|  |  | (in millions) |  |\n| Interest income | $(24.8) | $(26.7) | $1.9 |\n| Interest expense | 23.1 | 31.3 | (8.2) |\n| Other (income) expense, net | 29.5 | 1.4 | 28.1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:14:02",
+      "question": "What is the average federal income tax expense at statutory rates in 2018 and 2019?",
+      "steps": [
+        {
+          "explanation": "Identify the federal income tax expense at statutory rates for 2018 and 2019 from the table.",
+          "output": "2019: -11061, 2018: -8690"
+        },
+        {
+          "explanation": "Add the federal income tax expenses for 2018 and 2019.",
+          "output": "-11061 + -8690 = -19751"
+        },
+        {
+          "explanation": "Divide the total by 2 to find the average for the two years.",
+          "output": "-19751 / 2 = -9875.5"
+        }
+      ],
+      "true_answer": "9875.5",
+      "predicted_answer": "-9876",
+      "context": "The following is a reconciliation of the Federal statutory income taxes to the amounts reported in the financial statements (in thousands).\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Federal income tax expense at statutory rates | $(11,061) | $(8,690) | $(10,892) |\n| Effect of: |  |  |  |\n| State income taxes, net of federal benefit | (2,973) | (2,665) | (2,244) |\n| Impact of foreign operations | (11) | (146) | 74 |\n| Non-deductible expenses | (592) | (1,274) | (1,350) |\n| Federal tax rate change | — | — | (9,046) |\n| Tax effect of TCJA from foreign earnings | (28) | (130) | (2,296) |\n| Other | (581) | (645) | 239 |\n| Changes in valuation allowance | 92 | 835 | 273 |\n| Income tax expense | $(15,154) | $(12,715) | $(25,242) |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-15 23:14:04",
+      "question": "What is the farm production cost in year ended 2019 as a percentage of total cost?",
+      "steps": [
+        {
+          "explanation": "Identify the farm production cost for the fiscal year ended June 1, 2019.",
+          "output": "635797"
+        },
+        {
+          "explanation": "Identify the total cost for the fiscal year ended June 1, 2019.",
+          "output": "1138329"
+        },
+        {
+          "explanation": "Calculate the farm production cost as a percentage of total cost using the formula: (farm production cost / total cost) * 100.",
+          "output": "(635797 / 1138329) * 100"
+        }
+      ],
+      "true_answer": "55.85",
+      "predicted_answer": "55",
+      "context": "|  | Fiscal Year Ended |  |  | Quarter Ended |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| (Amounts in thousands) | June 1, 2019 | June 2, 2018 | Percent Change | June 1, 2019 | June 2, 2018 | Percent Change |\n| Cost of sales: |  |  |  |  |  |  |\n| Farm production | $ 635,797 | $ 603,887 | 5.3 % | $ 162,142 | $ 155,471 | 4.3% |\n| Processing and packaging | 222,765 | 214,078 | 4.1% | 55,584 | 53,734 | 3.4% |\n| Outside egg purchases and other | 249,605 | 287,472 | (13.2)% | 44,509 | 81,623 | (45.5)% |\n| Total shell eggs | 1,108,167 | 1,105,437 | 0.2 % | 262,235 | 290,828 | (9.8)% |\n| Egg products | 29,020 | 35,551 | (18.4)% | 5,139 | 10,743 | (52.2)% |\n| Other | 1,142 | 898 | 27.2% | 444 | 308 | 44.2% |\n| Total | $1,138,329 | $1,141,886 | (0.3)% | $267,818 | $301,879 | (11.3)% |\n| Farm production cost (per dozen produced) |  |  |  |  |  |  |\n| Feed | $0.415 | $0.394 | 5.3% | $0.411 | $0.416 | (1.2)% |\n| Other | 0.319 | 0.303 | 5.3% | 0.328 | 0.311 | 5.5% |\n| Total | $0.734 | $0.697 | 5.3% | $0.739 | $0.727 | 1.7% |\n| Outside egg purchases (average cost per dozen) | $1.26 | $1.45 | (13.1)% | $1.05 | $1.82 | (42.3)% |\n| Dozen produced | 876,705 | 873,307 | 0.4% | 222,625 | 215,729 | 3.2% |\n| Dozen sold | 1,038,900 | 1,037,713 | 0.1% | 254,772 | 251,955 | 1.1% |\n",
+      "correct": false
+    }
+  ]
+}

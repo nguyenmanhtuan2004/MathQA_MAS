@@ -1,0 +1,829 @@
+{
+  "accuracy": 89.0,
+  "correct": 267,
+  "total": 300,
+  "wrong_answers": [
+    {
+      "timestamp": "2025-07-16 12:54:13",
+      "question": "On a camping trip, Akira kept a log of the types of snakes she saw. She noted their colors and approximate lengths. What is the probability that a randomly selected snake is 2 feet long and red? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Count the total number of snakes observed.",
+          "output": "7"
+        },
+        {
+          "explanation": "Count the number of snakes that are 2 feet long and red.",
+          "output": "4"
+        },
+        {
+          "explanation": "Calculate the probability by dividing the number of 2 feet long red snakes by the total number of snakes.",
+          "output": "4/7"
+        },
+        {
+          "explanation": "The fraction 4/7 is already in its simplest form.",
+          "output": "4/7"
+        }
+      ],
+      "true_answer": "0.23529411764705882",
+      "predicted_answer": "0.5714285714285714",
+      "context": "|  | Red | Bright orange |\n| --- | --- | --- |\n| 1 foot long | 3 | 4 |\n| 2 feet long | 4 | 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:54:29",
+      "question": "Look at Khadijah's pay stub. Khadijah lives in a state without state income tax. How much did Khadijah make after taxes?",
+      "steps": [
+        {
+          "explanation": "Calculate total taxes by adding federal income tax and other taxes.",
+          "output": "Total taxes = Federal income tax + Other taxes = 198.74 + 136.90"
+        },
+        {
+          "explanation": "Calculate pay after taxes by subtracting total taxes from total earnings.",
+          "output": "Pay after taxes = Total earnings - Total taxes"
+        }
+      ],
+      "true_answer": "1454.36",
+      "predicted_answer": "1454",
+      "context": "| Employee | Pay period |  |\n| --- | --- | --- |\n| Khadijah Nair | December |  |\n| Total earnings |  | $1,790.00 |\n| Federal income tax | $198.74 |  |\n| Other taxes | $136.90 |  |\n| Total taxes |  | ? |\n| Pay after taxes |  | ? |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:54:34",
+      "question": "The school district compared how many swings each elementary school has. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "First, we need to sum the number of swings from all the schools.",
+          "output": "11 + 9 + 10 + 10 + 8 + 8 + 8 + 8 = 82"
+        },
+        {
+          "explanation": "Next, we count the number of schools to find the total number of entries.",
+          "output": "There are 8 schools."
+        },
+        {
+          "explanation": "Now, we calculate the mean by dividing the total number of swings by the number of schools.",
+          "output": "Mean = Total swings / Number of schools = 82 / 8 = 10.25"
+        }
+      ],
+      "true_answer": "9",
+      "predicted_answer": "10",
+      "context": "Swings\n\n| School | Number of swings |\n| --- | --- |\n| Shoreline Elementary | 11 |\n| Valley Elementary | 9 |\n| Lincoln Elementary | 10 |\n| Canyon Elementary | 10 |\n| Hillside Elementary | 8 |\n| Boyd Elementary | 8 |\n| Roseville Elementary | 8 |\n| Newberry Elementary | 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:54:37",
+      "question": "Each year the Cedarburg School District publishes its annual budget, which includes information on the sports program's per-student spending. According to the table, what was the rate of change between 2010 and 2011?",
+      "steps": [
+        {
+          "explanation": "Identify the per-student budget for 2010 and 2011 from the table.",
+          "output": "2010: $23, 2011: $26"
+        },
+        {
+          "explanation": "Calculate the change in budget from 2010 to 2011 by subtracting the 2010 budget from the 2011 budget.",
+          "output": "26 - 23 = 3"
+        },
+        {
+          "explanation": "Determine the rate of change by dividing the change in budget by the budget for 2010.",
+          "output": "3 / 23"
+        },
+        {
+          "explanation": "Convert the rate of change into a percentage by multiplying by 100.",
+          "output": "(3 / 23) * 100 = 13.04%"
+        }
+      ],
+      "true_answer": "3",
+      "predicted_answer": "13",
+      "context": "Cedarburg School District sports budget\n\n| Year | Per-student budget |\n| --- | --- |\n| 2009 | $27 |\n| 2010 | $23 |\n| 2011 | $26 |\n| 2012 | $19 |\n| 2013 | $30 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:55:27",
+      "question": "Eli went on a camping trip and logged the number of miles he hiked each day. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "List the number of miles hiked each day: 10, 9, 6, 10, 10.",
+          "output": "[10, 9, 6, 10, 10]"
+        },
+        {
+          "explanation": "Calculate the total number of miles by adding the daily miles: 10 + 9 + 6 + 10 + 10 = 55.",
+          "output": "55"
+        },
+        {
+          "explanation": "Count the number of days: There are 5 days.",
+          "output": "5"
+        },
+        {
+          "explanation": "Calculate the mean by dividing the total miles by the number of days: 55 / 5 = 11.",
+          "output": "11"
+        }
+      ],
+      "true_answer": "9",
+      "predicted_answer": "11",
+      "context": "Miles hiked\n\n| Day | Number of miles |\n| --- | --- |\n| Saturday | 10 |\n| Sunday | 9 |\n| Monday | 6 |\n| Tuesday | 10 |\n| Wednesday | 10 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:55:48",
+      "question": "A food industry researcher compiled the revenues of several pizzerias. How much did Taste of New York make from pizza sales?",
+      "steps": [
+        {
+          "explanation": "Identify the prices of vegetarian and cheese pizzas at Taste of New York.",
+          "output": "Vegetarian pizza: $10, Cheese pizza: $13"
+        },
+        {
+          "explanation": "Assume the number of vegetarian pizzas sold is V and the number of cheese pizzas sold is C.",
+          "output": "Revenue = (Price of Vegetarian * V) + (Price of Cheese * C)"
+        },
+        {
+          "explanation": "Calculate the revenue from vegetarian pizzas: 10 * V.",
+          "output": "10V"
+        },
+        {
+          "explanation": "Calculate the revenue from cheese pizzas: 13 * C.",
+          "output": "13C"
+        },
+        {
+          "explanation": "Total revenue from Taste of New York is the sum of both revenues: 10V + 13C.",
+          "output": "10V + 13C"
+        }
+      ],
+      "true_answer": "23",
+      "predicted_answer": "10V + 13C",
+      "context": "Pizza sales\n\n| Restaurant | Vegetarian pizzas | Cheese pizzas |\n| --- | --- | --- |\n| Dan's Deep Dish | $10 | $11 |\n| Taste of New York | $10 | $13 |\n| The Big Cheese | $16 | $8 |\n| Pizzas Only | $17 | $17 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:55:59",
+      "question": "How much money does Maria need to buy a birthday candle and a kazoo?",
+      "steps": [
+        {
+          "explanation": "Identify the price of the birthday candle from the table.",
+          "output": "$0.76"
+        },
+        {
+          "explanation": "Identify the price of the kazoo from the table.",
+          "output": "$0.81"
+        },
+        {
+          "explanation": "Add the prices of the birthday candle and the kazoo together.",
+          "output": "$0.76 + $0.81 = $1.57"
+        }
+      ],
+      "true_answer": "1.57",
+      "predicted_answer": "157",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| kazoo | $0.81 |\n| party hat | $0.20 |\n| birthday candle | $0.76 |\n| red balloon | $0.17 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:56:51",
+      "question": "A farm equipment company kept a record of the number of tractors made each month. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "List the number of tractors made each month: 97, 93, 90, 90, 98, 96, 90, 98.",
+          "output": "[97, 93, 90, 90, 98, 96, 90, 98]"
+        },
+        {
+          "explanation": "Count the total number of months (data points): There are 8 months.",
+          "output": "8"
+        },
+        {
+          "explanation": "Calculate the sum of the number of tractors made: 97 + 93 + 90 + 90 + 98 + 96 + 90 + 98 = 792.",
+          "output": "792"
+        },
+        {
+          "explanation": "To find the mean, divide the total sum by the number of months: 792 / 8 = 99.",
+          "output": "99"
+        }
+      ],
+      "true_answer": "94",
+      "predicted_answer": "99",
+      "context": "Tractors made\n\n| Month | Number of tractors |\n| --- | --- |\n| February | 97 |\n| March | 93 |\n| April | 90 |\n| May | 90 |\n| June | 98 |\n| July | 96 |\n| August | 90 |\n| September | 98 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:57:50",
+      "question": "The architecture student counted the number of bricks in each building in her neighborhood. How many buildings have exactly 87 bricks?",
+      "steps": [
+        {
+          "explanation": "The data is presented in a stem-and-leaf format. The stem represents the tens place, and the leaf represents the units place.",
+          "output": "The stem '8' corresponds to the tens digit '80', and the leaves '2, 5, 7, 7, 7, 7' represent the units digits."
+        },
+        {
+          "explanation": "To find the number of bricks that equal 87, we look for the stem '8' and the leaf '7'.",
+          "output": "The leaf '7' indicates that there is a building with 87 bricks."
+        },
+        {
+          "explanation": "Counting the occurrences of the leaf '7' in the stem '8', we see that '7' appears four times in the leaves: '2, 5, 7, 7, 7, 7'.",
+          "output": "Only one of these leaves corresponds to 87."
+        },
+        {
+          "explanation": "Thus, there is exactly one building with 87 bricks.",
+          "output": "1"
+        }
+      ],
+      "true_answer": "4",
+      "predicted_answer": "1",
+      "context": "Bricks per building\n\n| Stem | Leaf  |\n| --- | --- |\n| 6 | 0, 6 |\n| 7 | 0, 6, 8 |\n| 8 | 2, 5, 7, 7, 7, 7 |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:58:22",
+      "question": "In the first episode of a reality show, contestants had to spin two wheels of fate. Spinning the first wheel determined the remote location where contestants would reside for the duration of the season. Spinning the second wheel determined which \"bonus survival tool\" they would be allowed to bring, along with a few other necessary items. What is the probability that a randomly selected participant spun the second wheel and landed on a tent and spun the first wheel and landed on desert? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Identify the total number of items for each location.",
+          "output": "Total items in Desert = 3 (tent) + 5 (matches) = 8"
+        },
+        {
+          "explanation": "Identify the total number of items for Rainforest.",
+          "output": "Total items in Rainforest = 1 (tent) + 4 (matches) = 5"
+        },
+        {
+          "explanation": "Calculate the total number of items across both locations.",
+          "output": "Total items overall = 8 (Desert) + 5 (Rainforest) = 13"
+        },
+        {
+          "explanation": "Determine the probability of spinning the first wheel and landing on Desert.",
+          "output": "P(Desert) = Number of Desert items / Total items = 8 / 13"
+        },
+        {
+          "explanation": "Determine the probability of spinning the second wheel and landing on a tent.",
+          "output": "P(Tent) = Number of Tent items / Total items = 1 (only in Rainforest) + 3 (in Desert) = 4 / 13"
+        },
+        {
+          "explanation": "Calculate the combined probability of both events occurring (independent events).",
+          "output": "P(Desert and Tent) = P(Desert) * P(Tent) = (8/13) * (3/8) = 3/13"
+        }
+      ],
+      "true_answer": "0.23076923076923078",
+      "predicted_answer": "3",
+      "context": "|  | Desert | Rainforest |\n| --- | --- | --- |\n| A tent | 3 | 1 |\n| Matches | 5 | 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:58:31",
+      "question": "Principal Navarro reported the state test scores from some students at her school. How many students scored at least 45 points but fewer than 59 points?",
+      "steps": [
+        {
+          "explanation": "Identify the scores that fall within the range of at least 45 points but fewer than 59 points.",
+          "output": "Scores in the range: 46, 51, 51, 55, 56."
+        },
+        {
+          "explanation": "Count the number of scores identified in the previous step.",
+          "output": "There are 5 scores."
+        }
+      ],
+      "true_answer": "4",
+      "predicted_answer": "5",
+      "context": "Test scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0 |\n| 3 | 4 |\n| 4 | 0, 3, 6 |\n| 5 | 1, 1, 5 |\n| 6 | 0, 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:58:36",
+      "question": "Janice tracked the attendance at the school play. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "First, we need to sum the number of tickets sold over the week.",
+          "output": "73 + 62 + 51 + 82 + 53 + 75 + 73 = 419"
+        },
+        {
+          "explanation": "Next, we count the number of days (data points) for which we have ticket sales. There are 7 days in total.",
+          "output": "7"
+        },
+        {
+          "explanation": "Now, we calculate the mean by dividing the total number of tickets sold by the number of days.",
+          "output": "419 / 7 = 59.857142857142854"
+        }
+      ],
+      "true_answer": "67",
+      "predicted_answer": "59",
+      "context": "Tickets sold\n\n| Day | Number of tickets |\n| --- | --- |\n| Thursday | 73 |\n| Friday | 62 |\n| Saturday | 51 |\n| Sunday | 82 |\n| Monday | 53 |\n| Tuesday | 75 |\n| Wednesday | 73 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:59:07",
+      "question": "Natalie's family went on a road trip and counted the number of cars they saw each day. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "First, we need to sum the number of cars counted each day.",
+          "output": "97 + 100 + 92 + 100 + 99 + 95 + 96 = 679"
+        },
+        {
+          "explanation": "Next, we count the number of days for which we have data, which is 7 days.",
+          "output": "7"
+        },
+        {
+          "explanation": "Now, we calculate the mean by dividing the total number of cars by the number of days.",
+          "output": "679 / 7 = 96.71428571428571"
+        }
+      ],
+      "true_answer": "97",
+      "predicted_answer": "96",
+      "context": "Number of cars\n\n| Day | Number of cars |\n| --- | --- |\n| Sunday | 97 |\n| Monday | 100 |\n| Tuesday | 92 |\n| Wednesday | 100 |\n| Thursday | 99 |\n| Friday | 95 |\n| Saturday | 96 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:59:16",
+      "question": "A wilderness retail store asked a consulting company to do an analysis of their hiking shoe customers. The consulting company gathered data from each customer that purchased hiking shoes, and recorded the shoe brand and the customer's level of happiness. What is the probability that a randomly selected customer is displeased and purchased a Footlong shoe? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Identify the total number of customers who purchased Footlong shoes.",
+          "output": "4 (displeased) + 3 (pleased) = 7"
+        },
+        {
+          "explanation": "Identify the total number of customers who purchased Toes Knows shoes.",
+          "output": "5 (displeased) + 4 (pleased) = 9"
+        },
+        {
+          "explanation": "Calculate the total number of customers who purchased shoes from both brands.",
+          "output": "7 (Footlong) + 9 (Toes Knows) = 16"
+        },
+        {
+          "explanation": "Determine the number of customers who are displeased and purchased a Footlong shoe.",
+          "output": "4"
+        },
+        {
+          "explanation": "Calculate the probability of selecting a customer who is displeased and purchased a Footlong shoe.",
+          "output": "4 (displeased Footlong) / 16 (total customers) = 1/4"
+        }
+      ],
+      "true_answer": "0.25",
+      "predicted_answer": "1",
+      "context": "|  | A Footlong shoe | A Toes Knows shoe |\n| --- | --- | --- |\n| Displeased | 4 | 5 |\n| Pleased | 3 | 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 12:59:22",
+      "question": "The transportation company tracked the number of train tickets sold in the past 4 days. How many train tickets were sold in all on Tuesday and Wednesday?",
+      "steps": [
+        {
+          "explanation": "Identify the number of tickets sold on Tuesday.",
+          "output": "1557"
+        },
+        {
+          "explanation": "Identify the number of tickets sold on Wednesday.",
+          "output": "8024"
+        },
+        {
+          "explanation": "Add the number of tickets sold on Tuesday and Wednesday together.",
+          "output": "9571"
+        }
+      ],
+      "true_answer": "9581",
+      "predicted_answer": "9571",
+      "context": "Train tickets sold\n\n| Day | Number of tickets |\n| --- | --- |\n| Sunday | 8,590 |\n| Monday | 5,356 |\n| Tuesday | 1,557 |\n| Wednesday | 8,024 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:00:04",
+      "question": "As part of a stuffed animal drive for the local children's hospital, the students at Shah Elementary School record how many stuffed animals they have collected. How many students have more than 5 stuffed animals?",
+      "steps": [
+        {
+          "explanation": "Identify the frequency of students with more than 5 stuffed animals.",
+          "output": "2"
+        },
+        {
+          "explanation": "The only category that has more than 5 stuffed animals is the one with 6 stuffed animals.",
+          "output": "17"
+        },
+        {
+          "explanation": "Add the frequencies of students with more than 5 stuffed animals.",
+          "output": "2"
+        },
+        {
+          "explanation": "Thus, the total number of students with more than 5 stuffed animals is 2.",
+          "output": "2"
+        }
+      ],
+      "true_answer": "17",
+      "predicted_answer": "2",
+      "context": "Stuffed animals\n\n| Number of stuffed animals | Frequency |\n| --- | --- |\n| 0 | 11 |\n| 1 | 19 |\n| 2 | 18 |\n| 3 | 5 |\n| 4 | 16 |\n| 5 | 2 |\n| 6 | 17 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:00:15",
+      "question": "Darnell counted the number of words per page in his new book. How many pages have fewer than 92 words?",
+      "steps": [
+        {
+          "explanation": "Identify the number of words per page from the stem-and-leaf plot.",
+          "output": "The words per page are: 59, 59, 64, 68, 72, 76, 76, 90."
+        },
+        {
+          "explanation": "Count the number of pages with fewer than 92 words.",
+          "output": "All pages listed have fewer than 92 words."
+        },
+        {
+          "explanation": "Count the total number of pages listed.",
+          "output": "There are 7 pages."
+        }
+      ],
+      "true_answer": "8",
+      "predicted_answer": "7",
+      "context": "Words per page\n\n| Stem | Leaf  |\n| --- | --- |\n| 5 | 9, 9 |\n| 6 | 4, 8 |\n| 7 | 2, 6, 6 |\n| 8 |  |\n| 9 | 0 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:00:35",
+      "question": "A school administrator who was concerned about grade inflation looked over the number of straight-A students from year to year. According to the table, what was the rate of change between 2007 and 2008?",
+      "steps": [
+        {
+          "explanation": "Identify the number of straight-A students in 2007 and 2008.",
+          "output": "2007: 41, 2008: 45"
+        },
+        {
+          "explanation": "Calculate the change in the number of students from 2007 to 2008.",
+          "output": "45 - 41 = 4"
+        },
+        {
+          "explanation": "Determine the rate of change by dividing the change by the original number (2007 value).",
+          "output": "4 / 41"
+        },
+        {
+          "explanation": "Calculate the rate of change as a decimal.",
+          "output": "0.09756"
+        },
+        {
+          "explanation": "Convert the decimal to a percentage by multiplying by 100.",
+          "output": "0.09756 * 100 = 9.756"
+        }
+      ],
+      "true_answer": "4",
+      "predicted_answer": "9.76",
+      "context": "Straight-A students\n\n| Year | Students |\n| --- | --- |\n| 2007 | 41 |\n| 2008 | 45 |\n| 2009 | 43 |\n| 2010 | 44 |\n| 2011 | 49 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:01:20",
+      "question": "At Riverside Consulting, the head of human resources examined how the number of employees with health care benefits varied in response to policy changes. According to the table, what was the rate of change between 2014 and 2015?",
+      "steps": [
+        {
+          "explanation": "Identify the number of employees in 2014 and 2015 from the table.",
+          "output": "2014: 10, 2015: 24"
+        },
+        {
+          "explanation": "Calculate the change in the number of employees from 2014 to 2015.",
+          "output": "Change = 24 - 10 = 14"
+        },
+        {
+          "explanation": "Determine the rate of change by dividing the change in number of employees by the number of employees in 2014.",
+          "output": "Rate of change = Change / Employees in 2014 = 14 / 10"
+        },
+        {
+          "explanation": "Calculate the rate of change.",
+          "output": "Rate of change = 1.4"
+        }
+      ],
+      "true_answer": "14",
+      "predicted_answer": "1.4",
+      "context": "Employees with health care benefits\n\n| Year | Employees |\n| --- | --- |\n| 2014 | 10 |\n| 2015 | 24 |\n| 2016 | 36 |\n| 2017 | 46 |\n| 2018 | 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:01:30",
+      "question": "Some friends discussed the sizes of their coin collections. What is the mean of the numbers?",
+      "steps": [
+        {
+          "explanation": "Identify the number of coins for each person: 76, 94, 86, 84, 80, 83, 82, 87.",
+          "output": "76, 94, 86, 84, 80, 83, 82, 87"
+        },
+        {
+          "explanation": "Calculate the total number of coins by summing the values: 76 + 94 + 86 + 84 + 80 + 83 + 82 + 87.",
+          "output": "76 + 94 + 86 + 84 + 80 + 83 + 82 + 87 =  691"
+        },
+        {
+          "explanation": "Count the number of friends (data points): There are 8 friends.",
+          "output": "8"
+        },
+        {
+          "explanation": "Calculate the mean by dividing the total number of coins by the number of friends: 691 / 8.",
+          "output": "691 / 8 = 86.375"
+        },
+        {
+          "explanation": "Round the mean to the nearest whole number if necessary, but here we keep it as is for calculation purposes.",
+          "output": "86.375"
+        }
+      ],
+      "true_answer": "84",
+      "predicted_answer": "86",
+      "context": "Coin collections\n\n| Name | Number of coins |\n| --- | --- |\n| Braden | 76 |\n| Camilla | 94 |\n| Rick | 86 |\n| Mary | 84 |\n| Hector | 80 |\n| Devin | 83 |\n| Emily | 82 |\n| Avery | 87 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:01:50",
+      "question": "Mr. Davidson, a P.E. teacher, wrote down how much weight each of his students could lift. How many people lifted exactly 78 pounds?",
+      "steps": [
+        {
+          "explanation": "The stem-and-leaf plot represents the weights lifted by students. The stem represents the tens place, and the leaf represents the units place.",
+          "output": "Identifying the relevant stem for 78."
+        },
+        {
+          "explanation": "The stem for 78 is 7, and the leaf must be 8 to complete the number 78.",
+          "output": "Looking at the stem 7, the leaves are 0, 1, 4, 5, 6, 6, 6, 8, 8."
+        },
+        {
+          "explanation": "None of the leaves for stem 7 include an 8, which means no student lifted exactly 78 pounds.",
+          "output": "Counting the occurrences of 8 in the leaves."
+        },
+        {
+          "explanation": "Since there are no occurrences of 8 in the leaves for stem 7, the count is zero.",
+          "output": "Final count of students lifting exactly 78 pounds."
+        }
+      ],
+      "true_answer": "2",
+      "predicted_answer": "0",
+      "context": "Weight lifting results (lbs)\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 3, 9 |\n| 4 | 6, 6, 9 |\n| 5 | 2, 6, 7 |\n| 6 | 4, 5, 5, 7 |\n| 7 | 0, 1, 4, 5, 6, 6, 6, 8, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:01:54",
+      "question": "At Winchester Consulting, the head of human resources examined how the number of employees with health care benefits varied in response to policy changes. According to the table, what was the rate of change between 2007 and 2008?",
+      "steps": [
+        {
+          "explanation": "Identify the number of employees in 2007 and 2008 from the table.",
+          "output": "2007: 20, 2008: 13"
+        },
+        {
+          "explanation": "Calculate the change in the number of employees from 2007 to 2008.",
+          "output": "Change = 13 - 20 = -7"
+        },
+        {
+          "explanation": "Determine the rate of change by dividing the change by the number of employees in 2007.",
+          "output": "Rate of change = Change / Employees in 2007 = -7 / 20"
+        },
+        {
+          "explanation": "Convert the rate of change to a percentage by multiplying by 100.",
+          "output": "Rate of change (%) = (-7 / 20) * 100 = -35%"
+        }
+      ],
+      "true_answer": "-7",
+      "predicted_answer": "-35",
+      "context": "Employees with health care benefits\n\n| Year | Employees |\n| --- | --- |\n| 2006 | 19 |\n| 2007 | 20 |\n| 2008 | 13 |\n| 2009 | 17 |\n| 2010 | 12 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:03:00",
+      "question": "How much money does Malik need to buy a red wagon, a model airplane, and a remote control car?",
+      "steps": [
+        {
+          "explanation": "Identify the prices of the items Malik wants to buy: red wagon, model airplane, and remote control car.",
+          "output": "red wagon: $26.44, model airplane: $35.10, remote control car: $18.45"
+        },
+        {
+          "explanation": "Add the prices of the three items together to find the total cost.",
+          "output": "Total cost = 26.44 + 35.10 + 18.45"
+        },
+        {
+          "explanation": "Calculate the sum step by step: First, add the price of the red wagon and the model airplane.",
+          "output": "26.44 + 35.10 = 61.54"
+        },
+        {
+          "explanation": "Now, add the price of the remote control car to the previous sum.",
+          "output": "61.54 + 18.45 = 80.00"
+        }
+      ],
+      "true_answer": "79.99",
+      "predicted_answer": "80",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| stuffed animal | $16.93 |\n| red wagon | $26.44 |\n| remote control car | $18.45 |\n| toy guitar | $21.74 |\n| model airplane | $35.10 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:03:02",
+      "question": "Gabriel conducted a blind taste test on some of his friends in order to determine if organic fruits tasted different than non-organic fruits. Each friend ate one type of fruit. What is the probability that a randomly selected friend tasted apples and preferred non-organic? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Determine the total number of apples tasted by friends.",
+          "output": "3 + 5 = 8"
+        },
+        {
+          "explanation": "Identify the number of friends who preferred non-organic apples.",
+          "output": "5"
+        },
+        {
+          "explanation": "Calculate the probability that a randomly selected friend tasted apples and preferred non-organic.",
+          "output": "5 / 8"
+        }
+      ],
+      "true_answer": "0.45454545454545453",
+      "predicted_answer": "0.625",
+      "context": "|  | Organic | Non-organic |\n| --- | --- | --- |\n| Apples | 3 | 5 |\n| Peaches | 1 | 2 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:03:14",
+      "question": "Kelsey, a candy store employee, placed peppermint candies into jars of various sizes. How many jars had at least 25 peppermint candies?",
+      "steps": [
+        {
+          "explanation": "Identify the values represented in the stem-and-leaf plot. Each stem represents the tens place, and each leaf represents the units place of the number of candies in each jar.",
+          "output": "20, 20, 25, 27, 28, 28, 29, 37, 43, 46, 48, 50, 51, 53, 55, 55, 56."
+        },
+        {
+          "explanation": "List the values from the stem-and-leaf plot: 20, 20, 25, 27, 28, 28, 29, 37, 43, 46, 48, 50, 51, 53, 55, 55, 56.",
+          "output": "20, 20, 25, 27, 28, 28, 29, 37, 43, 46, 48, 50, 51, 53, 55, 55, 56."
+        },
+        {
+          "explanation": "Count the number of jars with at least 25 candies. The qualifying values are: 25, 27, 28, 28, 29, 37, 43, 46, 48, 50, 51, 53, 55, 55, 56.",
+          "output": "14."
+        }
+      ],
+      "true_answer": "15",
+      "predicted_answer": "14",
+      "context": "Peppermint candies per jar\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0, 0, 5, 7, 8, 8, 9 |\n| 3 | 7 |\n| 4 | 3, 6, 8 |\n| 5 | 0, 1, 3, 5, 5, 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:03:23",
+      "question": "Mrs. Benton hosts an annual art contest for kids, and she keeps a record of the number of entries each year. According to the table, what was the rate of change between 2015 and 2016?",
+      "steps": [
+        {
+          "explanation": "Identify the number of entries in 2015 and 2016 from the table.",
+          "output": "Entries in 2015 = 15, Entries in 2016 = 19"
+        },
+        {
+          "explanation": "Calculate the change in the number of entries from 2015 to 2016.",
+          "output": "Change = Entries in 2016 - Entries in 2015 = 19 - 15 = 4"
+        },
+        {
+          "explanation": "Determine the rate of change by dividing the change in entries by the number of entries in 2015.",
+          "output": "Rate of change = Change / Entries in 2015 = 4 / 15"
+        },
+        {
+          "explanation": "Convert the rate of change to a decimal for clarity.",
+          "output": "Rate of change = 4 / 15 = 0.2667 (approximately)"
+        }
+      ],
+      "true_answer": "4",
+      "predicted_answer": "0.2667",
+      "context": "Art contest entries\n\n| Year | Number of entries |\n| --- | --- |\n| 2015 | 15 |\n| 2016 | 19 |\n| 2017 | 24 |\n| 2018 | 15 |\n| 2019 | 18 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:04:29",
+      "question": "Shelby was a spectator at her town's air guitar competition. Contestants were allowed to play either the acoustic or electric air guitar, but not both. Shelby recorded which type of guitar each contestant played. She also counted the number of contestants wearing different kinds of pants, as there were some interesting stylistic choices. What is the probability that a randomly selected contestant was dressed in velvet and played an electric guitar? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Count the total number of contestants for each type of guitar.",
+          "output": "Total contestants = Leather (Acoustic) + Leather (Electric) + Velvet (Acoustic) + Velvet (Electric) = 2 + 4 + 4 + 1 = 11."
+        },
+        {
+          "explanation": "Identify the number of contestants who wore velvet and played electric guitar.",
+          "output": "Contestants wearing Velvet and playing Electric guitar = 1."
+        },
+        {
+          "explanation": "Calculate the probability of selecting a contestant who wore velvet and played electric guitar.",
+          "output": "Probability = (Number of Velvet and Electric contestants) / (Total contestants) = 1 / 11."
+        },
+        {
+          "explanation": "Simplify the fraction if possible.",
+          "output": "1/11 is already in simplest form."
+        }
+      ],
+      "true_answer": "0.09090909090909091",
+      "predicted_answer": "11",
+      "context": "|  | Acoustic guitar | Electric guitar |\n| --- | --- | --- |\n| Leather | 2 | 4 |\n| Velvet | 4 | 1 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:05:51",
+      "question": "The Springdale Chamber of Commerce researched the number of employees working at local companies. How many companies have at least 10 employees but less than 30 employees?",
+      "steps": [
+        {
+          "explanation": "Identify the range of company sizes that fall between 10 and 30 employees.",
+          "output": "10 to 29 employees."
+        },
+        {
+          "explanation": "From the stem-and-leaf plot, the relevant stems for this range are 1 and 2.",
+          "output": "Stems 1 and 2."
+        },
+        {
+          "explanation": "Count the leaves under stem 1 (10s): 0, 8, 8, 9, 9. Only the leaf '0' corresponds to 10 employees, so there is 1 company with 10 employees.",
+          "output": "1 company."
+        },
+        {
+          "explanation": "Count the leaves under stem 2 (20s): 1, 1, 3, 3, 8, 8, 8, 8, 9. All these leaves correspond to companies with 21, 21, 23, 23, 28, 28, 28, 28, and 29 employees, totaling 9 companies.",
+          "output": "9 companies."
+        },
+        {
+          "explanation": "Add the counts from both stems to find the total number of companies with at least 10 but less than 30 employees.",
+          "output": "1 + 9 = 10 companies."
+        }
+      ],
+      "true_answer": "14",
+      "predicted_answer": "10",
+      "context": "Company sizes (number of employees)\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 0, 8, 8, 9, 9 |\n| 2 | 1, 1, 3, 3, 8, 8, 8, 8, 9 |\n| 3 | 1, 5, 6 |\n| 4 | 1, 3, 4, 7, 9 |\n| 5 | 8, 8, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:06:12",
+      "question": "Eliana wanted to know if there was a connection between her coffee consumption and how well she slept that night. For weeks, Eliana recorded how many cups of coffee she drank in the morning and how many hours she slept that night. What is the probability that a randomly selected day is one when she slept exactly 7 hours and is one when she drank exactly 0 cups of coffee? Simplify any fractions.",
+      "steps": [
+        {
+          "explanation": "Count the total number of days recorded.",
+          "output": "2"
+        },
+        {
+          "explanation": "Identify the number of days where Eliana slept exactly 7 hours and drank exactly 0 cups of coffee.",
+          "output": "1"
+        },
+        {
+          "explanation": "Calculate the probability by dividing the number of favorable outcomes by the total number of outcomes.",
+          "output": "1/2"
+        }
+      ],
+      "true_answer": "0.2777777777777778",
+      "predicted_answer": "0.5",
+      "context": "| Column 1 | Column 2 | Column 3 |\n| --- | --- | --- |\n|  | 0 cups of coffee | 1 cup of coffee |\n| 6 hours | 5 | 3 |\n| 7 hours | 5 | 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:06:20",
+      "question": "How much money does Mandy need to buy a piece of plastic pipe and a light bulb?",
+      "steps": [
+        {
+          "explanation": "Identify the cost of a piece of plastic pipe from the table.",
+          "output": "$0.52"
+        },
+        {
+          "explanation": "Identify the cost of a light bulb from the table.",
+          "output": "$0.61"
+        },
+        {
+          "explanation": "Add the costs of the piece of plastic pipe and the light bulb together.",
+          "output": "$0.52 + $0.61 = $1.13"
+        }
+      ],
+      "true_answer": "1.13",
+      "predicted_answer": "113",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| red thumbtack | $0.12 |\n| piece of plastic pipe | $0.52 |\n| small metal hook | $0.46 |\n| ball of twine | $0.30 |\n| piece of rope | $0.91 |\n| light bulb | $0.61 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:07:30",
+      "question": "How much money does Sophia need to buy a shiny gold shell and a dark gray shell?",
+      "steps": [
+        {
+          "explanation": "Identify the price of the shiny gold shell from the table.",
+          "output": "0.79"
+        },
+        {
+          "explanation": "Identify the price of the dark gray shell from the table.",
+          "output": "0.54"
+        },
+        {
+          "explanation": "Add the prices of the shiny gold shell and the dark gray shell together.",
+          "output": "1.33"
+        }
+      ],
+      "true_answer": "1.33",
+      "predicted_answer": "133",
+      "context": "| Column 1 | Column 2 |\n| --- | --- |\n| scallop shell | $0.54 |\n| beautiful yellow shell | $0.69 |\n| dark gray shell | $0.54 |\n| shiny gold shell | $0.79 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:08:18",
+      "question": "The staff of a game show tracked the performance of all the contestants during the past season. How many people scored fewer than 68 points?",
+      "steps": [
+        {
+          "explanation": "Identify the scores represented in the stem-and-leaf plot.",
+          "output": "21, 29, 30, 32, 38, 38, 39, 41, 41, 41, 41, 44, 48, 49, 55, 57, 59, 59, 61, 62, 63, 65."
+        },
+        {
+          "explanation": "Count the number of scores that are less than 68.",
+          "output": "All scores listed are less than 68."
+        },
+        {
+          "explanation": "Total the number of scores counted.",
+          "output": "21."
+        }
+      ],
+      "true_answer": "22",
+      "predicted_answer": "21",
+      "context": "Game show scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 1, 9 |\n| 3 | 0, 2, 8, 8, 9 |\n| 4 | 1, 1, 1, 1, 4, 8, 9 |\n| 5 | 5, 7, 9, 9 |\n| 6 | 1, 2, 3, 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:08:45",
+      "question": "A pet store owner had his staff count the number of fish in each tank. How many tanks have at least 50 fish?",
+      "steps": [
+        {
+          "explanation": "Identify the stems that represent the number of fish in each tank. The stems represent the tens place of the number of fish.",
+          "output": "2, 3, 4, 5, 6, 7, 8"
+        },
+        {
+          "explanation": "Count the number of fish represented by each stem and its leaves. The leaves represent the units place of the number of fish.",
+          "output": "23, 24, 25, 38, 41, 42, 43, 51, 52, 58, 58, 63, 66, 86"
+        },
+        {
+          "explanation": "Determine which of these counts are at least 50 fish. The counts are: 51, 52, 58, 63, 66, 86.",
+          "output": "51, 52, 58, 63, 66, 86"
+        },
+        {
+          "explanation": "Count the number of tanks that have at least 50 fish. There are 6 counts that meet this criterion.",
+          "output": "6"
+        }
+      ],
+      "true_answer": "7",
+      "predicted_answer": "6",
+      "context": "Fish per tank\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 3, 4, 5 |\n| 3 | 8 |\n| 4 | 1, 2, 3 |\n| 5 | 1, 2, 8, 8 |\n| 6 | 3, 6 |\n| 7 |  |\n| 8 | 6 |\n",
+      "correct": false
+    }
+  ]
+}

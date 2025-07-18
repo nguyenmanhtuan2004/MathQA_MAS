@@ -1,0 +1,106 @@
+{
+  "accuracy": 96.33333333333334,
+  "correct": 289,
+  "total": 300,
+  "wrong_answers": [
+    {
+      "timestamp": "2025-07-16 13:11:04",
+      "question": "Principal Levin reported the state test scores from some students at her school. How many students scored at least 10 points?",
+      "program": "def solver():\n    \"\"\"Return the number of students who scored at least 10 points.\"\"\"\n    leaves_stem_1 = [0, 5, 7, 8, 9]  # 5 students scored < 10\n    leaves_stem_2 = [1, 2, 7]         # 3 students scored < 10\n    leaves_stem_3 = [1, 4, 5, 8]      # 4 students scored >= 10\n    leaves_stem_4 = [0, 1, 4, 4, 4, 6, 8]  # 7 students scored >= 10\n    leaves_stem_5 = [2, 4, 7, 9, 9]   # 5 students scored >= 10\n\n    count_below_10 = len(leaves_stem_1) + len(leaves_stem_2)\n    count_above_or_equal_10 = len(leaves_stem_3) + len(leaves_stem_4) + len(leaves_stem_5)\n\n    total_students = count_below_10 + count_above_or_equal_10\n    return count_above_or_equal_10\n\nresult = solver()",
+      "true_answer": "24",
+      "predicted_answer": "16",
+      "context": "Test scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 0, 5, 7, 8, 9 |\n| 2 | 1, 2, 7 |\n| 3 | 1, 4, 5, 8 |\n| 4 | 0, 1, 4, 4, 4, 6, 8 |\n| 5 | 2, 4, 7, 9, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:13:09",
+      "question": "A farmer counted the number of apples on each tree in her orchard. How many trees have at least 60 apples but fewer than 88 apples?",
+      "program": "def solver():\n    \"\"\"Return the number of trees with at least 60 apples but fewer than 88 apples.\"\"\"\n    leaves_stem_3 = [0, 1, 2, 6, 6, 7, 7]  # 30-39 apples\n    leaves_stem_4 = [0, 0, 0, 8]            # 40-49 apples\n    leaves_stem_5 = [0, 3, 6, 8, 9]         # 50-59 apples\n    leaves_stem_6 = [1, 3]                  # 60-69 apples\n    leaves_stem_7 = []                       # 70-79 apples\n    leaves_stem_8 = [3, 3, 5, 8, 9]         # 80-89 apples\n\n    count_60_to_69 = len(leaves_stem_6)     # 60-69 apples\n    count_70_to_79 = len(leaves_stem_7)     # 70-79 apples\n    count_80_to_87 = len(leaves_stem_8)     # 80-87 apples\n\n    ans = count_60_to_69 + count_70_to_79 + count_80_to_87\n    return ans\n\nresult = solver()",
+      "true_answer": "5",
+      "predicted_answer": "7",
+      "context": "Apples per tree\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 0, 1, 2, 6, 6, 7, 7 |\n| 4 | 0, 0, 0, 8 |\n| 5 | 0, 3, 6, 8, 9 |\n| 6 | 1, 3 |\n| 7 |  |\n| 8 | 3, 3, 5, 8, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:14:38",
+      "question": "In the first episode of a reality show, contestants had to spin two wheels of fate. Spinning the first wheel determined the remote location where contestants would reside for the duration of the season. Spinning the second wheel determined which \"bonus survival tool\" they would be allowed to bring, along with a few other necessary items. What is the probability that a randomly selected participant spun the second wheel and landed on a tent and spun the first wheel and landed on desert? Simplify any fractions.",
+      "program": "from math import gcd\n\ndef solver():\n    \"\"\"Return the simplified probability of landing on a tent in the desert.\"\"\"\n    tent_desert = 3\n    total_tents = tent_desert + 1  # 3 tents in desert + 1 tent in rainforest\n    total_matches = 5 + 4  # 5 matches in desert + 4 matches in rainforest\n\n    # Probability of selecting a tent in desert\n    probability_tent_desert = tent_desert / total_tents\n\n    # Total outcomes for both wheels\n    total_outcomes = total_tents * (total_matches)\n\n    # Probability of landing on a tent in desert\n    probability = tent_desert / total_outcomes\n\n    # Simplifying the fraction\n    g = gcd(tent_desert, total_outcomes)\n    return f\"{tent_desert // g}/{total_outcomes // g}\"\n\nresult = solver()",
+      "true_answer": "0.23076923076923078",
+      "predicted_answer": "0.08333333333333333",
+      "context": "|  | Desert | Rainforest |\n| --- | --- | --- |\n| A tent | 3 | 1 |\n| Matches | 5 | 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:14:44",
+      "question": "Kimi records the number of pairs of sandals owned by each of her classmates. How many students are there in all?",
+      "program": "def solver():\n    \"\"\"Return the total number of students based on the frequency of pairs of sandals.\"\"\"\n    frequency_0 = 1\n    frequency_1 = 19\n    frequency_2 = 18\n    frequency_3 = 3\n\n    total_students = (0 * frequency_0) + (1 * frequency_1) + (2 * frequency_2) + (3 * frequency_3)\n    total_students += frequency_0 + frequency_1 + frequency_2 + frequency_3  # Count of students\n    return total_students\n\nresult = solver()",
+      "true_answer": "41",
+      "predicted_answer": "105",
+      "context": "Pairs of sandals\n\n| Number of pairs of sandals | Frequency |\n| --- | --- |\n| 0 | 1 |\n| 1 | 19 |\n| 2 | 18 |\n| 3 | 3 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:14:47",
+      "question": "Principal Navarro reported the state test scores from some students at her school. How many students scored at least 45 points but fewer than 59 points?",
+      "program": "def solver():\n    \"\"\"Return the number of students who scored at least 45 points but fewer than 59 points.\"\"\"\n    leaves_stem_4 = [0, 3, 6]  # Represents scores 40-49 and 50-59\n    leaves_stem_5 = [1, 1, 5]   # Represents scores 50-59\n    leaves_stem_6 = [0, 4]      # Represents scores 60-69\n\n    # Count scores in the range [45, 59)\n    count_45_to_49 = len(leaves_stem_4) - 1  # 43, 46, 49 (3 scores)\n    count_50_to_58 = len(leaves_stem_5)       # 51, 51, 55 (3 scores)\n    \n    ans = count_45_to_49 + count_50_to_58\n    return ans\n\nresult = solver()",
+      "true_answer": "4",
+      "predicted_answer": "5",
+      "context": "Test scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0 |\n| 3 | 4 |\n| 4 | 0, 3, 6 |\n| 5 | 1, 1, 5 |\n| 6 | 0, 4 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:15:42",
+      "question": "A crayon factory monitored the number of broken crayons per box during the past day. How many boxes had at least 44 broken crayons but fewer than 54 broken crayons?",
+      "program": "def solver():\n    \"\"\"Return the number of boxes with at least 44 but fewer than 54 broken crayons.\"\"\"\n    leaves_stem_2 = [0, 0, 2, 4, 5, 5, 9]  # Represents 20-29\n    leaves_stem_3 = [0, 2, 8, 9, 9]         # Represents 30-39\n    leaves_stem_4 = []                      # Represents 40-49\n    leaves_stem_5 = [0, 3, 6, 8]           # Represents 50-59\n    leaves_stem_6 = [4, 6]                  # Represents 60-69\n\n    # Count boxes with 44 to 53 broken crayons\n    count_44_to_53 = 0\n    \n    # From stem 4 (40-49), there are no leaves, so count is 0\n    # From stem 5 (50-59), we have 0, 3, 6, 8 which corresponds to 50, 53, 56, 58\n    count_44_to_53 += len(leaves_stem_5)  # All leaves in stem 5 are valid\n\n    return count_44_to_53\n\nresult = solver()",
+      "true_answer": "2",
+      "predicted_answer": "4",
+      "context": "Broken crayons per box\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0, 0, 2, 4, 5, 5, 9 |\n| 3 | 0, 2, 8, 9, 9 |\n| 4 |  |\n| 5 | 0, 3, 6, 8 |\n| 6 | 4, 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:17:24",
+      "question": "Mr. Davidson, a P.E. teacher, wrote down how much weight each of his students could lift. How many people lifted exactly 78 pounds?",
+      "program": "def solver():\n    \"\"\"Return the number of people who lifted exactly 78 pounds.\"\"\"\n    # From the stem-and-leaf plot, we can see the weights:\n    weights = [33, 39, 46, 46, 49, 52, 56, 57, 64, 65, 65, 67, 70, 71, 74, 75, 76, 76, 76, 78, 78, 78, 78, 78, 78, 88, 88]\n    \n    # Count how many times 78 appears in the list\n    count_78 = weights.count(78)\n    \n    return count_78\n\nresult = solver()",
+      "true_answer": "2",
+      "predicted_answer": "6",
+      "context": "Weight lifting results (lbs)\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 3, 9 |\n| 4 | 6, 6, 9 |\n| 5 | 2, 6, 7 |\n| 6 | 4, 5, 5, 7 |\n| 7 | 0, 1, 4, 5, 6, 6, 6, 8, 8 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:18:33",
+      "question": "Kelsey, a candy store employee, placed peppermint candies into jars of various sizes. How many jars had at least 25 peppermint candies?",
+      "program": "def solver():\n    \"\"\"Return the number of jars with at least 25 peppermint candies.\"\"\"\n    leaves_stem_2 = [0, 0, 5, 7, 8, 8, 9]  # 20-29 candies\n    leaves_stem_3 = [7]                     # 30-39 candies\n    leaves_stem_4 = [3, 6, 8]                # 40-49 candies\n    leaves_stem_5 = [0, 1, 3, 5, 5, 6]      # 50-59 candies\n\n    count_2 = len(leaves_stem_2)  # Jars with 20-29 candies\n    count_3 = len(leaves_stem_3)  # Jars with 30-39 candies\n    count_4 = len(leaves_stem_4)  # Jars with 40-49 candies\n    count_5 = len(leaves_stem_5)  # Jars with 50-59 candies\n\n    # Jars with at least 25 candies are those in stems 3, 4, and 5\n    ans = count_3 + count_4 + count_5\n    return ans\n\nresult = solver()",
+      "true_answer": "15",
+      "predicted_answer": "10",
+      "context": "Peppermint candies per jar\n\n| Stem | Leaf  |\n| --- | --- |\n| 2 | 0, 0, 5, 7, 8, 8, 9 |\n| 3 | 7 |\n| 4 | 3, 6, 8 |\n| 5 | 0, 1, 3, 5, 5, 6 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:19:03",
+      "question": "For a math assignment, Christina researched the scores of the people competing on her favorite quiz show. How many people scored exactly 15 points?",
+      "program": "def solver():\n    \"\"\"Return the number of people who scored exactly 15 points.\"\"\"\n    scores = [5, 5, 5, 5, 2, 3, 4, 4, 5, 9, 7, 7, 1, 3, 6, 6, 9]\n    count_15 = scores.count(15)\n    return count_15\n\nresult = solver()",
+      "true_answer": "4",
+      "predicted_answer": "0",
+      "context": "Quiz show scores\n\n| Stem | Leaf  |\n| --- | --- |\n| 1 | 5, 5, 5, 5 |\n| 2 | 2, 3, 4, 4, 5, 9 |\n| 3 | 7 |\n| 4 | 7 |\n| 5 | 1, 3, 6, 6, 9 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:21:31",
+      "question": "Eliana wanted to know if there was a connection between her coffee consumption and how well she slept that night. For weeks, Eliana recorded how many cups of coffee she drank in the morning and how many hours she slept that night. What is the probability that a randomly selected day is one when she slept exactly 7 hours and is one when she drank exactly 0 cups of coffee? Simplify any fractions.",
+      "program": "from math import gcd\n\ndef solver():\n    \"\"\"Return the simplified probability of sleeping 7 hours and drinking 0 cups of coffee.\"\"\"\n    total_days = 10  # Total days recorded\n    days_0_coffee_6_hours = 5  # 6 hours with 0 cups of coffee\n    days_0_coffee_7_hours = 5  # 7 hours with 0 cups of coffee\n\n    # Only 1 day fits the criteria of sleeping 7 hours and drinking 0 cups of coffee\n    favorable_days = 1  \n    probability = favorable_days / total_days  # 1 / 10\n    g = gcd(favorable_days, total_days)\n    return f\"{favorable_days // g}/{total_days // g}\"\n\nresult = solver()",
+      "true_answer": "0.2777777777777778",
+      "predicted_answer": "0.1",
+      "context": "| Column 1 | Column 2 | Column 3 |\n| --- | --- | --- |\n|  | 0 cups of coffee | 1 cup of coffee |\n| 6 hours | 5 | 3 |\n| 7 hours | 5 | 5 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-16 13:21:54",
+      "question": "Dr. Dixon, a pediatrician, weighed all the children who recently visited her office. What is the weight of the heaviest child?",
+      "program": "def solver():\n    \"\"\"Return the weight of the heaviest child.\"\"\"\n    # The heaviest weight is represented by the largest leaf in the stem-and-leaf plot.\n    heaviest_weight = 7  # From the stem 7, the heaviest leaf is 7\n    return heaviest_weight\n\nresult = solver()",
+      "true_answer": "77",
+      "predicted_answer": "7",
+      "context": "Children's weights (lbs)\n\n| Stem | Leaf  |\n| --- | --- |\n| 3 | 6, 9 |\n| 4 | 1, 2, 3, 5, 6, 9 |\n| 5 | 0, 1, 1, 2, 3, 7 |\n| 6 | 2, 2, 6, 9 |\n| 7 | 2, 2, 5, 5, 7 |\n",
+      "correct": false
+    }
+  ]
+}

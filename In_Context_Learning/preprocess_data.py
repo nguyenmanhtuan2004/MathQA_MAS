@@ -78,7 +78,10 @@ def normalize_answer(ans, dataset_type=None):
         if isinstance(ans, float) and ans.is_integer():
             return str(int(ans))  # Chuyển về string
         return str(ans)          # Chuyển về string
-    s = str(ans).replace(',', '').strip()  # Chỉ loại dấu phẩy, giữ nguyên dấu "/"
+    s = str(ans).replace(',', '').strip()
+    # Xóa dấu $ nếu là tatqa
+    if dataset_type == 'tatqa':
+        s = s.replace('$', '')
     if dataset_type == "gsm8k":
         match = re.search(r'####\s*([-\d\./]+)', s)
         if match:
@@ -104,6 +107,7 @@ def normalize_answer(ans, dataset_type=None):
         return str(num)
     except ValueError:
         return s
+
 
 def standardize_item(item, dataset_type):
     if dataset_type == "gsm8k":
