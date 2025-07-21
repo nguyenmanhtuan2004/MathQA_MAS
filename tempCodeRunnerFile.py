@@ -1,0 +1,1 @@
+# Tạo khoảng trống cho legend

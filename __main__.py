@@ -159,7 +159,7 @@ def main():
     parser = argparse.ArgumentParser(description="So sánh nhiều kỹ thuật và dataset")
     parser.add_argument("--methods", nargs="+", required=True, help="Zero-shot CoT PoT")
     parser.add_argument("--datasets", nargs="+", required=True, help="GSM8K TATQA TABMWP")
-    parser.add_argument("--metric",  required=True,help="tokens latency_sec total_cost")
+    parser.add_argument("--metric",  required=True, choices=['tokens', 'latency_sec', 'total_cost'])
     args = parser.parse_args()
 
     methods = args.methods
