@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.patches import Patch
 
-def load_data(method, dataset, folder="result"):
+def load_data(method, dataset, folder="results"):
     file_path = os.path.join(folder, f"{method}_{dataset}.csv")
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Không tìm thấy file: {file_path}")
@@ -157,8 +157,8 @@ def plot_bar_subplots(data_dict, metrics, methods, datasets, aspt):
 
 def main():
     parser = argparse.ArgumentParser(description="So sánh nhiều kỹ thuật và dataset")
-    parser.add_argument("--methods", nargs="+", required=True, help="Zero-shot CoT PoT")
-    parser.add_argument("--datasets", nargs="+", required=True, help="GSM8K TATQA TABMWP")
+    parser.add_argument("--methods", nargs="+", required=True, help="One or more prompting techniques to use", choices=['Zero-shot', 'PoT', 'CoT',  'PaL'])
+    parser.add_argument("--datasets", nargs="+", required=True, help="One or more datasets to test on", choices=['GSM8K', 'TATQA', 'TABMWP'])
     parser.add_argument("--metric",  required=True, choices=['tokens', 'latency_sec', 'total_cost'])
     args = parser.parse_args()
 
@@ -181,7 +181,7 @@ def main():
                 missing.append(f"{method}_{dataset}.csv")
 
     if not data_dict:
-        print("Không có file hợp lệ nào được load. Kiểm tra lại tên file và thư mục `result/`.")
+        print("Không có file hợp lệ nào được load. Kiểm tra lại tên file và thư mục `results/`.")
         return
 
     if missing:
@@ -193,4 +193,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
