@@ -10,7 +10,6 @@ Question: A jeweler in Hampton examined which metals his customers selected for 
 ```
 from math import gcd
 def solver():
-    """Return the simplified fraction of gold rings sold over total rings."""
     gold = 770
     total = 500 + 730 + 770
     fraction = gold / total  # 770 / 2000
@@ -24,7 +23,6 @@ Name | Score\nErnest | 2\nDan | 4\nKenny | 2\nAustin | 2\nJustine | 6\nLila | 5\
 Question: The players on a quiz show received the following scores. What is the median of the numbers?
 ```
 def solver():
-    """Return the median (middle value) of a given list of quiz show scores."""
     scores = [2, 4, 2, 2, 6, 5, 3]
     scores_sorted = sorted(scores)
     median_index = len(scores_sorted) // 2
@@ -39,7 +37,6 @@ Stem | Leaf \n1 | 2, 4, 7, 9\n2 | 2\n3 | 4\n4 | 0
 Question: Nick counted the number of articles in several different magazines. How many magazines had at least 12 articles?
 ```
 def solver():
-    """Return the number of magazines with at least 12 articles."""
     leaves_stem_1 = [2, 4, 7, 9]
     leaves_stem_2 = [2]
     leaves_stem_3 = [4]
@@ -61,7 +58,6 @@ few_shot_gsm8k='''
 Question: Caleb bought 10 cartons of ice cream and 4 cartons of frozen yoghurt. Each carton of ice cream cost $4 and each carton of frozen yoghurt cost $1. How much more did Caleb spend on ice cream than on frozen yoghurt?
 ```
 def solver():
-    """Return how much more Caleb spent on ice cream than on frozen yoghurt."""
     ice_cream_cartons = 10
     ice_cream_price = 4
     yoghurt_cartons = 4
@@ -77,7 +73,6 @@ result = solver()
 Question: John orders food for a massive restaurant. He orders 1000 pounds of beef for $8 per pound. He also orders twice that much chicken at $3 per pound. How much did everything cost?
 ```
 def solver():
-    """Return the total cost John paid for beef and chicken."""
     beef_weight = 1000
     beef_price_per_pound = 8
     chicken_weight = beef_weight * 2
@@ -94,7 +89,6 @@ result = solver()
 Question: The file, 90 megabytes in size, downloads at the rate of 5 megabytes per second for its first 60 megabytes, and then 10 megabytes per second thereafter. How long, in seconds, does it take to download entirely?
 ```
 def solver():
-    """Return the total download time for a 90MB file with two different speeds."""
     total_size = 90
     first_speed = 5
     second_speed = 10
@@ -115,7 +109,6 @@ Context:
 Question: What is the increase/ (decrease) in total operating expenses from the period December 31, 2018 to 2019?
 ```
 def solver():
-    """Return the increase in total operating expenses from Dec 2018 to Dec 2019."""
     expenses_2019 = 672
     expenses_2018 = 630
     ans = expenses_2019 - expenses_2018
@@ -127,7 +120,6 @@ Context:The following is a reconciliation of the Federal statutory income taxes 
 Question: What is the average federal income tax expense at statutory rates in 2017 and 2018?
 ```
 def solver():
-    """Return the average federal income tax expense at statutory rates for 2017 and 2018."""
     tax_2017 = 10892
     tax_2018 = 8690
     average_tax = (abs(tax_2017) + abs(tax_2018)) / 2
@@ -145,12 +137,10 @@ The funded status of our postretirement health care and other defined benefit pl
 Question: What was the change in the fair value of plan assets between 2018 and 2019?
 ```
 def solver():
-    """Return the change in fair value of plan assets from 2018 to 2019."""
     fair_value_2019 = 31
     fair_value_2018 = 25
     ans = fair_value_2019 - fair_value_2018
     return ans
 result = solver()
 ```
-
 '''.strip()

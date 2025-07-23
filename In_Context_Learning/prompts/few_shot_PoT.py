@@ -11,19 +11,19 @@ few_shot_tabmwp='''
 A jeweler in Hampton examined which metals his customers selected for wedding bands last year. What fraction of the rings sold had a gold band? Simplify your answer.
 <ANSWER>
 ```python
-# Step 1: Set the number of gold rings sold
+# Set the number of gold rings sold
 gold = 770
-# Step 2: Calculate total rings sold
+#Calculate total rings sold
 total = 500 + 730 + 770
-# Step 3: Find the greatest common divisor (GCD) of gold and total
+# Find the greatest common divisor (GCD) of gold and total
 from math import gcd
 g = gcd(gold, total)
-# Step 4: Simplify the numerator and denominator
+# Simplify the numerator and denominator
 simplified_numerator = gold // g
 simplified_denominator = total // g
-# Step 5: Format the simplified fraction
+# Format the simplified fraction
 fraction = f"{simplified_numerator}/{simplified_denominator}"
-# Step 6: Assign the result
+# Assign the result
 result = fraction
 ```
 
@@ -34,21 +34,21 @@ Stem | Leaf \n1 | 2, 4, 7, 9\n2 | 2\n3 | 4\n4 | 0
 Nick counted the number of articles in several different magazines. How many magazines had at least 12 articles?
 <ANSWER>
 ```python
-# Step 1: List all leaves for each stem in the stem-and-leaf plot
+#List all leaves for each stem in the stem-and-leaf plot
 leaves_stem_1 = [2, 4, 7, 9]
 leaves_stem_2 = [2]
 leaves_stem_3 = [4]
 leaves_stem_4 = [0]
 
-# Step 2: Since "12" corresponds to stem 1 leaf 2, count all magazines with 12 or more articles
+#Since "12" corresponds to stem 1 leaf 2, count all magazines with 12 or more articles
 count_1 = len(leaves_stem_1)
 
-# Step 3: Count all leaves from stems 2, 3, and 4 (representing 20+, 30+, 40+ articles)
+#Count all leaves from stems 2, 3, and 4 (representing 20+, 30+, 40+ articles)
 count_2 = len(leaves_stem_2)
 count_3 = len(leaves_stem_3)
 count_4 = len(leaves_stem_4)
 
-# Step 4: Add up all magazines with at least 12 articles
+#Add up all magazines with at least 12 articles
 total_magazines = count_1 + count_2 + count_3 + count_4
 result = total_magazines
 ```
@@ -59,13 +59,13 @@ Name | Score\nErnest | 2\nDan | 4\nKenny | 2\nAustin | 2\nJustine | 6\nLila | 5\
 The players on a quiz show received the following scores. What is the median of the numbers?
 <ANSWER>
 ```python
-# Step 1: List all the quiz show scores
+#List all the quiz show scores
 scores = [2, 4, 2, 2, 6, 5, 3]
 
-# Step 2: Sort the scores from least to greatest
+#Sort the scores from least to greatest
 scores_sorted = sorted(scores)
 
-# Step 3: Find the median (middle value) of the sorted list
+#Find the median (middle value) of the sorted list
 median_index = len(scores_sorted) // 2
 median = scores_sorted[median_index]
 result = median
@@ -79,19 +79,19 @@ few_shot_gsm8k='''
 Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
 <ANSWER>
 ```python
-# Step 1: Set the initial number of toys Shawn has
+#Set the initial number of toys Shawn has
 toys_initial = 5
 
-# Step 2: Set the number of toys received from mom
+#Set the number of toys received from mom
 mom_toys = 2
 
-# Step 3: Set the number of toys received from dad
+#Set the number of toys received from dad
 dad_toys = 2
 
-# Step 4: Calculate the total number of toys received
+#Calculate the total number of toys received
 total_received = mom_toys + dad_toys
 
-# Step 5: Calculate the total number of toys Shawn has now
+#Calculate the total number of toys Shawn has now
 total_toys = toys_initial + total_received
 result = total_toys
 ```
@@ -100,38 +100,37 @@ result = total_toys
 Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
 <ANSWER>
 ```python
-# Step 1: Set initial number of golf balls
+#Set initial number of golf balls
 golf_balls_initial = 58
 
-# Step 2: Set number of golf balls lost on Tuesday
+#Set number of golf balls lost on Tuesday
 golf_balls_lost_tuesday = 23
 
-# Step 3: Set number of golf balls lost on Wednesday
+#Set number of golf balls lost on Wednesday
 golf_balls_lost_wednesday = 2
 
-# Step 4: Calculate remaining golf balls after both days
+#Calculate remaining golf balls after both days
 golf_balls_left = golf_balls_initial - golf_balls_lost_tuesday - golf_balls_lost_wednesday
 result = golf_balls_left
-
 ```
 
 <QUESTION> 
 There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
 <ANSWER>
 ```python
-# Step 1: Set the initial number of computers
+#Set the initial number of computers
 computers_initial = 9
 
-# Step 2: Set the number of computers installed each day
+#Set the number of computers installed each day
 computers_per_day = 5
 
-# Step 3: Set the number of days computers were installed (Monday to Thursday)
+#Set the number of days computers were installed (Monday to Thursday)
 num_days = 4
 
-# Step 4: Calculate the total number of computers added
+#Calculate the total number of computers added
 computers_added = computers_per_day * num_days
 
-# Step 5: Calculate the total number of computers now in the server room
+#Calculate the total number of computers now in the server room
 computers_total = computers_initial + computers_added
 result = computers_total
 ```
@@ -143,16 +142,16 @@ few_shot_tatqa='''
 What is the increase/ (decrease) in total operating expenses from the period December 31, 2018 to 2019?
 <ANSWER>
 ```python
-# Step 1: Set total operating expenses for 2019
+#Set total operating expenses for 2019
 expenses_2019 = 672
 
-# Step 2: Set total operating expenses for 2018
+#Set total operating expenses for 2018
 expenses_2018 = 630
 
-# Step 3: Calculate the increase in total operating expenses from 2018 to 2019
+#Calculate the increase in total operating expenses from 2018 to 2019
 ans = expenses_2019 - expenses_2018
 
-# Step 4: Store the result
+#Store the result
 result = ans
 
 ```
@@ -163,16 +162,16 @@ The following is a reconciliation of the Federal statutory income taxes to the a
 What is the average federal income tax expense at statutory rates in 2017 and 2018?
 <ANSWER>
 ```python
-# Step 1: Set federal income tax expense at statutory rates for 2017
+#Set federal income tax expense at statutory rates for 2017
 tax_2017 = 10892
 
-# Step 2: Set federal income tax expense at statutory rates for 2018
+#Set federal income tax expense at statutory rates for 2018
 tax_2018 = 8690
 
-# Step 3: Calculate the average of the two years
+#Calculate the average of the two years
 average_tax = (tax_2017 + tax_2018) / 2
 
-# Step 4: Store the result
+#Store the result
 result = average_tax
 
 ```
@@ -188,16 +187,16 @@ The funded status of our postretirement health care and other defined benefit pl
 What was the change in the fair value of plan assets between 2018 and 2019?
 <ANSWER>
 ```python
-# Step 1: Set the fair value of plan assets for 2019
+#Set the fair value of plan assets for 2019
 fair_value_2019 = 31
 
-# Step 2: Set the fair value of plan assets for 2018
+#Set the fair value of plan assets for 2018
 fair_value_2018 = 25
 
-# Step 3: Calculate the change in the fair value of plan assets between 2018 and 2019
+#Calculate the change in the fair value of plan assets between 2018 and 2019
 ans = fair_value_2019 - fair_value_2018
 
-# Step 4: Store the result
+#Store the result
 result = ans
 ```
 

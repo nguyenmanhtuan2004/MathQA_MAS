@@ -4,17 +4,47 @@
   "total": 300,
   "wrong_answers": [
     {
-      "timestamp": "2025-07-15 23:33:46",
-      "question": "What is the difference in the weighted-average grant date fair value between granted and vested RSUs?",
-      "program": "# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for vested RSUs\nfair_value_vested = 47.86\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and vested RSUs\nans = fair_value_granted - fair_value_vested\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for vested RSUs\nfair_value_vested = 47.86\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and vested RSUs\nans = fair_value_granted - fair_value_vested\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "2.31",
-      "predicted_answer": "-2.3100000000000023",
-      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "timestamp": "2025-07-22 23:02:56",
+      "question": "What was the average increase / (decrease) in video service customers between 2018 and 2019?",
+      "program": "# Step 1: Set the net additions (losses) for video service customers in 2018\nvideo_customers_2018 = -37035\n\n# Step 2: Set the net additions (losses) for video service customers in 2019\nvideo_customers_2019 = -39185\n\n# Step 3: Calculate the change in video service customers between 2018 and 2019\nchange_in_video_customers = video_customers_2019 - video_customers_2018\n\n# Step 4: Calculate the average change\naverage_change = change_in_video_customers / 2\n\n# Step 5: Store the result\nresult = average_change",
+      "response": "```python\n# Step 1: Set the net additions (losses) for video service customers in 2018\nvideo_customers_2018 = -37035\n\n# Step 2: Set the net additions (losses) for video service customers in 2019\nvideo_customers_2019 = -39185\n\n# Step 3: Calculate the change in video service customers between 2018 and 2019\nchange_in_video_customers = video_customers_2019 - video_customers_2018\n\n# Step 4: Calculate the average change\naverage_change = change_in_video_customers / 2\n\n# Step 5: Store the result\nresult = average_change\n```",
+      "true_answer": "-38110",
+      "predicted_answer": "-1075.0",
+      "context": "|  |  | Net additions (losses) |  | % of penetration(2) |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Years ended |  |  |  |  |\n|  | August 31, | August 31, | August 31, | August 31, | August 31, |\n|  | 2019 | 2019 | 2018(1) | 2019 | 2018 |\n| Primary service units | 1,810,366 | (56,552) | (55,849) |  |  |\n| Internet service customers | 788,243 | 5,966 | 14,173 | 44.7 | 44.7 |\n| Video service customers | 649,583 | (39,185) | (37,035) | 36.8 | 39.3 |\n| Telephony service customers | 372,540 | (23,333) | (32,987) | 21.1 | 22.6 |\n",
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:33:59",
+      "timestamp": "2025-07-22 23:03:23",
+      "question": "What is the average Unamortized debt discount for 2018 and 2019?",
+      "program": "# Step 1: Set the unamortized debt discount for 2018\nunamortized_discount_2018 = 1630\n\n# Step 2: Set the unamortized debt discount for 2019\nunamortized_discount_2019 = 1328\n\n# Step 3: Calculate the average of the two years\naverage_discount = (unamortized_discount_2018 + unamortized_discount_2019) / 2\n\n# Step 4: Store the result\nresult = average_discount",
+      "response": "```python\n# Step 1: Set the unamortized debt discount for 2018\nunamortized_discount_2018 = 1630\n\n# Step 2: Set the unamortized debt discount for 2019\nunamortized_discount_2019 = 1328\n\n# Step 3: Calculate the average of the two years\naverage_discount = (unamortized_discount_2018 + unamortized_discount_2019) / 2\n\n# Step 4: Store the result\nresult = average_discount\n```",
+      "true_answer": "-1479",
+      "predicted_answer": "1479.0",
+      "context": "|  | December 31, 2019 | December 31, 2018 |\n| --- | --- | --- |\n|  | (in thousands) |  |\n| Principal | $212,000 | $262,000 |\n| Less: |  |  |\n| Unamortized debt discount | (1,328) | (1,630) |\n| Unamortized debt issuance costs | (3,763) | (4,613) |\n| Net carrying amount of long-term debt | 206,909 | 255,757 |\n| Less: current portion of long-term debt | — | — |\n| Long-term debt, non-current portion | $206,909 | 255,757 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:04:12",
+      "question": "What was the increase / (decrease) in Net additions (losses) for the Primary service units from 31 Aug 2018 to 31 Aug 2019?",
+      "program": "# Step 1: Set net additions for Primary service units for 2019\nadditions_2019 = 901446\n\n# Step 2: Set net additions for Primary service units for 2018\nadditions_2018 = 7431\n\n# Step 3: Calculate the increase in net additions for Primary service units from 2018 to 2019\nans = additions_2019 - additions_2018\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set net additions for Primary service units for 2019\nadditions_2019 = 901446\n\n# Step 2: Set net additions for Primary service units for 2018\nadditions_2018 = 7431\n\n# Step 3: Calculate the increase in net additions for Primary service units from 2018 to 2019\nans = additions_2019 - additions_2018\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "4634",
+      "predicted_answer": "894015",
+      "context": "|  |  | Net additions (losses) |  |\n| --- | --- | --- | --- |\n|  |  | Three months ended August 31, |  |\n|  | August 31, |  |  |\n|  | 2019 | 2019 | 2018 |\n| Primary service units | 901,446 | 7,431 | 2,797 |\n| Internet service customers | 446,137 | 2,441 | 4,693 |\n| Video service customers | 312,555 | 5,294 | (3,046) |\n| Telephony service customers | 142,754 | (304) | 1,150 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:05:48",
+      "question": "Which year had a larger difference in the balance between the start and the end of the year?",
+      "program": "# Step 1: Set the balance at the start of 2018 and 2019\nbalance_start_2018 = 6562\nbalance_start_2019 = 7955\n\n# Step 2: Set the balance at the end of 2018 and 2019\nbalance_end_2018 = 7955\nbalance_end_2019 = 16424\n\n# Step 3: Calculate the difference between the start and end of the year for both years\ndifference_2018 = balance_end_2018 - balance_start_2018\ndifference_2019 = balance_end_2019 - balance_start_2019\n\n# Step 4: Determine which year had a larger difference\nlarger_difference = max(difference_2018, difference_2019)\n\n# Step 5: Store the result\nresult = larger_difference",
+      "response": "```python\n# Step 1: Set the balance at the start of 2018 and 2019\nbalance_start_2018 = 6562\nbalance_start_2019 = 7955\n\n# Step 2: Set the balance at the end of 2018 and 2019\nbalance_end_2018 = 7955\nbalance_end_2019 = 16424\n\n# Step 3: Calculate the difference between the start and end of the year for both years\ndifference_2018 = balance_end_2018 - balance_start_2018\ndifference_2019 = balance_end_2019 - balance_start_2019\n\n# Step 4: Determine which year had a larger difference\nlarger_difference = max(difference_2018, difference_2019)\n\n# Step 5: Store the result\nresult = larger_difference\n```",
+      "true_answer": "2019",
+      "predicted_answer": "8469",
+      "context": "|  | December 31, |  |\n| --- | --- | --- |\n|  | 2018 | 2019 |\n| Balance January 1 | 6,562 | 7,955 |\n| Charged to cost of sales | 18,408 | 26,301 |\n| Deductions | (8,985) | (12,232) |\n| Releases of expired warranty | (8,214) | (5,684) |\n| Foreign currency translation effect | 184 | 84 |\n| Balance December 31 | 7,955 | 16,424 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:05:51",
       "question": "What is the total Foreign exchange forward contracts sold for March 29, 2019 and March 30, 2018?",
       "program": "# Step 1: Set the foreign exchange forward contracts sold for March 29, 2019\ncontracts_sold_2019 = 116\n\n# Step 2: Set the foreign exchange forward contracts sold for March 30, 2018\ncontracts_sold_2018 = 151\n\n# Step 3: Calculate the total foreign exchange forward contracts sold for both years\ntotal_contracts_sold = contracts_sold_2019 + contracts_sold_2018\n\n# Step 4: Store the result\nresult = total_contracts_sold",
       "response": "```python\n# Step 1: Set the foreign exchange forward contracts sold for March 29, 2019\ncontracts_sold_2019 = 116\n\n# Step 2: Set the foreign exchange forward contracts sold for March 30, 2018\ncontracts_sold_2018 = 151\n\n# Step 3: Calculate the total foreign exchange forward contracts sold for both years\ntotal_contracts_sold = contracts_sold_2019 + contracts_sold_2018\n\n# Step 4: Store the result\nresult = total_contracts_sold\n```",
@@ -24,117 +54,7 @@
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:34:34",
-      "question": "What was the change in benefit obligations between 2018 and 2019?",
-      "program": "# Step 1: Set the benefit obligations for 2019\nbenefit_obligations_2019 = 61\n\n# Step 2: Set the benefit obligations for 2018\nbenefit_obligations_2018 = 53\n\n# Step 3: Calculate the change in benefit obligations between 2018 and 2019\nans = benefit_obligations_2019 - benefit_obligations_2018\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set the benefit obligations for 2019\nbenefit_obligations_2019 = 61\n\n# Step 2: Set the benefit obligations for 2018\nbenefit_obligations_2018 = 53\n\n# Step 3: Calculate the change in benefit obligations between 2018 and 2019\nans = benefit_obligations_2019 - benefit_obligations_2018\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "-8",
-      "predicted_answer": "8",
-      "context": "The funded status of our postretirement health care and other defined benefit plans, which is recognized in other long-term liabilities in our consolidated balance sheets, was as follows (in millions):\n\n|  | April 26, 2019 | April 27, 2018 |\n| --- | --- | --- |\n| Fair value of plan assets | $ 31 | $ 25 |\n| Benefit obligations | (61) | (53) |\n| Unfunded obligations | $(30) | $(28) |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:35:16",
-      "question": "What was the total cost for 2019?",
-      "program": "# Step 1: Set the cost for rights and licenses for 2019\ncost_rights_2019 = 13\n\n# Step 2: Set the cost for internally generated software for 2019\ncost_software_generated_2019 = 12961\n\n# Step 3: Set the cost for software under development for 2019\ncost_software_development_2019 = 16284\n\n# Step 4: Calculate the total cost for 2019\ntotal_cost_2019 = cost_rights_2019 + cost_software_generated_2019 + cost_software_development_2019\n\n# Step 5: Store the result\nresult = total_cost_2019",
-      "response": "```python\n# Step 1: Set the cost for rights and licenses for 2019\ncost_rights_2019 = 13\n\n# Step 2: Set the cost for internally generated software for 2019\ncost_software_generated_2019 = 12961\n\n# Step 3: Set the cost for software under development for 2019\ncost_software_development_2019 = 16284\n\n# Step 4: Calculate the total cost for 2019\ntotal_cost_2019 = cost_rights_2019 + cost_software_generated_2019 + cost_software_development_2019\n\n# Step 5: Store the result\nresult = total_cost_2019\n```",
-      "true_answer": "29259",
-      "predicted_answer": "29258",
-      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:36:09",
-      "question": "What is the difference in the weighted-average grant date fair value between granted and forfeited RSUs?",
-      "program": "# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for forfeited RSUs\nfair_value_forfeited = 54.61\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and forfeited RSUs\nans = fair_value_granted - fair_value_forfeited\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for forfeited RSUs\nfair_value_forfeited = 54.61\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and forfeited RSUs\nans = fair_value_granted - fair_value_forfeited\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "9.06",
-      "predicted_answer": "-9.060000000000002",
-      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:36:50",
-      "question": "What is the increase/ (decrease) in Net investing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
-      "program": "# Step 1: Set net investing cash flows for 2019\ninvesting_cash_flows_2019 = -50391\n\n# Step 2: Set net investing cash flows for 2018\ninvesting_cash_flows_2018 = -663456\n\n# Step 3: Calculate the increase in net investing cash flows from 2018 to 2019\nans = investing_cash_flows_2019 - investing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set net investing cash flows for 2019\ninvesting_cash_flows_2019 = -50391\n\n# Step 2: Set net investing cash flows for 2018\ninvesting_cash_flows_2018 = -663456\n\n# Step 3: Calculate the increase in net investing cash flows from 2018 to 2019\nans = investing_cash_flows_2019 - investing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "-613065",
-      "predicted_answer": "613065",
-      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:38:53",
-      "question": "What is the percentage increase in number of RSUs from 2018 to 2019?",
-      "program": "# Step 1: Set the number of RSUs for 2018\nrsus_2018 = 462\n\n# Step 2: Set the number of RSUs for 2019\nrsus_2019 = 951\n\n# Step 3: Calculate the increase in number of RSUs from 2018 to 2019\nincrease = rsus_2019 - rsus_2018\n\n# Step 4: Calculate the percentage increase\npercentage_increase = (increase / rsus_2018) * 100\n\n# Step 5: Store the result\nresult = percentage_increase",
-      "response": "```python\n# Step 1: Set the number of RSUs for 2018\nrsus_2018 = 462\n\n# Step 2: Set the number of RSUs for 2019\nrsus_2019 = 951\n\n# Step 3: Calculate the increase in number of RSUs from 2018 to 2019\nincrease = rsus_2019 - rsus_2018\n\n# Step 4: Calculate the percentage increase\npercentage_increase = (increase / rsus_2018) * 100\n\n# Step 5: Store the result\nresult = percentage_increase\n```",
-      "true_answer": "6.94",
-      "predicted_answer": "105.84415584415585",
-      "context": "|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:39:22",
-      "question": "What is the percentage change in the total number of shares in 2019?",
-      "program": "# Step 1: Set the total number of shares outstanding at the end of 2019\nshares_2019 = 903908182\n\n# Step 2: Set the total number of shares outstanding at the end of 2018\nshares_2018 = 898200415\n\n# Step 3: Calculate the change in the number of shares\nchange_in_shares = shares_2019 - shares_2018\n\n# Step 4: Calculate the percentage change in the total number of shares\npercentage_change = (change_in_shares / shares_2018) * 100\n\n# Step 5: Store the result\nresult = percentage_change",
-      "response": "```python\n# Step 1: Set the total number of shares outstanding at the end of 2019\nshares_2019 = 903908182\n\n# Step 2: Set the total number of shares outstanding at the end of 2018\nshares_2018 = 898200415\n\n# Step 3: Calculate the change in the number of shares\nchange_in_shares = shares_2019 - shares_2018\n\n# Step 4: Calculate the percentage change in the total number of shares\npercentage_change = (change_in_shares / shares_2018) * 100\n\n# Step 5: Store the result\nresult = percentage_change\n```",
-      "true_answer": "-0.31",
-      "predicted_answer": "0.6354669742609727",
-      "context": "|  |  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- | --- |\n|  | NOTE | NUMBER OF SHARES | STATED CAPITAL | NUMBER OF SHARES | STATED CAPITAL |\n| Outstanding, January 1 |  | 898,200,415 | 20,036 | 900,996,640 | 20,091 |\n| Shares issued for the acquisition of AlarmForce | 34 | – | – | 22,531 | 1 |\n| Shares issued under employee stock option plan | 28 | 4,459,559 | 251 | 266,941 | 13 |\n| Repurchase of common shares |  | – | – | (3,085,697) | (69) |\n| Shares issued under ESP |  | 1,231,479 | 75 | – | – |\n| Shares issued under DSP |  | 16,729 | 1 | – | – |\n| Outstanding, December 31 |  | 903,908,182 | 20,363 | 898,200,415 | 20,036 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:39:23",
-      "question": "How many directors are there in the company?",
-      "program": "# Step 1: Set the number of directors listed in the context\nnumber_of_directors = 5\n\n# Step 2: Store the result\nresult = number_of_directors",
-      "response": "```python\n# Step 1: Set the number of directors listed in the context\nnumber_of_directors = 5\n\n# Step 2: Store the result\nresult = number_of_directors\n```",
-      "true_answer": "4",
-      "predicted_answer": "5",
-      "context": "| Name | Age | Position (s) |\n| --- | --- | --- |\n| Garo H. Armen | 67 | Executive Chairman of the Board of Directors |\n| Alexander K. Arrow | 49 | Chief Financial Officer |\n| Robert B. Stein | 69 | Director |\n| Khalil Barrage | 55 | Director |\n| Brian J. Corvese | 62 | Director |\n| Josh Silverman | 49 | Director |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:39:42",
-      "question": "What is the average Rent expense related to build-to-suit facilities between 2015-2019?",
-      "program": "# Step 1: Set rent expense for 2015\nrent_2015 = 0\n\n# Step 2: Set rent expense for 2016\nrent_2016 = 0\n\n# Step 3: Set rent expense for 2017\nrent_2017 = 0\n\n# Step 4: Set rent expense for 2018\nrent_2018 = 785\n\n# Step 5: Set rent expense for 2019\nrent_2019 = 4482\n\n# Step 6: Calculate the total rent expense from 2015 to 2019\ntotal_rent = rent_2015 + rent_2016 + rent_2017 + rent_2018 + rent_2019\n\n# Step 7: Calculate the average rent expense over the five years\naverage_rent = total_rent / 5\n\n# Step 8: Store the result\nresult = average_rent",
-      "response": "```python\n# Step 1: Set rent expense for 2015\nrent_2015 = 0\n\n# Step 2: Set rent expense for 2016\nrent_2016 = 0\n\n# Step 3: Set rent expense for 2017\nrent_2017 = 0\n\n# Step 4: Set rent expense for 2018\nrent_2018 = 785\n\n# Step 5: Set rent expense for 2019\nrent_2019 = 4482\n\n# Step 6: Calculate the total rent expense from 2015 to 2019\ntotal_rent = rent_2015 + rent_2016 + rent_2017 + rent_2018 + rent_2019\n\n# Step 7: Calculate the average rent expense over the five years\naverage_rent = total_rent / 5\n\n# Step 8: Store the result\nresult = average_rent\n```",
-      "true_answer": "-1053.4",
-      "predicted_answer": "1053.4",
-      "context": "|  |  |  | Year Ended March 31, |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 | 2016 | 2015 |\n|  |  |  | (in thousands) |  |  |\n| Reconciliation of Adjusted EBITDA: |  |  |  |  |  |\n| Net (loss) income  | $(7,001) | $(12,386) | $(5,441) | $(3,244) | $285 |\n| Depreciation, amortization and disposals of long-lived assets | 29,960 | 19,141 | 11,881 | 10,527 | 11,028 |\n| Rent expense related to build-to-suit facilities | (4,482) | (785) | — | — | — |\n| Interest expense (income), net   | 3,425 | (712) | (242) | 616 | 641 |\n| Provision for income taxes   | 2,001 | 2,705 | 2,202 | 865 | 152 |\n| Share-based compensation expense   | 25,954 | 11,734 | 10,294 | 7,886 | 5,426 |\n| Impairments of long-lived assets   | — | 1,712 | — | — | — |\n| Restructuring   | (170) | 832 | — | — | 1,203 |\n| Foreign exchange expense (income)   | 1,647 | 3,511 | (6,892) | (811) | (4,508) |\n| Acquisition-related expenses (1) (3)   | 2,012 | — | 655 | — | — |\n| Gain on previously held asset (2)   | (338) | — | — | — | — |\n| Litigation-related expenses (4)   | 1,000 | — | — | — | — |\n| Adjusted EBITDA | $54,008 | $25,752 | $12,457 | $15,839 | $14,227 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:40:22",
-      "question": "What is the ending outstanding number of vested RSUs in 2019?",
-      "program": "# Step 1: Set the number of vested RSUs for 2019\nvested_rsus_2019 = 825\n\n# Step 2: Store the result\nresult = vested_rsus_2019",
-      "response": "```python\n# Step 1: Set the number of vested RSUs for 2019\nvested_rsus_2019 = 825\n\n# Step 2: Store the result\nresult = vested_rsus_2019\n```",
-      "true_answer": "1017",
-      "predicted_answer": "825",
-      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:40:27",
-      "question": "In 2018, what is the difference in revenue between South Korea and Singapore?",
-      "program": "# Step 1: Set revenue for South Korea in 2018\nrevenue_south_korea_2018 = 314\n\n# Step 2: Set revenue for Singapore in 2018\nrevenue_singapore_2018 = 376\n\n# Step 3: Calculate the difference in revenue between South Korea and Singapore in 2018\nans = revenue_south_korea_2018 - revenue_singapore_2018\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set revenue for South Korea in 2018\nrevenue_south_korea_2018 = 314\n\n# Step 2: Set revenue for Singapore in 2018\nrevenue_singapore_2018 = 376\n\n# Step 3: Calculate the difference in revenue between South Korea and Singapore in 2018\nans = revenue_south_korea_2018 - revenue_singapore_2018\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "62",
-      "predicted_answer": "-62",
-      "context": "Revenues in each of the Company’s segments include sales to foreign governments or to companies located in foreign countries. For the years ended April 30, 2019 and 2018, revenues, based on the location of the procurement entity and excluding intersegment sales, were derived from the following countries (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Belgium | $49 | $64 |\n| France | 40 | 154 |\n| China | 359 | 512 |\n| Russia | 2 | 302 |\n| Germany | 36 | 143 |\n| Italy | 159 | 110 |\n| South Korea | - | 314 |\n| Singapore | 215 | 376 |\n| Other | 525 | 469 |\n|  | $1,361 | $ 2,444 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:40:49",
-      "question": "What is the percentage change in total net sales of International and Refrigerated & Frozen from the fiscal year 2017 to 2018?",
-      "program": "# Step 1: Set total net sales for International in 2018\ninternational_sales_2018 = 843.5\n\n# Step 2: Set total net sales for International in 2017\ninternational_sales_2017 = 816.0\n\n# Step 3: Set total net sales for Refrigerated & Frozen in 2018\nrefrigerated_sales_2018 = 2753.0\n\n# Step 4: Set total net sales for Refrigerated & Frozen in 2017\nrefrigerated_sales_2017 = 2652.7\n\n# Step 5: Calculate the percentage change for International\ninternational_change = (international_sales_2018 - international_sales_2017) / international_sales_2017 * 100\n\n# Step 6: Calculate the percentage change for Refrigerated & Frozen\nrefrigerated_change = (refrigerated_sales_2018 - refrigerated_sales_2017) / refrigerated_sales_2017 * 100\n\n# Step 7: Calculate the total percentage change by averaging the two percentage changes\ntotal_percentage_change = (international_change + refrigerated_change) / 2\n\n# Step 8: Store the result\nresult = total_percentage_change",
-      "response": "```python\n# Step 1: Set total net sales for International in 2018\ninternational_sales_2018 = 843.5\n\n# Step 2: Set total net sales for International in 2017\ninternational_sales_2017 = 816.0\n\n# Step 3: Set total net sales for Refrigerated & Frozen in 2018\nrefrigerated_sales_2018 = 2753.0\n\n# Step 4: Set total net sales for Refrigerated & Frozen in 2017\nrefrigerated_sales_2017 = 2652.7\n\n# Step 5: Calculate the percentage change for International\ninternational_change = (international_sales_2018 - international_sales_2017) / international_sales_2017 * 100\n\n# Step 6: Calculate the percentage change for Refrigerated & Frozen\nrefrigerated_change = (refrigerated_sales_2018 - refrigerated_sales_2017) / refrigerated_sales_2017 * 100\n\n# Step 7: Calculate the total percentage change by averaging the two percentage changes\ntotal_percentage_change = (international_change + refrigerated_change) / 2\n\n# Step 8: Store the result\nresult = total_percentage_change\n```",
-      "true_answer": "3.68",
-      "predicted_answer": "3.57557565284945",
-      "context": "| ($ in millions) |  |  |  |\n| --- | --- | --- | --- |\n| Reporting Segment | Fiscal 2018 Net Sales | Fiscal 2017 Net Sales | % Inc (Dec) |\n| Grocery & Snacks | $3,287.0 | $3,208.8 | 2% |\n| Refrigerated & Frozen | 2,753.0 | 2,652.7 | 4% |\n| International | 843.5 | 816.0 | 3% |\n| Foodservice | 1,054.8 | 1,078.3 | (2)% |\n| Commercial | — | 71.1 | (100)% |\n| Total | $7,938.3 | $7,826.9 | 1% |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:41:28",
+      "timestamp": "2025-07-22 23:06:41",
       "question": "What is the average age of the directors in the company?",
       "program": "# Step 1: Set the ages of the directors\nages = [69, 55, 62, 49, 49]  # Ages of Robert B. Stein, Khalil Barrage, Brian J. Corvese, Josh Silverman, and Alexander K. Arrow\n\n# Step 2: Calculate the average age of the directors\naverage_age = sum(ages) / len(ages)\n\n# Step 3: Store the result\nresult = average_age",
       "response": "```python\n# Step 1: Set the ages of the directors\nages = [69, 55, 62, 49, 49]  # Ages of Robert B. Stein, Khalil Barrage, Brian J. Corvese, Josh Silverman, and Alexander K. Arrow\n\n# Step 2: Calculate the average age of the directors\naverage_age = sum(ages) / len(ages)\n\n# Step 3: Store the result\nresult = average_age\n```",
@@ -144,7 +64,7 @@
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:42:03",
+      "timestamp": "2025-07-22 23:07:43",
       "question": "What is the increase/ (decrease) in Net financing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
       "program": "# Step 1: Set net financing cash flows for 2019\nfinancing_cash_flows_2019 = -382229\n\n# Step 2: Set net financing cash flows for 2018\nfinancing_cash_flows_2018 = 434786\n\n# Step 3: Calculate the increase in net financing cash flows from 2018 to 2019\nans = financing_cash_flows_2019 - financing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans",
       "response": "```python\n# Step 1: Set net financing cash flows for 2019\nfinancing_cash_flows_2019 = -382229\n\n# Step 2: Set net financing cash flows for 2018\nfinancing_cash_flows_2018 = 434786\n\n# Step 3: Calculate the increase in net financing cash flows from 2018 to 2019\nans = financing_cash_flows_2019 - financing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans\n```",
@@ -154,7 +74,137 @@
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:42:14",
+      "timestamp": "2025-07-22 23:08:35",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and forfeited RSUs?",
+      "program": "# Step 1: Set the weighted-average grant date fair value for granted RSUs\ngrant_value = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for forfeited RSUs\nforfeit_value = 54.61\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and forfeited RSUs\nans = grant_value - forfeit_value\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set the weighted-average grant date fair value for granted RSUs\ngrant_value = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for forfeited RSUs\nforfeit_value = 54.61\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and forfeited RSUs\nans = grant_value - forfeit_value\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "9.06",
+      "predicted_answer": "-9.060000000000002",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:08:51",
+      "question": "What was the total cost for 2019?",
+      "program": "# Step 1: Set the cost for rights and licenses for 2019\ncost_rights_2019 = 13\n\n# Step 2: Set the cost for internally generated software for 2019\ncost_internally_generated_software_2019 = 12961\n\n# Step 3: Set the cost for software under development for 2019\ncost_software_under_development_2019 = 16284\n\n# Step 4: Calculate the total cost for 2019\ntotal_cost_2019 = cost_rights_2019 + cost_internally_generated_software_2019 + cost_software_under_development_2019\n\n# Step 5: Store the result\nresult = total_cost_2019",
+      "response": "```python\n# Step 1: Set the cost for rights and licenses for 2019\ncost_rights_2019 = 13\n\n# Step 2: Set the cost for internally generated software for 2019\ncost_internally_generated_software_2019 = 12961\n\n# Step 3: Set the cost for software under development for 2019\ncost_software_under_development_2019 = 16284\n\n# Step 4: Calculate the total cost for 2019\ntotal_cost_2019 = cost_rights_2019 + cost_internally_generated_software_2019 + cost_software_under_development_2019\n\n# Step 5: Store the result\nresult = total_cost_2019\n```",
+      "true_answer": "29259",
+      "predicted_answer": "29258",
+      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:08:55",
+      "question": "Which year have greater total accumulated amortisation? ",
+      "program": "# Step 1: Set the total accumulated amortisation for 2019\namortisation_2019 = 5580\n\n# Step 2: Set the total accumulated amortisation for 2018\namortisation_2018 = 3261\n\n# Step 3: Determine which year has greater total accumulated amortisation\ngreater_year = \"2019\" if amortisation_2019 > amortisation_2018 else \"2018\"\n\n# Step 4: Store the result as a numerical representation (1 for 2019, 0 for 2018)\nresult = 1 if greater_year == \"2019\" else 0",
+      "response": "```python\n# Step 1: Set the total accumulated amortisation for 2019\namortisation_2019 = 5580\n\n# Step 2: Set the total accumulated amortisation for 2018\namortisation_2018 = 3261\n\n# Step 3: Determine which year has greater total accumulated amortisation\ngreater_year = \"2019\" if amortisation_2019 > amortisation_2018 else \"2018\"\n\n# Step 4: Store the result as a numerical representation (1 for 2019, 0 for 2018)\nresult = 1 if greater_year == \"2019\" else 0\n```",
+      "true_answer": "2019",
+      "predicted_answer": "1",
+      "context": "|  | Rights and licenses | Internally generated software | Software under development | Total |\n| --- | --- | --- | --- | --- |\n| Movements | $'000 | $'000 | $'000 | $'000 |\n| At 30 June 2019 |  |  |  |  |\n| Cost | 13 | 12,961 | 16,284 | 29,259 |\n| Accumulated amortisation | - | (5,580) | - | (5,580) |\n| Netbook amount | 13 | 7,381 | 16,284 | 23,678 |\n| 30 June 2018 |  |  |  |  |\n| Opening net book amount at 1 July 2017 | 43 | 442 | 8,053 | 8,538 |\n| Additions – externally acquired | 13 | - | 5,253 | 5,266 |\n| Additions – internally developed | - | - | 1,256 | 1,256 |\n| Amortisation | (43) | (1,746) | - | (1,789) |\n| Transfers | - | 7,563 | (7,563) | - |\n| Transfer between classes | - | 744 | - | 744 |\n| Disposals | - | (618) | (490) | (1,108) |\n| Closing net book amount | 13 | 6,385 | 6,509 | 12,907 |\n| At 30 June 2018 |  |  |  |  |\n| Cost | 104 | 9,555 | 6,509 | 16,168 |\n| Accumulated amortisation | (91) | (3,170) | - | (3,261) |\n| Net book amount | 13 | 6,385 | 6,509 | 12,907 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:10:47",
+      "question": "How much would diluted EPS be for second quarter ended of fiscal year 2019 without the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers?",
+      "program": "# Step 1: Set the diluted EPS for the second quarter of fiscal year 2019\ndiluted_eps_q2_2019 = 1.14\n\n# Step 2: Set the impact of the net charge related to the TCJA and tax benefit on diluted EPS\nimpact = 0.02\n\n# Step 3: Calculate the diluted EPS without the impact\nadjusted_diluted_eps = diluted_eps_q2_2019 + impact\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps",
+      "response": "```python\n# Step 1: Set the diluted EPS for the second quarter of fiscal year 2019\ndiluted_eps_q2_2019 = 1.14\n\n# Step 2: Set the impact of the net charge related to the TCJA and tax benefit on diluted EPS\nimpact = 0.02\n\n# Step 3: Calculate the diluted EPS without the impact\nadjusted_diluted_eps = diluted_eps_q2_2019 + impact\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps\n```",
+      "true_answer": "1.73",
+      "predicted_answer": "1.16",
+      "context": "(b) Reflects the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers, which decreased (increased) diluted EPS $0.02 for the second quarter, $(0.34) for the fourth quarter, and $(0.31) for fiscal year 2019.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:11:37",
+      "question": "In 2018, what is the difference in revenue between South Korea and Singapore?",
+      "program": "# Step 1: Set revenue for South Korea in 2018\nrevenue_south_korea_2018 = 314\n\n# Step 2: Set revenue for Singapore in 2018\nrevenue_singapore_2018 = 376\n\n# Step 3: Calculate the difference in revenue between South Korea and Singapore in 2018\nans = revenue_south_korea_2018 - revenue_singapore_2018\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set revenue for South Korea in 2018\nrevenue_south_korea_2018 = 314\n\n# Step 2: Set revenue for Singapore in 2018\nrevenue_singapore_2018 = 376\n\n# Step 3: Calculate the difference in revenue between South Korea and Singapore in 2018\nans = revenue_south_korea_2018 - revenue_singapore_2018\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "62",
+      "predicted_answer": "-62",
+      "context": "Revenues in each of the Company’s segments include sales to foreign governments or to companies located in foreign countries. For the years ended April 30, 2019 and 2018, revenues, based on the location of the procurement entity and excluding intersegment sales, were derived from the following countries (in thousands):\n\n|  | 2019 | 2018 |\n| --- | --- | --- |\n| Belgium | $49 | $64 |\n| France | 40 | 154 |\n| China | 359 | 512 |\n| Russia | 2 | 302 |\n| Germany | 36 | 143 |\n| Italy | 159 | 110 |\n| South Korea | - | 314 |\n| Singapore | 215 | 376 |\n| Other | 525 | 469 |\n|  | $1,361 | $ 2,444 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:11:40",
+      "question": "How much would diluted earnings per share for fiscal year 2018 be without the net charge (benefit) related to the enactment of the TCJA?",
+      "program": "# Step 1: Set the diluted earnings per share for fiscal year 2018\ndiluted_eps_2018 = 2.13\n\n# Step 2: Set the net charge (benefit) related to the enactment of the TCJA\nnet_charge_tcja = 1.78\n\n# Step 3: Calculate the diluted earnings per share without the net charge\nadjusted_diluted_eps = diluted_eps_2018 + net_charge_tcja\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps",
+      "response": "```python\n# Step 1: Set the diluted earnings per share for fiscal year 2018\ndiluted_eps_2018 = 2.13\n\n# Step 2: Set the net charge (benefit) related to the enactment of the TCJA\nnet_charge_tcja = 1.78\n\n# Step 3: Calculate the diluted earnings per share without the net charge\nadjusted_diluted_eps = diluted_eps_2018 + net_charge_tcja\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps\n```",
+      "true_answer": "3.88",
+      "predicted_answer": "3.91",
+      "context": "(d) Reflects the net charge (benefit) related to the enactment of the TCJA, which decreased (increased) diluted EPS $1.78 for the second quarter, $(0.01) for the fourth quarter, and $1.75 for fiscal year 2018.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:11:52",
+      "question": "How many directors are there in the company?",
+      "program": "# Step 1: Set the number of directors\nnumber_of_directors = 5\n\n# Step 2: Store the result\nresult = number_of_directors",
+      "response": "```python\n# Step 1: Set the number of directors\nnumber_of_directors = 5\n\n# Step 2: Store the result\nresult = number_of_directors\n```",
+      "true_answer": "4",
+      "predicted_answer": "5",
+      "context": "| Name | Age | Position (s) |\n| --- | --- | --- |\n| Garo H. Armen | 67 | Executive Chairman of the Board of Directors |\n| Alexander K. Arrow | 49 | Chief Financial Officer |\n| Robert B. Stein | 69 | Director |\n| Khalil Barrage | 55 | Director |\n| Brian J. Corvese | 62 | Director |\n| Josh Silverman | 49 | Director |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:11:57",
+      "question": "What is the ending outstanding number of vested RSUs in 2019?",
+      "program": "# Step 1: Set the number of vested RSUs for 2019\nvested_rsus_2019 = 825\n\n# Step 2: Store the result\nresult = vested_rsus_2019",
+      "response": "```python\n# Step 1: Set the number of vested RSUs for 2019\nvested_rsus_2019 = 825\n\n# Step 2: Store the result\nresult = vested_rsus_2019\n```",
+      "true_answer": "1017",
+      "predicted_answer": "825",
+      "context": "A summary of the grants under the RSU Plans as of December 31, 2019 and 2018, and for the year then ended consisted of the following (in thousands):\n\n|  |  | Year Ended | December 31, |  |\n| --- | --- | --- | --- | --- |\n|  | 2019 |  | 2018 |  |\n|  | Number of | Number of | Number of | Number of |\n|  | RSUs | Vested RSUs | RSUs | Vested RSUs |\n| Outstanding, Jan. 1 | 951 | 459 | 462 | 262 |\n| Granted | 333 | - | 759 | - |\n| Distributed | (267) | (267) | (262) | (262) |\n| Vested | - | 825 | - | 459 |\n| Forfeited | - | - | (8) | - |\n| Outstanding, Dec. 31 | 1,017 | 1,017 | 951 | 459 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:12:33",
+      "question": "What is the percentage change in the total number of shares in 2019?",
+      "program": "# Step 1: Set the total number of shares outstanding at the beginning of 2019\nshares_start_2019 = 898200415\n\n# Step 2: Set the total number of shares outstanding at the end of 2019\nshares_end_2019 = 903908182\n\n# Step 3: Calculate the change in the total number of shares\nchange_in_shares = shares_end_2019 - shares_start_2019\n\n# Step 4: Calculate the percentage change in the total number of shares\npercentage_change = (change_in_shares / shares_start_2019) * 100\n\n# Step 5: Store the result\nresult = percentage_change",
+      "response": "```python\n# Step 1: Set the total number of shares outstanding at the beginning of 2019\nshares_start_2019 = 898200415\n\n# Step 2: Set the total number of shares outstanding at the end of 2019\nshares_end_2019 = 903908182\n\n# Step 3: Calculate the change in the total number of shares\nchange_in_shares = shares_end_2019 - shares_start_2019\n\n# Step 4: Calculate the percentage change in the total number of shares\npercentage_change = (change_in_shares / shares_start_2019) * 100\n\n# Step 5: Store the result\nresult = percentage_change\n\n```",
+      "true_answer": "-0.31",
+      "predicted_answer": "0.6354669742609727",
+      "context": "|  |  | 2019 |  | 2018 |  |\n| --- | --- | --- | --- | --- | --- |\n|  | NOTE | NUMBER OF SHARES | STATED CAPITAL | NUMBER OF SHARES | STATED CAPITAL |\n| Outstanding, January 1 |  | 898,200,415 | 20,036 | 900,996,640 | 20,091 |\n| Shares issued for the acquisition of AlarmForce | 34 | – | – | 22,531 | 1 |\n| Shares issued under employee stock option plan | 28 | 4,459,559 | 251 | 266,941 | 13 |\n| Repurchase of common shares |  | – | – | (3,085,697) | (69) |\n| Shares issued under ESP |  | 1,231,479 | 75 | – | – |\n| Shares issued under DSP |  | 16,729 | 1 | – | – |\n| Outstanding, December 31 |  | 903,908,182 | 20,363 | 898,200,415 | 20,036 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:13:08",
+      "question": "What is the amount of employee stock purchase rights including accelerated stock-based compensation expense at the end of 2018?",
+      "program": "# Step 1: Set the amount of employee stock purchase rights for 2018\nemployee_stock_purchase_rights_2018 = 5240\n\n# Step 2: Set the accelerated stock-based compensation expense for 2018\naccelerated_stock_based_compensation_expense = 4.1  # in millions\n\n# Step 3: Calculate the total amount including accelerated stock-based compensation expense\ntotal_amount_2018 = employee_stock_purchase_rights_2018 + accelerated_stock_based_compensation_expense\n\n# Step 4: Store the result\nresult = total_amount_2018",
+      "response": "```python\n# Step 1: Set the amount of employee stock purchase rights for 2018\nemployee_stock_purchase_rights_2018 = 5240\n\n# Step 2: Set the accelerated stock-based compensation expense for 2018\naccelerated_stock_based_compensation_expense = 4.1  # in millions\n\n# Step 3: Calculate the total amount including accelerated stock-based compensation expense\ntotal_amount_2018 = employee_stock_purchase_rights_2018 + accelerated_stock_based_compensation_expense\n\n# Step 4: Store the result\nresult = total_amount_2018\n```",
+      "true_answer": "5240",
+      "predicted_answer": "5244.1",
+      "context": "(1) Amount for the year ended December 31, 2018 includes $4.1 million of accelerated stock-based compensation expense. In March 2018, as\na result of a suspension of the 2014 Purchase Plan due to our non-timely filing status, all unrecognized stock-based compensation expense\nrelated to ESPP under the 2014 Purchase Plan was accelerated and recognized within the consolidated statement of operations.\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Stock-based compensation by type of award: |  |  |  |\n| Stock options | $648 | $1,353 | $2,705 |\n| Stock awards | 14,882 | 10,445 | 11,421 |\n| Employee stock purchase rights(1) | 999 | 5,240 | 3,077 |\n| Total | $16,529 | $17,038 | $17,203 |\n| Stock-based compensation by category of expense: |  |  |  |\n| Cost of revenue | $1,500 | $1,602 | $1,362 |\n| Sales and marketing | 5,765 | 5,667 | 6,075 |\n| Research and development | 6,039 | 6,631 | 6,343 |\n| General and administrative | 3,225 | 3,138 | 3,423 |\n| Total | $16,529 | $17,038 | $17,203 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:13:58",
+      "question": "What is the difference in the weighted-average grant date fair value between granted and vested RSUs?",
+      "program": "# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for vested RSUs\nfair_value_vested = 47.86\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and vested RSUs\nans = fair_value_granted - fair_value_vested\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set the weighted-average grant date fair value for granted RSUs\nfair_value_granted = 45.55\n\n# Step 2: Set the weighted-average grant date fair value for vested RSUs\nfair_value_vested = 47.86\n\n# Step 3: Calculate the difference in the weighted-average grant date fair value between granted and vested RSUs\nans = fair_value_granted - fair_value_vested\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "2.31",
+      "predicted_answer": "-2.3100000000000023",
+      "context": "The following table summarizes our RSU activity with performance-based RSUs presented at the maximum potential shares that could be earned and issued at vesting (amounts in thousands except per share amounts):\n\n|  | Number of shares | Weighted-Average Grant Date Fair Value |\n| --- | --- | --- |\n| Unvested RSUs at December 31, 2018 | 10,623 | $40.39 |\n| Granted | 4,426 | 45.55 |\n| Vested | (2,758) | 47.86 |\n| Forfeited | (2,963) | 54.61 |\n| Unvested RSUs at December 31, 2019 | 9,328 | $32.60 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:15:45",
+      "question": "In which year is the actual income tax expense the highest?",
+      "program": "# Step 1: Set the actual income tax expenses for each year\ntax_expense_2019 = 255141\ntax_expense_2018 = 771108\ntax_expense_2017 = 113910\n\n# Step 2: Determine the highest actual income tax expense\nhighest_tax_expense = max(tax_expense_2019, tax_expense_2018, tax_expense_2017)\n\n# Step 3: Store the result\nresult = highest_tax_expense",
+      "response": "```python\n# Step 1: Set the actual income tax expenses for each year\ntax_expense_2019 = 255141\ntax_expense_2018 = 771108\ntax_expense_2017 = 113910\n\n# Step 2: Determine the highest actual income tax expense\nhighest_tax_expense = max(tax_expense_2019, tax_expense_2018, tax_expense_2017)\n\n# Step 3: Store the result\nresult = highest_tax_expense\n```",
+      "true_answer": "2018",
+      "predicted_answer": "771108",
+      "context": "A reconciliation of income tax expense provided at the federal statutory rate (21% in fiscal year 2019, 28.27% in fiscal year 2018, and 35% in fiscal year 2017) to actual income tax expense is as follows:\n\n|  |  | Year Ended |  |\n| --- | --- | --- | --- |\n|  | June 30, 2019 | June 24, 2018 | June 25, 2017 |\n|  |  | (in thousands) |  |\n| Income tax expense computed at federal statutory rate | $513,780 | $891,011 | $634,086 |\n| State income taxes, net of federal tax benefit | (17,565) | (50,585) | (11,973) |\n| Foreign income taxed at different rates | (260,344) | (939,808) | (352,860) |\n| Settlements and reductions in uncertain tax positions | (31,291) | (33,367) | (144,519) |\n| Tax credits | (71,779) | (69,301) | (37,713) |\n| State valuation allowance, net of federal tax benefit | 26,742 | 57,302 | 12,070 |\n| Equity-based compensation | (7,566) | (35,875) | 13,187 |\n| Other permanent differences and miscellaneous items | 39,251 | 43,214 | 1,632 |\n| U.S. tax reform impacts | 63,913 | 908,517 | — |\n|  | $255,141 | $771,108 | $113,910 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:15:56",
+      "question": "Which year has the highest general and administrative expense?",
+      "program": "# Step 1: Set general and administrative expenses for each year\ng_and_a_2019 = 10693\ng_and_a_2018 = 11476\ng_and_a_2017 = 9114\n\n# Step 2: Determine which year has the highest general and administrative expense\nhighest_expense = max(g_and_a_2019, g_and_a_2018, g_and_a_2017)\n\n# Step 3: Store the result\nresult = highest_expense",
+      "response": "```python\n# Step 1: Set general and administrative expenses for each year\ng_and_a_2019 = 10693\ng_and_a_2018 = 11476\ng_and_a_2017 = 9114\n\n# Step 2: Determine which year has the highest general and administrative expense\nhighest_expense = max(g_and_a_2019, g_and_a_2018, g_and_a_2017)\n\n# Step 3: Store the result\nresult = highest_expense\n```",
+      "true_answer": "2018",
+      "predicted_answer": "11476",
+      "context": "|  |  | Year Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n|  |  | (In thousands) |  |\n| Cost of revenue | $2,843 | $2,435 | $1,406 |\n| Research and development | 6,532 | 4,283 | 2,968 |\n| Sales and marketing | 9,069 | 8,267 | 5,481 |\n| General and administrative | 10,693 | 11,476 | 9,114 |\n| Total | $29,137 | $26,461 | $18,969 |\n",
+      "correct": false
+    },
+    {
+      "timestamp": "2025-07-22 23:16:59",
       "question": "What is the difference between the number of RSUs granted in 2019 and 2018?",
       "program": "# Step 1: Set the number of RSUs granted in 2019\ngranted_2019 = 333\n\n# Step 2: Set the number of RSUs granted in 2018\ngranted_2018 = 759\n\n# Step 3: Calculate the difference between the number of RSUs granted in 2019 and 2018\nans = granted_2019 - granted_2018\n\n# Step 4: Store the result\nresult = ans",
       "response": "```python\n# Step 1: Set the number of RSUs granted in 2019\ngranted_2019 = 333\n\n# Step 2: Set the number of RSUs granted in 2018\ngranted_2018 = 759\n\n# Step 3: Calculate the difference between the number of RSUs granted in 2019 and 2018\nans = granted_2019 - granted_2018\n\n# Step 4: Store the result\nresult = ans\n```",
@@ -164,47 +214,7 @@
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:42:25",
-      "question": "How much would diluted earnings per share for fiscal year 2018 be without the net charge (benefit) related to the enactment of the TCJA?",
-      "program": "# Step 1: Set the diluted earnings per share for fiscal year 2018\ndiluted_eps_2018 = 2.13\n\n# Step 2: Set the net charge related to the enactment of the TCJA\nnet_charge_tcja = 1.78\n\n# Step 3: Calculate the diluted earnings per share without the net charge\nadjusted_eps = diluted_eps_2018 + net_charge_tcja\n\n# Step 4: Store the result\nresult = adjusted_eps",
-      "response": "```python\n# Step 1: Set the diluted earnings per share for fiscal year 2018\ndiluted_eps_2018 = 2.13\n\n# Step 2: Set the net charge related to the enactment of the TCJA\nnet_charge_tcja = 1.78\n\n# Step 3: Calculate the diluted earnings per share without the net charge\nadjusted_eps = diluted_eps_2018 + net_charge_tcja\n\n# Step 4: Store the result\nresult = adjusted_eps\n```",
-      "true_answer": "3.88",
-      "predicted_answer": "3.91",
-      "context": "(d) Reflects the net charge (benefit) related to the enactment of the TCJA, which decreased (increased) diluted EPS $1.78 for the second quarter, $(0.01) for the fourth quarter, and $1.75 for fiscal year 2018.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:42:47",
-      "question": "How much would diluted EPS be for second quarter ended of fiscal year 2019 without the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers?",
-      "program": "# Step 1: Set the diluted EPS for the second quarter of fiscal year 2019\ndiluted_eps_q2_2019 = 1.14\n\n# Step 2: Set the impact of the net charge related to TCJA and tax benefit\nimpact = 0.02\n\n# Step 3: Calculate the diluted EPS without the impact\nadjusted_diluted_eps = diluted_eps_q2_2019 + impact\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps",
-      "response": "```python\n# Step 1: Set the diluted EPS for the second quarter of fiscal year 2019\ndiluted_eps_q2_2019 = 1.14\n\n# Step 2: Set the impact of the net charge related to TCJA and tax benefit\nimpact = 0.02\n\n# Step 3: Calculate the diluted EPS without the impact\nadjusted_diluted_eps = diluted_eps_q2_2019 + impact\n\n# Step 4: Store the result\nresult = adjusted_diluted_eps\n```",
-      "true_answer": "1.73",
-      "predicted_answer": "1.16",
-      "context": "(b) Reflects the net charge related to the enactment of the TCJA and the net income tax benefit related to the intangible property transfers, which decreased (increased) diluted EPS $0.02 for the second quarter, $(0.34) for the fourth quarter, and $(0.31) for fiscal year 2019.\n\n| (In millions, except per share amounts) |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Quarter Ended | September 30 | December 31 | March 31 | June 30 | Total |\n| Fiscal Year 2019 |  |  |  |  |  |\n| Revenue | $  29,084 | $  32,471 | $  30,571 | $  33,717 | $  125,843 |\n| Gross margin | 19,179 | 20,048 | 20,401 | 23,305 | 82,933 |\n| Operating income | 9,955 | 10,258 | 10,341 | 12,405 | 42,959 |\n| Net income (a) | 8,824 | 8,420 | 8,809 | 13,187 | 39,240 |\n| Basic earnings per share | 1.15 | 1.09 | 1.15 | 1.72 | 5.11 |\n| Diluted earnings per share (b) | 1.14 | 1.08 | 1.14 | 1.71 | 5.06 |\n| Fiscal Year 2018 |  |  |  |  |  |\n| Revenue | $  24,538 | $ 28,918 | $ 26,819 | $ 30,085 | $ 110,360 |\n| Gross margin | 16,260 | 17,854 | 17,550 | 20,343 | 72,007 |\n| Operating income | 7,708 | 8,679 | 8,292 | 10,379 | 35,058 |\n| Net income (loss) (c) | 6,576 | (6,302) | 7,424 | 8,873 | 16,571 |\n| Basic earnings (loss) per share | 0.85 | (0.82) | 0.96 | 1.15 | 2.15 |\n| Diluted earnings (loss) per share (d) | 0.84 | (0.82) | 0.95 | 1.14 | 2.13 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:42:51",
-      "question": "What is the average Unamortized debt discount for 2018 and 2019?",
-      "program": "# Step 1: Set unamortized debt discount for 2019\ndebt_discount_2019 = 1328\n\n# Step 2: Set unamortized debt discount for 2018\ndebt_discount_2018 = 1630\n\n# Step 3: Calculate the average of the two years\naverage_debt_discount = (debt_discount_2019 + debt_discount_2018) / 2\n\n# Step 4: Store the result\nresult = average_debt_discount",
-      "response": "```python\n# Step 1: Set unamortized debt discount for 2019\ndebt_discount_2019 = 1328\n\n# Step 2: Set unamortized debt discount for 2018\ndebt_discount_2018 = 1630\n\n# Step 3: Calculate the average of the two years\naverage_debt_discount = (debt_discount_2019 + debt_discount_2018) / 2\n\n# Step 4: Store the result\nresult = average_debt_discount\n```",
-      "true_answer": "-1479",
-      "predicted_answer": "1479.0",
-      "context": "|  | December 31, 2019 | December 31, 2018 |\n| --- | --- | --- |\n|  | (in thousands) |  |\n| Principal | $212,000 | $262,000 |\n| Less: |  |  |\n| Unamortized debt discount | (1,328) | (1,630) |\n| Unamortized debt issuance costs | (3,763) | (4,613) |\n| Net carrying amount of long-term debt | 206,909 | 255,757 |\n| Less: current portion of long-term debt | — | — |\n| Long-term debt, non-current portion | $206,909 | 255,757 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:43:14",
-      "question": "Which year has the highest general and administrative expense?",
-      "program": "# Step 1: Set general and administrative expenses for 2019\nga_expense_2019 = 10693\n\n# Step 2: Set general and administrative expenses for 2018\nga_expense_2018 = 11476\n\n# Step 3: Set general and administrative expenses for 2017\nga_expense_2017 = 9114\n\n# Step 4: Determine the highest general and administrative expense\nhighest_expense = max(ga_expense_2019, ga_expense_2018, ga_expense_2017)\n\n# Step 5: Store the result\nresult = highest_expense",
-      "response": "```python\n# Step 1: Set general and administrative expenses for 2019\nga_expense_2019 = 10693\n\n# Step 2: Set general and administrative expenses for 2018\nga_expense_2018 = 11476\n\n# Step 3: Set general and administrative expenses for 2017\nga_expense_2017 = 9114\n\n# Step 4: Determine the highest general and administrative expense\nhighest_expense = max(ga_expense_2019, ga_expense_2018, ga_expense_2017)\n\n# Step 5: Store the result\nresult = highest_expense\n```",
-      "true_answer": "2018",
-      "predicted_answer": "11476",
-      "context": "|  |  | Year Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n|  |  | (In thousands) |  |\n| Cost of revenue | $2,843 | $2,435 | $1,406 |\n| Research and development | 6,532 | 4,283 | 2,968 |\n| Sales and marketing | 9,069 | 8,267 | 5,481 |\n| General and administrative | 10,693 | 11,476 | 9,114 |\n| Total | $29,137 | $26,461 | $18,969 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:43:27",
+      "timestamp": "2025-07-22 23:17:41",
       "question": "What is the percentage change in the pension discount rate for actuarial benefit obligations between 2018 and 2019?",
       "program": "# Step 1: Set the pension discount rate for 2019\ndiscount_rate_2019 = 3.20\n\n# Step 2: Set the pension discount rate for 2018\ndiscount_rate_2018 = 3.80\n\n# Step 3: Calculate the percentage change in the pension discount rate\npercentage_change = ((discount_rate_2019 - discount_rate_2018) / discount_rate_2018) * 100\n\n# Step 4: Store the result\nresult = percentage_change",
       "response": "```python\n# Step 1: Set the pension discount rate for 2019\ndiscount_rate_2019 = 3.20\n\n# Step 2: Set the pension discount rate for 2018\ndiscount_rate_2018 = 3.80\n\n# Step 3: Calculate the percentage change in the pension discount rate\npercentage_change = ((discount_rate_2019 - discount_rate_2018) / discount_rate_2018) * 100\n\n# Step 4: Store the result\nresult = percentage_change\n```",
@@ -214,33 +224,23 @@
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:43:39",
-      "question": "What was the increase / (decrease) in the net additions of Primary service units in 2019 from 2018?",
-      "program": "# Step 1: Set net additions of Primary service units for 2019\nnet_additions_2019 = 1810366\n\n# Step 2: Set net additions of Primary service units for 2018\nnet_additions_2018 = -56552  # Negative value indicates a loss\n\n# Step 3: Calculate the increase in net additions from 2018 to 2019\nans = net_additions_2019 - net_additions_2018\n\n# Step 4: Store the result\nresult = ans",
-      "response": "```python\n# Step 1: Set net additions of Primary service units for 2019\nnet_additions_2019 = 1810366\n\n# Step 2: Set net additions of Primary service units for 2018\nnet_additions_2018 = -56552  # Negative value indicates a loss\n\n# Step 3: Calculate the increase in net additions from 2018 to 2019\nans = net_additions_2019 - net_additions_2018\n\n# Step 4: Store the result\nresult = ans\n```",
-      "true_answer": "-703",
-      "predicted_answer": "1866918",
-      "context": "|  |  | Net additions (losses) |  | % of penetration(2) |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Years ended |  |  |  |  |\n|  | August 31, | August 31, | August 31, | August 31, | August 31, |\n|  | 2019 | 2019 | 2018(1) | 2019 | 2018 |\n| Primary service units | 1,810,366 | (56,552) | (55,849) |  |  |\n| Internet service customers | 788,243 | 5,966 | 14,173 | 44.7 | 44.7 |\n| Video service customers | 649,583 | (39,185) | (37,035) | 36.8 | 39.3 |\n| Telephony service customers | 372,540 | (23,333) | (32,987) | 21.1 | 22.6 |\n",
+      "timestamp": "2025-07-22 23:17:59",
+      "question": "What was the change in benefit obligations between 2018 and 2019?",
+      "program": "# Step 1: Set the benefit obligations for 2019\nbenefit_obligations_2019 = 61\n\n# Step 2: Set the benefit obligations for 2018\nbenefit_obligations_2018 = 53\n\n# Step 3: Calculate the change in benefit obligations between 2018 and 2019\nans = benefit_obligations_2019 - benefit_obligations_2018\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set the benefit obligations for 2019\nbenefit_obligations_2019 = 61\n\n# Step 2: Set the benefit obligations for 2018\nbenefit_obligations_2018 = 53\n\n# Step 3: Calculate the change in benefit obligations between 2018 and 2019\nans = benefit_obligations_2019 - benefit_obligations_2018\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "-8",
+      "predicted_answer": "8",
+      "context": "The funded status of our postretirement health care and other defined benefit plans, which is recognized in other long-term liabilities in our consolidated balance sheets, was as follows (in millions):\n\n|  | April 26, 2019 | April 27, 2018 |\n| --- | --- | --- |\n| Fair value of plan assets | $ 31 | $ 25 |\n| Benefit obligations | (61) | (53) |\n| Unfunded obligations | $(30) | $(28) |\n",
       "correct": false
     },
     {
-      "timestamp": "2025-07-15 23:44:30",
-      "question": "What is the amount of employee stock purchase rights including accelerated stock-based compensation expense at the end of 2018?",
-      "program": "# Step 1: Set the amount for employee stock purchase rights for 2018\nemployee_stock_purchase_rights_2018 = 5240\n\n# Step 2: Set the accelerated stock-based compensation expense for 2018\naccelerated_stock_based_compensation_expense = 4.1  # in millions\n\n# Step 3: Calculate the total amount including accelerated stock-based compensation expense\ntotal_amount_2018 = employee_stock_purchase_rights_2018 + accelerated_stock_based_compensation_expense\n\n# Step 4: Store the result\nresult = total_amount_2018",
-      "response": "```python\n# Step 1: Set the amount for employee stock purchase rights for 2018\nemployee_stock_purchase_rights_2018 = 5240\n\n# Step 2: Set the accelerated stock-based compensation expense for 2018\naccelerated_stock_based_compensation_expense = 4.1  # in millions\n\n# Step 3: Calculate the total amount including accelerated stock-based compensation expense\ntotal_amount_2018 = employee_stock_purchase_rights_2018 + accelerated_stock_based_compensation_expense\n\n# Step 4: Store the result\nresult = total_amount_2018\n```",
-      "true_answer": "5240",
-      "predicted_answer": "5244.1",
-      "context": "(1) Amount for the year ended December 31, 2018 includes $4.1 million of accelerated stock-based compensation expense. In March 2018, as\na result of a suspension of the 2014 Purchase Plan due to our non-timely filing status, all unrecognized stock-based compensation expense\nrelated to ESPP under the 2014 Purchase Plan was accelerated and recognized within the consolidated statement of operations.\n\n|  |  | Years Ended December 31, |  |\n| --- | --- | --- | --- |\n|  | 2019 | 2018 | 2017 |\n| Stock-based compensation by type of award: |  |  |  |\n| Stock options | $648 | $1,353 | $2,705 |\n| Stock awards | 14,882 | 10,445 | 11,421 |\n| Employee stock purchase rights(1) | 999 | 5,240 | 3,077 |\n| Total | $16,529 | $17,038 | $17,203 |\n| Stock-based compensation by category of expense: |  |  |  |\n| Cost of revenue | $1,500 | $1,602 | $1,362 |\n| Sales and marketing | 5,765 | 5,667 | 6,075 |\n| Research and development | 6,039 | 6,631 | 6,343 |\n| General and administrative | 3,225 | 3,138 | 3,423 |\n| Total | $16,529 | $17,038 | $17,203 |\n",
-      "correct": false
-    },
-    {
-      "timestamp": "2025-07-15 23:45:45",
-      "question": "Which year had a larger difference in the balance between the start and the end of the year?",
-      "program": "# Step 1: Set the balance at the start of 2018\nbalance_start_2018 = 6562\n\n# Step 2: Set the balance at the end of 2018\nbalance_end_2018 = 7955\n\n# Step 3: Calculate the difference for 2018\ndifference_2018 = balance_end_2018 - balance_start_2018\n\n# Step 4: Set the balance at the start of 2019\nbalance_start_2019 = 7955\n\n# Step 5: Set the balance at the end of 2019\nbalance_end_2019 = 16424\n\n# Step 6: Calculate the difference for 2019\ndifference_2019 = balance_end_2019 - balance_start_2019\n\n# Step 7: Determine which year had a larger difference\nlarger_difference = max(difference_2018, difference_2019)\n\n# Step 8: Store the result\nresult = larger_difference",
-      "response": "```python\n# Step 1: Set the balance at the start of 2018\nbalance_start_2018 = 6562\n\n# Step 2: Set the balance at the end of 2018\nbalance_end_2018 = 7955\n\n# Step 3: Calculate the difference for 2018\ndifference_2018 = balance_end_2018 - balance_start_2018\n\n# Step 4: Set the balance at the start of 2019\nbalance_start_2019 = 7955\n\n# Step 5: Set the balance at the end of 2019\nbalance_end_2019 = 16424\n\n# Step 6: Calculate the difference for 2019\ndifference_2019 = balance_end_2019 - balance_start_2019\n\n# Step 7: Determine which year had a larger difference\nlarger_difference = max(difference_2018, difference_2019)\n\n# Step 8: Store the result\nresult = larger_difference\n```",
-      "true_answer": "2019",
-      "predicted_answer": "8469",
-      "context": "|  | December 31, |  |\n| --- | --- | --- |\n|  | 2018 | 2019 |\n| Balance January 1 | 6,562 | 7,955 |\n| Charged to cost of sales | 18,408 | 26,301 |\n| Deductions | (8,985) | (12,232) |\n| Releases of expired warranty | (8,214) | (5,684) |\n| Foreign currency translation effect | 184 | 84 |\n| Balance December 31 | 7,955 | 16,424 |\n",
+      "timestamp": "2025-07-22 23:18:40",
+      "question": "What is the increase/ (decrease) in Net investing cash flows from Year Ended December 31, 2019 to December 31, 2018?",
+      "program": "# Step 1: Set net investing cash flows for 2019\ninvesting_cash_flows_2019 = -50391\n\n# Step 2: Set net investing cash flows for 2018\ninvesting_cash_flows_2018 = -663456\n\n# Step 3: Calculate the increase in net investing cash flows from 2018 to 2019\nans = investing_cash_flows_2019 - investing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans",
+      "response": "```python\n# Step 1: Set net investing cash flows for 2019\ninvesting_cash_flows_2019 = -50391\n\n# Step 2: Set net investing cash flows for 2018\ninvesting_cash_flows_2018 = -663456\n\n# Step 3: Calculate the increase in net investing cash flows from 2018 to 2019\nans = investing_cash_flows_2019 - investing_cash_flows_2018\n\n# Step 4: Store the result\nresult = ans\n```",
+      "true_answer": "-613065",
+      "predicted_answer": "613065",
+      "context": "| (in thousands of U.S. Dollars) | Year Ended December 31, |  |\n| --- | --- | --- |\n|  | 2019 | 2018 |\n| Net operating cash flows | 383,306 | 182,135 |\n| Net financing cash flows | (382,229) | 434,786 |\n| Net investing cash flows | (50,391) | (663,456) |\n",
       "correct": false
     }
   ]

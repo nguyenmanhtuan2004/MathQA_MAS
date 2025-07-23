@@ -127,7 +127,7 @@ def plot_bar_subplots(data_dict, metrics, methods, datasets, aspt):
             ax.set_xlabel("")  # Ẩn xlabel
             ax.set_xticklabels([])  # Ẩn labels trên trục x
             ax.grid(axis='y', linestyle='--', alpha=0.6, color='lightgray')
-            ax.set_ylim(0.2, 1)  # Set giới hạn trục y từ 0 đến 0.8
+            ax.set_ylim(0.25, 1)  # Set giới hạn trục y từ 0 đến 0.8
 
         # Share y-axis cho secondary axes (cost)
         if axs2:
