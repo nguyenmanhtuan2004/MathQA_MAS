@@ -1,39 +1,39 @@
-# 📊 Hướng dẫn Datasets - MathQA_MAS
+# 📊 Dataset Guide - MathQA_MAS
 
-## Tổng quan
+## Overview
 
-Dự án MathQA_MAS sử dụng 3 bộ datasets chuyên dụng cho các loại bài toán toán học khác nhau, từ toán học cơ bản đến phân tích tài chính phức tạp. Mỗi dataset được thiết kế để đánh giá khả năng suy luận và giải quyết vấn đề của hệ thống AI trong các tình huống thực tế.
+MathQA_MAS uses three specialized datasets for different types of math problems, ranging from basic arithmetic to complex financial analysis. Each dataset is designed to evaluate the reasoning and problem-solving capabilities of AI systems in real-world scenarios.
 
-## 🎯 Datasets được hỗ trợ
+## 🎯 Supported Datasets
 
 ### 1. GSM8K (Grade School Math 8K)
 
-**📝 Mô tả**: Bộ dữ liệu toán học cấp tiểu học chất lượng cao được OpenAI phát triển
+**📝 Description:** A high-quality elementary school math dataset developed by OpenAI.
 
-**📊 Thống kê**:
-- **Tổng số câu hỏi**: 8,500 bài toán
-- **Training set**: 7,474 bài toán
-- **Test set**: 1,319 bài toán  
-- **Loại bài toán**: Toán học cơ bản (cộng, trừ, nhân, chia, phần trăm, tỷ lệ)
-- **Độ khó**: Cấp độ học sinh tiểu học (lớp 2-8)
+**📊 Statistics:**
+- **Total questions:** 8,500
+- **Training set:** 7,474 problems
+- **Test set:** 1,319 problems
+- **Problem types:** Basic arithmetic (addition, subtraction, multiplication, division, percentages, ratios)
+- **Difficulty:** Grades 2-8
 
-**🎯 Đặc điểm**:
-- Các bài toán được viết bằng ngôn ngữ tự nhiên
-- Đáp án kèm theo lời giải chi tiết từng bước
-- Tập trung vào khả năng suy luận số học cơ bản
-- Phù hợp để đánh giá khả năng giải quyết vấn đề logic
+**🎯 Features:**
+- Problems are written in natural language
+- Answers include detailed step-by-step solutions
+- Focus on basic arithmetic reasoning
+- Suitable for evaluating logical problem-solving skills
 
-**📁 Cấu trúc file**:
+**📁 File Structure:**
 ```
 datasets/GSM8K/
-├── train.jsonl                 # 7,474 bài toán training
-├── test.jsonl                  # 1,319 bài toán test
-├── train_socratic.jsonl        # Phiên bản với hướng dẫn Socratic
-├── test_socratic.jsonl         # Test set với phương pháp Socratic
-└── example_model_solutions.jsonl # Ví dụ lời giải mẫu
+├── train.jsonl                 # 7,474 training problems
+├── test.jsonl                  # 1,319 test problems
+├── train_socratic.jsonl        # Socratic version (training)
+├── test_socratic.jsonl         # Socratic version (test)
+└── example_model_solutions.jsonl # Example model solutions
 ```
 
-**📄 Format dữ liệu**:
+**📄 Data Format:**
 ```json
 {
   "question": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
@@ -45,43 +45,43 @@ datasets/GSM8K/
 
 ### 2. TABMWP (Tabular Math Word Problems)
 
-**📝 Mô tả**: Bộ dữ liệu bài toán yêu cầu suy luận kết hợp giữa văn bản và bảng biểu
+**📝 Description:** A dataset of math word problems requiring reasoning over both text and tables.
 
-**📊 Thống kê**:
-- **Tổng số câu hỏi**: 38,431 bài toán
-- **Training set**: ~35,000 bài toán
-- **Development set**: ~1,000 bài toán  
-- **Test set**: ~2,000 bài toán
-- **Số lượng bảng**: 35,442 bảng dữ liệu
-- **Loại bài toán**: Phân tích dữ liệu, thống kê, so sánh
+**📊 Statistics:**
+- **Total questions:** 38,431
+- **Training set:** ~35,000 problems
+- **Development set:** ~1,000 problems
+- **Test set:** ~2,000 problems
+- **Number of tables:** 35,442
+- **Problem types:** Data analysis, statistics, comparison
 
-**🎯 Đặc điểm**:
-- Kết hợp thông tin từ văn bản và bảng biểu
-- Yêu cầu khả năng đọc hiểu và phân tích dữ liệu
-- Các bài toán thực tế về kinh doanh, khoa học, đời sống
-- Đa dạng về format: trắc nghiệm và tự luận
+**🎯 Features:**
+- Combines information from text and tables
+- Requires data comprehension and analysis
+- Real-world problems from business, science, and daily life
+- Diverse formats: multiple-choice and open-ended
 
-**📁 Cấu trúc file**:
+**📁 File Structure:**
 ```
 datasets/TABMWP/
 ├── tabmwp/
-│   ├── problems_train.json      # Bài toán training
-│   ├── problems_dev.json        # Bài toán development  
-│   ├── problems_dev1k.json      # Subset 1k development
-│   ├── problems_test.json       # Bài toán test
-│   ├── problems_test1k.json     # Subset 1k test
-│   ├── splits.json              # Thông tin phân chia dataset
-│   └── tables/                  # Thư mục chứa hình ảnh bảng
-│       ├── 1.png               # Bảng số 1
-│       ├── 2.png               # Bảng số 2
-│       └── ...                 # 35,442 bảng khác
-├── algorithm.png               # Sơ đồ thuật toán
-├── dataset.png                 # Mô tả dataset
-├── prediction.png              # Ví dụ dự đoán
-└── promptpg.png               # Prompt engineering
+│   ├── problems_train.json      # Training problems
+│   ├── problems_dev.json        # Development problems
+│   ├── problems_dev1k.json      # 1k development subset
+│   ├── problems_test.json       # Test problems
+│   ├── problems_test1k.json     # 1k test subset
+│   ├── splits.json              # Dataset split info
+│   └── tables/                  # Table images
+│       ├── 1.png               # Table 1
+│       ├── 2.png               # Table 2
+│       └── ...                 # 35,442 other tables
+├── algorithm.png               # Algorithm diagram
+├── dataset.png                 # Dataset description
+├── prediction.png              # Prediction example
+└── promptpg.png                # Prompt engineering
 ```
 
-**📄 Format dữ liệu**:
+**📄 Data Format:**
 ```json
 {
   "1": {
@@ -100,32 +100,32 @@ datasets/TABMWP/
 
 ### 3. TATQA (TAT-QA Dataset)
 
-**📝 Mô tả**: Bộ dữ liệu câu hỏi phân tích báo cáo tài chính phức tạp
+**📝 Description:** A dataset for complex financial report analysis and question answering.
 
-**📊 Thống kê**:
-- **Tổng số câu hỏi**: 16,552 câu hỏi
-- **Training set**: ~13,000 câu hỏi
-- **Development set**: ~1,700 câu hỏi
-- **Test set**: ~1,800 câu hỏi  
-- **Số ngữ cảnh**: 2,757 ngữ cảnh từ báo cáo tài chính thực tế
-- **Loại câu hỏi**: Span extraction, counting, arithmetic, comparison
+**📊 Statistics:**
+- **Total questions:** 16,552
+- **Training set:** ~13,000 questions
+- **Development set:** ~1,700 questions
+- **Test set:** ~1,800 questions
+- **Number of contexts:** 2,757 real-world financial reports
+- **Question types:** Span extraction, counting, arithmetic, comparison
 
-**🎯 Đặc điểm**:
-- Dữ liệu từ báo cáo tài chính thực tế của các công ty
-- Yêu cầu suy luận phức tạp trên bảng và văn bản
-- Tập trung vào phân tích định lượng và định tính
-- Đòi hỏi hiểu biết về tài chính và kế toán
+**🎯 Features:**
+- Data sourced from real company financial reports
+- Requires complex reasoning over tables and text
+- Focuses on both quantitative and qualitative analysis
+- Demands understanding of finance and accounting
 
-**📁 Cấu trúc file**:
+**📁 File Structure:**
 ```
 datasets/TATQA/
-├── tatqa_dataset_train.json     # Dataset training
-├── tatqa_dataset_dev.json       # Dataset development
-├── tatqa_dataset_test.json      # Dataset test (không có label)
-└── tatqa_dataset_test_gold.json # Dataset test với label
+├── tatqa_dataset_train.json     # Training dataset
+├── tatqa_dataset_dev.json       # Development dataset
+├── tatqa_dataset_test.json      # Test dataset (no labels)
+└── tatqa_dataset_test_gold.json # Test dataset with labels
 ```
 
-**📄 Format dữ liệu**:
+**📄 Data Format:**
 ```json
 {
   "table": {
@@ -154,41 +154,41 @@ datasets/TATQA/
 }
 ```
 
-## 🔧 Sử dụng Datasets
+## 🔧 Dataset Usage
 
-### Sử dụng Class DatasetLoad
+### Using the DatasetLoad Class
 
-Dự án cung cấp class `DatasetLoad` để load và quản lý tất cả datasets một cách tiện lợi:
+The project provides a `DatasetLoad` class for convenient loading and management of all datasets:
 
 ```python
 from mint.dataset_to_langsmith import DatasetLoad
 
-# Khởi tạo DatasetLoad - tự động load tất cả datasets
+# Initialize DatasetLoad - automatically loads all datasets
 dataset_loader = DatasetLoad()
 
-# Lấy dataset theo tên
+# Get dataset by name
 gsm8k_data = dataset_loader.get_dataset('gsm8k')
-tabmwp_data = dataset_loader.get_dataset('tabmwp') 
+tabmwp_data = dataset_loader.get_dataset('tabmwp')
 tatqa_data = dataset_loader.get_dataset('tatqa')
 
-# Hoặc lấy tất cả datasets cùng lúc
+# Or get all datasets at once
 all_datasets = dataset_loader.get_all_datasets()
 ```
 
-### Ví dụ sử dụng
+### Usage Example
 
 ```python
 from mint.dataset_to_langsmith import DatasetLoad
 
-# Khởi tạo dataset loader
+# Initialize dataset loader
 loader = DatasetLoad()
 
-# In thống kê về số lượng dữ liệu
-print(f"GSM8K: {len(loader.gsm8k)} bài toán")
-print(f"TABMWP: {len(loader.tabmwp)} bài toán") 
-print(f"TATQA: {len(loader.tatqa)} câu hỏi")
+# Print statistics
+print(f"GSM8K: {len(loader.gsm8k)} problems")
+print(f"TABMWP: {len(loader.tabmwp)} problems")
+print(f"TATQA: {len(loader.tatqa)} questions")
 
-# Lấy một sample từ mỗi dataset
+# Get a sample from each dataset
 gsm8k_sample = loader.get_dataset('gsm8k')[0]
 tabmwp_sample = loader.get_dataset('tabmwp')[0]
 tatqa_sample = loader.get_dataset('tatqa')[0]
@@ -198,9 +198,9 @@ print("TABMWP sample:", tabmwp_sample['question'])
 print("TATQA sample:", tatqa_sample['question'])
 ```
 
-### Load dữ liệu thủ công (tùy chọn)
+### Manual Data Loading (Optional)
 
-Nếu bạn muốn load dữ liệu thủ công không qua class:
+If you want to load data manually without using the class:
 
 ```python
 import json
@@ -226,42 +226,42 @@ def load_tatqa_manual():
         return json.load(f)
 ```
 
-## 📈 Đánh giá và Metrics
+## 📈 Evaluation and Metrics
 
 ### GSM8K
-- **Metric chính**: Exact Match Accuracy
-- **Phương pháp**: So sánh đáp án số cuối cùng
-- **Baseline**: ~20% (random), ~90% (GPT-4)
+- **Main metric:** Exact Match Accuracy
+- **Method:** Compare the final numeric answer
+- **Baseline:** ~20% (random), ~90% (GPT-4)
 
 ### TABMWP  
-- **Metric chính**: Accuracy
-- **Phương pháp**: Exact match cho đáp án
-- **Baseline**: ~60% (state-of-the-art models)
+- **Main metric:** Accuracy
+- **Method:** Exact match for answers
+- **Baseline:** ~60% (state-of-the-art models)
 
 ### TATQA
-- **Metrics**: 
+- **Metrics:** 
   - Exact Match (EM)
   - F1 Score  
-  - BLEU Score (cho generation tasks)
-- **Baseline**: ~50-70% EM tùy theo loại câu hỏi
+  - BLEU Score (for generation tasks)
+- **Baseline:** ~50-70% EM depending on question type
 
 ## 🚀 Exploratory Data Analysis (EDA)
 
-Dự án cung cấp các notebook phân tích dữ liệu chi tiết:
+The project provides detailed EDA notebooks:
 
-- **GSM8K_EDA.ipynb**: Phân tích phân bố độ khó, loại bài toán GSM8K
-- **TABMWP_EDA.ipynb**: Khám phá cấu trúc bảng, loại câu hỏi TABMWP  
-- **TATQA_EDA.ipynb**: Phân tích độ phức tạp, phân bố ngữ cảnh TATQA
+- **GSM8K_EDA.ipynb:** Analysis of difficulty distribution and problem types in GSM8K
+- **TABMWP_EDA.ipynb:** Exploration of table structure and question types in TABMWP  
+- **TATQA_EDA.ipynb:** Analysis of complexity and context distribution in TATQA
 
-## 📚 Tài liệu tham khảo
+## 📚 References
 
-1. **GSM8K**: [Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168)
-2. **TABMWP**: [Dynamic Prompt Learning via Policy Gradient for Semi-structured Mathematical Reasoning](https://arxiv.org/abs/2209.14610)  
-3. **TATQA**: [TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://arxiv.org/abs/2105.07624)
+1. **GSM8K:** [Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168)
+2. **TABMWP:** [Dynamic Prompt Learning via Policy Gradient for Semi-structured Mathematical Reasoning](https://arxiv.org/abs/2209.14610)  
+3. **TATQA:** [TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://arxiv.org/abs/2105.07624)
 
-## ⚠️ Lưu ý quan trọng
+## ⚠️ Important Notes
 
-1. **Bản quyền**: Tất cả datasets đều có license riêng, vui lòng tuân thủ điều khoản sử dụng
-2. **Dung lượng**: Tổng dung lượng ~2GB, đảm bảo đủ không gian lưu trữ
-3. **Encoding**: Tất cả file đều sử dụng UTF-8 encoding
-4. **Preprocessing**: Một số datasets cần preprocessing trước khi sử dụng
+1. **Licensing:** All datasets have their own licenses; please comply with their terms of use
+2. **Storage:** Total size ~2GB, ensure sufficient disk space
+3. **Encoding:** All files use UTF-8 encoding
+4. **Preprocessing:** Some datasets require preprocessing before use
